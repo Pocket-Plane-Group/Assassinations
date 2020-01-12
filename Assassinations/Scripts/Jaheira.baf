@@ -1,0 +1,25 @@
+// Romantic
+IF
+Global("O#LynnJaheiraRomantic","GLOBAL",1)
+InParty(Myself)
+See(Player1)
+!See("O#Lynn")
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+// Sex
+IF
+Global("O#LynnJaheiraSex","GLOBAL",1)
+InParty(Myself)
+See(Player1)
+!See("O#Lynn")
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END

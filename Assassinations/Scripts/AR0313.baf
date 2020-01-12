@@ -1,0 +1,17 @@
+IF
+Global("O#CrTestQuest","GLOBAL",1)
+Global("O#CrSpawnedFein","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("O#CrFein",[530.435],4)
+SetGlobal("O#CrSpawnedFein","GLOBAL",1)
+END
+
+IF
+Global("O#CrLynnQuest","GLOBAL",4)
+Global("O#CrSpawnedDaton","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("O#CrDat",[479.397],0)
+SetGlobal("O#CrSpawnedDaton","GLOBAL",1)
+END

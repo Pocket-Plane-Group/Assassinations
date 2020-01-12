@@ -1,0 +1,29 @@
+IF
+Global("O#CrLynnSpawn1","GLOBAL",1)
+THEN
+RESPONSE #100
+CreateCreature("O#Lynn",[1069.147],0)
+SetGlobal("O#CrLynnSpawn1","GLOBAL",2)
+Continue()
+END
+
+IF
+Global("O#CrLynnSpawn2","GLOBAL",1)
+THEN
+RESPONSE #100
+CreateCreature("O#Lynn",[1069.147],0)
+SetGlobal("O#CrLynnSpawn2","GLOBAL",2)
+Continue()
+END
+
+IF
+Global("O#CrLynnSpawn3","GLOBAL",0)
+OR(2)
+GlobalGT("O#CrLynnBetrayed","GLOBAL",0)
+GlobalGT("O#CrLynnAmbush","GLOBAL",0)
+THEN
+RESPONSE #100
+ActionOverride("O#Lynn",DestroySelf())
+SetGlobal("O#CrLynnSpawn3","GLOBAL",1)
+Continue()
+END

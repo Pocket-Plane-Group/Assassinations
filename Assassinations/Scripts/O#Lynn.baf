@@ -1,0 +1,157 @@
+IF
+Global("O#LynnSex","GLOBAL",1)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("O#LynnSex","GLOBAL",2)
+StartDialogueNoSet(Player1)
+END
+
+IF
+Global("O#CrLynnAmbush","GLOBAL",1)
+Global("O#CrLynnAmbushTalk","GLOBAL",0)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("O#CrLynnAmbushTalk","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+IF 
+Global("O#CrLynnKnewFeinDead","GLOBAL",0)
+AreaCheck("AR0511")
+Dead("O#CrFein")
+Global("O#CrLynnBetrayed","GLOBAL",0)
+Global("O#CrLynnAmbush","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("O#CrLynnAmbush","GLOBAL",1)
+SetGlobal("O#CrLynnKnewFeinDead","GLOBAL",1)
+DestroySelf()
+END
+
+IF
+AttackedBy([GOODCUTOFF],DEFAULT)
+Allegiance(Myself,NEUTRAL)
+Global("O#LynnAttacked","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("O#LynnAttacked","LOCALS",1)
+AddJournalEntry(@10550,QUEST_DONE)
+EraseJournalEntry(@10020)
+EraseJournalEntry(@10030)
+EraseJournalEntry(@10040)
+EraseJournalEntry(@10050)
+EraseJournalEntry(@10110)
+EraseJournalEntry(@10120)
+EraseJournalEntry(@10130)
+EraseJournalEntry(@10140)
+EraseJournalEntry(@10150)
+EraseJournalEntry(@10160)
+EraseJournalEntry(@10170)
+EraseJournalEntry(@10180)
+EraseJournalEntry(@10190)
+EraseJournalEntry(@10200)
+EraseJournalEntry(@10210)
+EraseJournalEntry(@10220)
+EraseJournalEntry(@10230)
+EraseJournalEntry(@10240)
+EraseJournalEntry(@10250)
+EraseJournalEntry(@10260)
+EraseJournalEntry(@10270)
+EraseJournalEntry(@10280)
+EraseJournalEntry(@10290)
+EraseJournalEntry(@10300)
+EraseJournalEntry(@10310)
+EraseJournalEntry(@10320)
+EraseJournalEntry(@10330)
+EraseJournalEntry(@10340)
+EraseJournalEntry(@10350)
+EraseJournalEntry(@10360)
+EraseJournalEntry(@10370)
+EraseJournalEntry(@10380)
+EraseJournalEntry(@10390)
+EraseJournalEntry(@10400)
+EraseJournalEntry(@10410)
+EraseJournalEntry(@10420)
+EraseJournalEntry(@10430)
+EraseJournalEntry(@10440)
+EraseJournalEntry(@10510)
+Enemy()
+END
+
+
+IF
+See(NearestEnemyOf(Myself))
+!StateCheck(Myself,STATE_INVISIBLE)
+!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+!GlobalTimerNotExpired("ThiefHide","LOCALS")
+THEN
+RESPONSE #100
+SetGlobalTimer("ThiefHide","LOCALS",6)
+ApplySpell(Myself,WIZARD_INVISIBILITY)
+END
+
+IF
+Allegiance(Myself,ENEMY)
+Detect([PC])
+!See(LastSeenBy(Myself))
+Delay(3)
+THEN
+RESPONSE #70
+DisplayStringHead(Myself,31858) // Detects Illusion
+ReallyForceSpell(LastSeenBy(Myself),THIEF_DETECT_ILLUSION)
+RESPONSE #30
+DisplayStringHead(Myself,31859) // Fails to detect illusions
+END
+
+IF
+HPPercentLT(Myself,50)
+!GlobalTimerNotExpired("DrankPotionTimer","LOCALS")
+HasItem("POTN55",Myself) // Potion of Superior Healing
+THEN
+RESPONSE #100
+SetGlobalTimer("DrankPotionTimer","LOCALS",6)
+DisplayStringHead(Myself,46150) // quaffs a potion
+UseItem("POTN55",Myself) // Potion of Superior Healing
+END
+
+IF
+See(NearestEnemyOf(Myself))
+OR(2)
+StateCheck(Myself,STATE_INVISIBLE)
+StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+THEN
+RESPONSE #100
+EquipMostDamagingMelee()
+MoveToObject(NearestEnemyOf(Myself))
+AttackReevaluate(NearestEnemyOf(Myself),30)
+RunAwayFrom(NearestEnemyOf(Myself),60)
+END
+
+IF
+See(NearestEnemyOf(Myself))
+!StateCheck(Myself,STATE_INVISIBLE)
+!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+Range(NearestEnemyOf(Myself),5)
+THEN
+RESPONSE #100
+EquipMostDamagingMelee()
+AttackReevaluate(NearestEnemyOf(Myself),30)
+RunAwayFrom(NearestEnemyOf(Myself),60)
+END
+
+IF
+See(NearestEnemyOf(Myself))
+!StateCheck(Myself,STATE_INVISIBLE)
+!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+!Range(NearestEnemyOf(Myself),5)
+THEN
+RESPONSE #100
+EquipMostDamagingMelee()
+RunAwayFrom(NearestEnemyOf(Myself),30)
+END

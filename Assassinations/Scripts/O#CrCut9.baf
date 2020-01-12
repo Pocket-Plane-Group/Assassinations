@@ -1,0 +1,13 @@
+IF
+True()
+THEN
+RESPONSE #100
+CutSceneId(Player1)
+ApplySpell("O#Lynn",DRYAD_TELEPORT)
+Wait(4)
+CreateCreature("O#Gewen",[544.595],0)
+Wait(1)
+ActionOverride("O#Gewen",MoveToPoint([593.687])
+Wait(3)
+ActionOverride("O#Gewen",StartDialogueNoSet(Player1))
+END

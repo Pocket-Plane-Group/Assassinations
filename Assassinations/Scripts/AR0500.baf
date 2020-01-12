@@ -1,0 +1,22 @@
+IF
+Global("O#CrLynnQuest","GLOBAL",6)
+Global("O#CrLynnQuestSpawn6","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("O#CrStee",[3819.2953],0)
+CreateCreature("O#CrStG1",[3758.2954],0)
+CreateCreature("O#CrStG2",[3857.2984],0)
+SetGlobal("O#CrLynnQuestSpawn6","GLOBAL",1)
+END
+
+IF
+AreaCheck("AR0500")
+Global("O#CrLynnAmbush","GLOBAL",1)
+Global("O#CrLynnAmbushSpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreatureObjectOffset("O#Lynn",Player1,[50.50])  
+CreateCreatureObjectOffset("O#CrGoon",Player1,[80.40])  
+CreateCreatureObjectOffset("O#CrGoon",Player1,[40.80])  
+SetGlobal("O#CrLynnAmbushSpawn","GLOBAL",1)
+END

@@ -1,0 +1,1698 @@
+//Bernard en la Corona de Cobre.
+
+@0    = ~Esperad... Una dama me pidió que os entregara esta carta. El sello permanece intacto, como podéis ver.~
+@1    	= ~Gracias, Bernard.~
+@2    	= ~¿Una dama? ¿Cómo era?~
+@3    	= ~¿Qué aspecto tenía?~
+@4    	= ~¡Ah, una misteriosa desconocida y una nueva y emocionante aventura! Muchas gracias, amigo mío.~
+@5    = ~Bueno, era alta, muy bien dotada y... erm, ancha de caderas, si comprendéis lo que quiero decir. También tenía el pelo largo. Por favor, deberíais leer esta carta.~
+@6    	= ~Lo haré. Gracias, Bernard.~
+@7    	= ~Muy bien.~
+@8    = ~¿Necesitáis algo más?~
+@9    = ~¡<CHARNAME>! Aquí tengo otra carta dirigida a vos. No estoy muy seguro de cómo pudo acabar en mi bolsillo, pero bueno, aquí tenéis.~
+
+//Chavalín que aparece cuando derrotamos a Bodhi.
+
+@10   = ~Perdón, pero ¿sois <CHARNAME>, verdad?~
+@11   	= ~Así es.~
+@12   	= ~¿Quién os envía?~
+@13   	= ~Olvidad mi nombre. ¿Qué queréis?~
+@14   = ~He venido para deciros que debéis encontraros con ella de nuevo.~
+@15   	= ~¿Os envía Lynn?~
+@16   	= ~De acuerdo. ¿Eso es todo?~
+@17   	= ~Gracias. En la segunda planta de la posada Las cinco jarras, ¿verdad? Allí estaré.~
+@18   = ~Solo os estoy contando lo que me ha dicho. ¡Tengo que irme!~
+@19   = ~¡Sí! ¡Adiós!~
+
+//Frases varias de Lynn.
+
+@20   = ~Me gustaría hablar con <CHARNAME> a solas. Por favor, esperad en otra habitación hasta que terminemos.~ [o#crblan]
+@21   = ~Así que habéis decidido traicionarme. Una lástima, pero todos debemos hacer aquello que nos corresponde.~ [o#crblan]
+@22   = ~Creedme que lamento que esto tenga que acabar así, <CHARNAME>. Deberíais haber seguido mis instrucciones.~ [o#crblan]
+
+//Primera toma de contacto con Lynn. Envío de la misión de prueba.
+
+@23   = ~Aquí estáis. Me preguntaba si habíais recibido mi carta. Bienvenido.~ [O#CRLY06]
+~Aquí estáis. Me preguntaba si habíais recibido mi carta. Bienvenida.~ [O#CRLY06]
+@24   	= ~Así es. ¿De qué va todo esto?~
+@25   	= ~¿Una carta? ¿De qué estáis hablando?~
+@26   	= ~¿Quién sois?~
+@27   = ~¿Acaso Bernard no os la dio? Es muy extraño... Da igual, lo importante es que estáis aquí.~
+@28   = ~Me llamo Lynn. No, no necesito que os presentéis; sé perfectamente quién sois.~
+@29   = ~Antes de nada, me gustaría que realizarais una pequeña tarea para mí. Tomad tres mil monedas de oro y esta misiva y dádselas a un hombre que os espera en la posada Regalo del mar, en el distrito del puerto. ¿Os interesa hacerlo?~
+@30   	= ~Desde luego. Dadme el dinero y la carta.~
+@31   	= ~¿Quién os creéis que soy? ¡No pienso rebajarme a cumplir un simple encargo!~
+@32   	= ~En la carta ponía que me enteraría de cosas muy interesantes.~
+@33   	= ~Esto no es más que una prueba, ¿verdad?~
+@34   	= ~No me interesa. Buscaos a otro.~
+~No me interesa. Buscaos a otra.~
+@35   = ~Excelente. Recordad que no debéis abrir la misiva bajo ninguna circunstancia. En caso contrario y, por desgracia, nos veríamos obligados a vernos en circunstancias mucho menos afortunadas.~
+~Excelente. Recordad que no debéis abrir la misiva bajo ninguna circunstancia. En caso contrario y, por desgracia, nos veríamos obligadas a vernos en circunstancias mucho menos afortunadas.~
+@36   = ~El hombre del que os hablo se llama Fein. Venid a verme de nuevo cuando terminéis.~
+@37   = ~No podéis esperar que os encargue una misión importante cuando apenas os conozco. Sin embargo, y por lo que sé de vos, estoy convencida de obtendremos muchos beneficios si trabajamos juntos. Acabad primero con esto y después hablaremos.~
+~No podéis esperar que os encargue una misión importante cuando apenas os conozco. Sin embargo, y por lo que sé de vos, estoy convencida de obtendremos muchos beneficios si trabajamos juntas. Acabad primero con esto y después hablaremos.~
+@38   	= ~De acuerdo, lo haré.~
+@39   	= ~No, no pienso hacer esto.~
+@40   	= ~Entonces me voy.~
+
+//Misión de prueba: dar una carta y dinero a Fein.
+
+@41   = ~¡Eh, aquí! Tenéis cara de ser alguien que está a punto de darme algo de dinero.~
+@42   	= ~¿Cómo lo sabéis?~
+@43   	= ~Estáis en lo cierto.~
+@44   	= ~¿Sois Fein?~
+@45   	= ~No lo creo. Perdonadme.~
+@46   = ~Como queráis.~
+@47   = ~Simple intuición. Vamos, ¿qué tenéis para mí?~
+@48   	= ~Tengo un mensaje y tres mil monedas de oro para vos.~
+@49   	= ~Todavía nada.~
+@50   	= ~Un momento, ahora vuelvo.~
+@51   = ~¿Quién voy a ser si no, Úmberli? Pues claro que soy Fein. Os han enviado a verme, ¿verdad?~
+@52   	= ~No tengo nada que deciros.~
+@53   	= ~Un momento, ahora vuelvo.~
+@54   = ~¿Lo tenéis ya? Bien, bien...~
+@55   = ~¡Eh, el sello está roto! No sé quién sois, pero podéis estar seguro de que vuestro superior se enterará de esto.~
+~¡Eh, el sello está roto! No sé quién sois, pero podéis estar segura de que vuestro superior se enterará de esto.~
+@56   = ~Entonces ya hemos terminado. Cuidaos por ahí fuera, amigo. Y de ahora en adelante vigilad mejor vuestro monedero, ¡porque yo no soy Fein! ¡Bu!~
+~Entonces ya hemos terminado. Cuidaos por ahí fuera, amiga. Y de ahora en adelante vigilad mejor vuestro monedero, ¡porque yo no soy Fein! ¡Bu!~
+@57   = ~Eh, no me miréis con esa cara, era una broma. Habéis cumplido bien vuestro encargo... ¡y ahora me largaré con vuestro dinero!~
+@58   = ~¿Cómo, otra vez por aquí? Escuchad, no me importa que deis vueltas a mi alrededor, pero estoy esperando a alguien. Si sois vos esa persona, decídmelo de una vez y dejad de perder el tiempo.~
+@59   	= ~Lo siento, pero sigo sin tener nada para vos.~
+@60   	= ~Perdón, me he confundido.~
+@61   = ~*suspiro* Vale, vale. Largaos de aquí.~
+@62   = ~En el pergamino puede leerse: "La persona en cuestión ha abandonado la ciudad. Esperémosla aquí. Os agradezco el rápido desenlace de nuestro último negocio".~
+
+//Lynn. Confirmación de la misión de prueba, presentación y asignación de la primera misión.
+
+@63   = ~¿Y bien? ¿Me traéis buenas noticias?~ [O#CRLY07]
+@64   	= ~He entregado la nota y el dinero.~
+@65   	= ~Aún no.~
+@66   	= ~He decidido no continuar con esto.~
+@67   	= ~Lo siento, Lynn. He roto el sello.~
+@68   	= ~Lo siento, Lynn. Me he gastado vuestro dinero.~
+@69   = ~Acabad cuanto antes si no queréis recibir una desagradable sorpresa.~
+@70   = ~Eso significa que no puedo confiar en vos. Lo siento, pero debo recuperar mi inversión.~
+@71   = ~¿Y qué? Aún os queda tiempo para recuperarlo antes de cumplir con vuestra tarea.~
+@72   = ~Perfecto. Hablemos ahora de temas más serios.~
+@73   = ~Lo que voy a contaros no va a ser nada agradable. De hecho, si los rumores son falsos y efectivamente sois merecedor de vuestro título de héroe, entonces... Pero bueno, no hemos venido a hablar de eso.~
+~Lo que voy a contaros no va a ser nada agradable. De hecho, si los rumores son falsos y efectivamente sois merecedora de vuestro título de heroína, entonces... Pero bueno, no hemos venido a hablar de eso.~
+@74   = ~Os he llamado para un oscuro y siniestro propósito. Como bien sabéis, tenéis el poder de acabar con todo aquel que se interponga en vuestro camino. Pero no todo el mundo es igual de afortunado.~
+@75   = ~Aquí es donde intervenís vos. Conoceréis los nombres de vuestras víctimas y el lugar donde se encuentran, pero no los nombres de aquellos para quienes trabajo. Os pagaré mil monedas de oro por vuestro primer encargo, e incrementaré la cifra hasta llegar a cinco mil. Sin trucos, aunque deberéis aseguraros de hacer las cosas bien. Algunas misiones no serán más que un mero trámite, otras no tanto. Estaréis bastante ocupado, de eso podéis estar seguro.~
+~Aquí es donde intervenís vos. Conoceréis los nombres de vuestras víctimas y el lugar donde se encuentran, pero no los nombres de aquellos para quienes trabajo. Os pagaré mil monedas de oro por vuestro primer encargo, e incrementaré la cifra hasta llegar a cinco mil. Sin trucos, aunque deberéis aseguraros de hacer las cosas bien. Algunas misiones no serán más que un mero trámite, otras no tanto. Estaréis bastante ocupada, de eso podéis estar segura.~
+@76   = ~Es tan cínico como suena; ni más ni menos. ¿Qué decís?~
+@77   	= ~Acepto. Dadme el nombre de mi primera víctima.~
+@78   	= ~Es una decisión complicada. Debo pensármelo bien.~
+@79   	= ~No. Y espero por vuestro bien que nunca más nos volvamos a ver.~
+@80   = ~Me apena ver cómo la conciencia nubla vuestro buen juicio. Lo siento, pero no puedo dejaros marchar.~
+@81   = ~¡Ja! No esperéis que me quede aquí sentada aguardándoos para ver cómo regresáis con la guardia al completo. No, tendréis tiempo suficiente para pensarlo antes de actuar. E incluso escucharé cualquier cambio de parecer que podáis tener, aunque sinceramente no os recomendaría seguir por ese camino.~
+@82   = ~En cualquier caso, debéis responder a mi pregunta ahora. ¿Qué decís?~
+@83   	= ~Sí, trabajaré para vos.~
+@84   	= ~No, no lo haré.~
+@85   = ~Vuestro primer encargo es bastante sencillo. No negaré que en cierto modo se trata de otra prueba.~
+@86   = ~Buscad a lord Melyin en la posada Mitocio, al atardecer; cuando cae la noche abandona el Paseo por la puerta sudoeste junto a sus dos guardaespaldas. Su mansión es una fortaleza; no debéis permitir que llegue hasta allí.~
+@87   = ~Recibiréis un pago de mil monedas de oro. Intentad no atraer la atención de los guardias.~
+@88   	= ~¿Hay algo más que deba saber?~
+@89   	= ~No, he cambiado de idea. No pienso matar a ese hombre.~
+@90   	= ~Muy bien. Pronto nos veremos.~
+@91   = ~No creo que haga falta decíroslo, pero si le contáis algo de todo esto a la guardia, al alguacil jefe o a los Ladrones de las sombras, considerad roto nuestro contrato.~
+@92   = ~Buena suerte. Y, por supuesto, esta conversación nunca ha tenido lugar.~
+
+//Lynn. Líneas que aparecen siempre y respuestas de nuestro PJ al acabar una misión.
+
+@93   = ~Saludos.~
+@94   	= ~Aún no tengo nada que contaros.~
+@95   	= ~¿Cómo sabréis que he cumplido con éxito mi tarea?~
+@96   	= ~¿De verdad sabéis quién soy?~
+@97   	= ~No quiero continuar con esta misión. Buscadme a otra víctima.~
+@98   	= ~Lord Melyin está muerto.~
+@99   	= ~Permití que lord Melyin escapara.~
+@100  	= ~Nevier Costa está muerto.~
+@101  	= ~Permití que Nevier Costa escapara.~
+@102  	= ~Amara está muerta.~
+@103  	= ~Permití que Amara escapara.~
+@104  	= ~Estoy listo para cumplir otra tarea.~
+~Estoy lista para cumplir otra tarea.~
+@105  	= ~El alguacil Daton está muerto.~
+@106  	= ~Sir Alexis está muerto.~
+@107  	= ~Permití que Sir Alexis escapara.~
+@108  	= ~Oulav Steros está muerto, aunque no llegué a descubrir el nombre de su proveedor.~
+@109  	= ~Oulav Steros está muerto. El loto negro llega a Athkatla desde Puerto Cálim; su proveedor se llama Kett.~
+@110  	= ~Qyr está muerto. Aquí tenéis los documentos.~
+@111  	= ~Los dos arpistas están muertos.~
+@112  	= ~Permití que Tea y Gannis escaparan.~
+@113  	= ~Kern el asesino está muerto.~
+@114  	= ~¿Tenéis algún trabajo más para mí?~
+
+//Líneas que dice nuestro personaje para iniciar los banters con Lynn.
+
+@115  	= ~Me gustaría charlar un rato con vos.~
+@116  	= ~¿Podríamos hablar un momento? Sois una mujer impresionante y me gustaría conoceros un poco mejor.~
+@117  	= ~¿Para quién trabajáis, Lynn?~
+@118  	= ~¿Por qué nos vemos aquí? ¿No es un sitio demasiado evidente?~
+@119  	= ~¿Hay alguien más que trabaje para vos?~
+@120  	= ~¿Por qué siempre estáis tan seria, Lynn? Sonreíd un poco, os sentará bien.~
+@121  	= ~¿Por qué estáis metida en todo esto?~
+@122  	= ~¿Cuánto sabéis sobre mí?~
+@123  	= ~¿Os gustaría cenar conmigo esta noche?~
+@124  	= ~¿Cómo van los preparativos de la cena?~
+@125  	= ~¿Cómo estáis de la rodilla? ¿Ya se ha curado?~
+@126  	= ~Siento como si de un modo u otro pronto nos fuéramos a despedir.~
+@127  	= ~Me marcho. Pronto tendréis noticias mías.~
+@128  	= ~He decidido romper con nuestro acuerdo.~
+
+//Una respuesta de Lynn.
+
+@129  = ~Sé que sois suficientemente especial como para no ignoraros.~
+@130  = ~Sois un Hijo de Bhaal, Señor del Asesinato. No os preocupéis, vuestro secreto está a salvo conmigo, <CHARNAME>. Sé muy bien cuán peligrosa puede resultar esta información en las manos equivocadas.~
+~Sois una Hija de Bhaal, Señor del Asesinato. No os preocupéis, vuestro secreto está a salvo conmigo, <CHARNAME>. Sé muy bien cuán peligrosa puede resultar esta información en las manos equivocadas.~
+
+//Primer banter. Respuesta a la pregunta "¿Para quién trabajáis, Lynn?".
+
+@131  = ~Buen intento, aunque los he visto mejores.~
+@132  	= ~¿Significa eso que debo insistir más si quiero saberlo?~
+@133  	= ~¿Puedo intentar adivinarlo?~
+@134  	= ~Esa es toda la información que obtendré, ¿no?~
+@135  = ~¿He dicho yo eso? Vaya, supongo que tenéis mejor memoria que yo.~
+@136  = ~No puedo impedíroslo.~
+@137  = ~Parece que el cielo se ha nublado, ¿verdad? Espero que no llueva.~
+@138  = ~¿Aún por aquí?~
+@139  	= ~Necesito saberlo, Lynn. ¿Trabajáis para los Ladrones de las sombras?, ¿o quizá para los Magos Encapuchados? ¿Para quién?~
+@140  	= ~Tal conocimiento podría ser peligroso, pero estoy preparado para asumir el riesgo.~
+~Tal conocimiento podría ser peligroso, pero estoy preparada para asumir el riesgo.~
+@141  	= ~Bah, no importa. La verdad es que tampoco me interesa tanto.~
+@142  = ~Bueno...~
+@143  = ~¿Sabéis guardar un secreto, <CHARNAME>? Acercaos...~
+@144  = ~Eso es lo que quería oír.~
+@145  = ~Trabajo para aquellos que tienen el suficiente dinero para pagaros.~
+@146  	= ~Eso ya lo sabía. ¿O es que os gusta burlaros de mí?~
+@147  	= ~Creí que me contaríais algo más impresionante.~
+@148  	= ~Patético. Ya podríais haberos inventado algo mejor.~
+@149  = ~*suspiro* Se supone que era una de mis actuaciones más dramáticas.~
+@150  = ~Eso demuestra que mi punto fuerte no está en los escenarios, sino en el asesinato. Espero que hayáis cogido la idea.~
+
+//Segundo banter. Respuesta a la pregunta "¿Por qué nos vemos aquí? ¿No es un sitio demasiado evidente?".
+
+@151  = ~¿Cuál sugeriríais entonces? ¿Un oscuro callejón que los guardias descubrirían de inmediato? No. ¿Agazapados en las tierras de algún noble? Sería un suicidio. ¿En mitad de una plaza? Mi identidad y nuestras reuniones serían reveladas inmediatamente.~
+@152  = ~Este lugar es perfecto. Además, es una de las pocas posadas que no frecuentan los soldados, a los que odio profundamente.~
+@153  	= ~Habéis mencionado algo sobre vuestra identidad. ¿Es que Lynn no es vuestro verdadero nombre?~
+@154  	= ~¿Por qué despreciáis a la guardia?~
+@155  	= ~Lo comprendo. Dudo que estén muy contentos con vuestras acciones.~
+@156  = ~Es curioso que si el nombre de alguien se populariza lo suficiente, sirve para el anonimato igual o mejor que el más elaborado de los apodos.~
+@157  = ~*Algunos* de ellos me conocen, además de... otras personas importantes. Ese es el motivo por el que nunca me reúno con alguien que conozca mi paradero.~
+@158  	= ~¿Entonces no os importa que yo lo sepa?~
+@159  	= ~¿Por qué no?~
+@160  	= ~Entiendo lo que queréis decir.~
+@161  	= ~¿Podríais contarme algo más sobre vos?~
+@162  = ~Por supuesto, pero ¿cómo podéis estar tan seguro de que yo soy ESA Lynn, hmm?~
+~Por supuesto, pero ¿cómo podéis estar tan segura de que yo soy ESA Lynn, hmm?~
+@163  = ~Puedo tolerar muchas cosas, <CHARNAME>, pero la estupidez no es una de ellas.~
+@164  = ~Me alegro.~
+@165  = ~Comportaos como es debido y todo llegará.~
+
+//Tercer banter. Respuesta a la pregunta "¿Hay alguien más que trabaje para vos?".
+
+@166  = ~¿Por qué os interesa saberlo?~
+@167  	= ~Simple curiosidad.~
+@168  	= ~¿Importaría de algo mi respuesta?~
+@169  	= ~Tengo mis razones.~
+@170  = ~De acuerdo. ¿Cómo me veis, <CHARNAME>? ¿Sentada en el centro de una enorme red, analizando y dirigiendo, siempre con el dedo sobre el botón? ¿O como una mujer de acción que se ha visto forzada a permanecer inactiva durante un tiempo?~
+@171  = ~Ahí tenéis la respuesta que buscabais.~
+@172  	= ~Estoy seguro de que seríais una gran política.~
+~Estoy segura de que seríais una gran política.~
+@173  	= ~¿Podéis decirme qué os ha forzado a esta inactividad?~
+@174  	= ~Comprendo. Eso significa que nadie está a vuestras órdenes.~
+@175  = ~Apenas me conocéis.~
+@176  = ~Y no, no lo sería.~
+@177  = ~Otro día.~
+@178  = ~Si estabais maquinando oscuras conspiraciones con el objetivo de tenerme toda para vos, entonces sí, no hay nadie más. No hace falta que os molestéis tanto.~
+@179  = ~De todas formas, ya es hora de que os pongáis manos a la obra, ¿hmm?~
+
+//Cuarto banter. Respuesta a la pregunta "¿Por qué siempre estáis tan seria, Lynn? Sonreíd un poco, os sentará bien".
+
+@180  = ~Conozco un chiste, aunque es un poco escabroso. ¿Os podéis imaginar a toda esa pobre gente muerta, mientras nosotros estamos aquí sentados charlando y riendo tranquilamente?~
+~Conozco un chiste, aunque es un poco escabroso. ¿Os podéis imaginar a toda esa pobre gente muerta, mientras nosotras estamos aquí sentadas charlando y riendo tranquilamente?~  //Creo que son banters solo para personajes masculinos, pero por si acaso añado la línea femenina. ¿Y si de repente a Lynn le comienza a gustar el pescado? Me ahorraría bastante trabajo.
+@181  	= ~¿Imaginarlo? ¡Pero si es lo que estamos haciendo! ¡Jajaja!~
+@182  	= ~¡Hmpf! Se lo merecían.~
+@183  	= ~No me importan. Tan solo quiero veros sonreír.~
+@184  	= ~¿Os gusta vuestro trabajo? ¿Lo consideráis muy estresante?~
+@185  = ~(Una mueca se dibuja en su cara).~
+@186  = ~Nunca he pensado en mí como una juez o verdugo. Todas esas personas debían morir. La paciencia de alguien se está acabando y, la verdad, no puedo culparle... o culparla. Si alguien intentara atracar a mi marido, violar a mi hermana o vender loto negro a mis hijos...~
+@187  = ~... Dudo que ocurriera, ya que soy hija única y no estoy casada. Sin embargo, me sentiría indignada. Siento que no tengo escrúpulos. ¿Y vos?~
+@188  	= ~No. He matado a demasiados como para que eso me importe.~
+@189  	= ~No, no tengo. ¿Debería?~
+@190  	= ~Sí, a veces.~
+@191  	= ~No quiero hablar de eso, me deprime. Intentad sonreír de nuevo.~
+@192  = ~Sois digno del legado de vuestro Padre. Es enternecedor.~
+~Sois digna del legado de vuestro Padre. Es enternecedor.~
+@193  = ~Ju, ju. Asesinar era el trabajo de vuestro Padre, pero parece que no se os da tan bien como a él.~
+@194  = ~Oh, sois un pesado. De acuerdo.~
+~Oh, sois una pesada. De acuerdo.~
+@195  = ~(Sonríe tímidamente).~
+@196  = ~Ahora, por favor, salid de aquí. No hagáis esperar a la dama. ¿O era un señor?~
+
+//Quinto banter. Respuesta a la pregunta "¿Por qué estáis metida en todo esto?".
+
+@197  = ~Muchas de vuestras preguntas pueden responderse con un simple "porque sí". ¿Qué os hace pensar que esta vez será diferente?~
+@198  	= ~Porque quiero saberlo.~
+@199  	= ~¿Cómo lo hicisteis para llegar hasta aquí?~
+@200  	= ~¿Qué opinión os merece vuestro trabajo? ¿Os gusta?~
+@201  	= ~¿Lleváis mucho tiempo en este negocio?~
+@202  	= ~Lo comprenderé si no queréis decirme nada.~
+@203  = ~Satisfaré vuestra curiosidad por una vez.~
+@204  = ~Mato gente. Soy una de las mejores desde hace mucho tiempo. Aún lo sigo siendo.~
+@205  = ~Pero durante mi última... persecución, me fracturé la rodilla. Un clérigo me trató adecuadamente, pero aún necesito reposar durante varias semanas. Y aquí me tenéis. Suena muy simple, ¿no?~
+@206  	= ~Sí. De hecho, suena *demasiado* simple.~
+@207  	= ~¿A quién perseguíais y por qué?~
+@208  	= ~¿Eso es todo?~
+@209  = ~La mayoría de las verdades lo son.~
+@210  = ~Vamos, <CHARNAME>, pensaba que erais más inteligente.~
+@211  = ~Podría deciros que ocurrió durante un atraco aquí, en Athkatla, y en menos de una hora tendría a todo el Consejo de los Seis investigando todos los allanamientos importantes acontecidos en el último mes. ¿Creéis que eso me gustaría?~
+@212  = ~Y no, fue por un asunto privado. En Calimshán, por si os interesa saberlo.~
+@213  = ~Acercaos, os quiero mostrar una cosa.~
+@214  = ~(Lynn rebusca en su bolsillo y saca dos monedas calishitas de distinta factura. Una de ellas parece recién acuñada).~
+@215  = ~La razón por la que este moneda es distinta a las demás, es la razón por la cual cojeo.~
+@216  = ~(Alza su cabeza y os mira fijamente a los ojos. Su rostro es mortalmente serio).~
+@217  = ~(Sostiene la mirada un largo rato... hasta que estalla de la risa).~
+@218  = ~Oh, <CHARNAME>, <CHARNAME>... ¿De verdad os lo habéis creído?~
+@219  = ~De acuerdo, esperad a que me seque las lágrimas. No, no robé a nadie en Puerto Cálim. Sus familias ya tienen bastantes problemas con sus disputas internas. Aunque sí es cierto que me rompí la rodilla en Calimshán.~
+@220  = ~Y ese es el motivo por el que estamos los dos aquí. Decidme, <CHARNAME>, ¿creéis mi historia?~
+~Y ese es el motivo por el que estamos las dos aquí. Decidme, <CHARNAME>, ¿creéis mi historia?~
+@221  	= ~¿Aquella en la que asesináis al Pasha? No.~
+@222  	= ~Bueno, vale, os creo. ¡Pero solo por ahora!~
+@223  	= ~No, y la verdad, estoy seguro de que vuestra rodilla está perfectamente.~
+~No, y la verdad, estoy segura de que vuestra rodilla está perfectamente.~
+@224  = ~Me parece justo.~
+@225  = ~Je, je, je.~
+@226  = ~No confiáis en nadie, ¿eh? No me sorprende. Por la sangre que corre por vuestras venas, la paranoia parece ser el menor de vuestros males.~
+
+//Sexto banter. Respuesta a la pregunta "¿Cuánto sabéis sobre mí?".
+
+@227  = ~Hay pocas cosas sobre vos que pueda confirmar. Nada es seguro, por lo que parece. ¿Vuestra reputación? Varía a cada momento. ¿Vuestras heroicas gestas? La gente pasará de consideraros el héroe de Puerta de Baldur a pronunciar vuestro nombre con miedo, entre susurros.~
+~Hay pocas cosas sobre vos que pueda confirmar. Nada es seguro, por lo que parece. ¿Vuestra reputación? Varía a cada momento. ¿Vuestras heroicas gestas? La gente pasará de consideraros la heroína de Puerta de Baldur a pronunciar vuestro nombre con miedo, entre susurros.~
+@228  = ~Lo único que puedo asegurar es que os encontráis delante de mí en este preciso momento; y también eso cambiará con el tiempo. Si queréis contarme algo más sobre vos, os escucharé encantada.~
+@229  	= ~¿Qué os gustaría saber exactamente?~
+@230  	= ~No me importa, pero ¿qué queréis que os cuente?~
+@231  	= ~Y yo que quería saber más cosas sobre vos.~
+@232  	= ~Preferiría no desvelar nada.~
+@233  = ~Como deseéis.~
+@234  = ~¿Qué os hace feliz, <CHARNAME>? Algunos ambicionan el dinero, el éxito y la fama; otros desean la amistad y el trabajo. ¿A qué le dais más importancia?~
+@235  	= ~Los amigos, el amor y el trabajo suena bastante bien.~
+@236  	= ~No solo la fama, sino también la veneración y el respeto.~
+@237  	= ~Deseo sentirme único, notar que sirvo para algo.~
+~Deseo sentirme única, notar que sirvo para algo.~
+@238  	= ~Necesito un alma gemela, una pareja fiel o como se llame.~
+@239  	= ~El dinero es lo más importante. Quiero ser RICO.~
+~El dinero es lo más importante. Quiero ser RICA.~
+@240  	= ~Quiero ser el mejor en lo que hago.~
+~Quiero ser la mejor en lo que hago.~
+@241  	= ~Me gusta la tranquilidad de un hogar. Una familia..., una bonita casa.~
+@242  	= ~El poder, en todas sus variantes.~
+@243  	= ~No lo sé.~
+@244  = ~Os las contaré... otro día.~
+@245  = ~Sois bastante tradicional. Eso me gusta.~
+@246  = ~¿De dónde proviene ese deseo? Aunque es cierto que es algo perfectamente compatible con vuestra herencia.~
+@247  = ~Ja. Más de una persona firmaría inmediatamente por serlo..., si estuvieran vivas. Sois especial, <CHARNAME>; jamás penséis lo contrario.~
+@248  = ~¿Eso pensáis? Es muy peligroso depositar vuestra propia felicidad en otra persona. ¿Qué ocurriría entonces si muriera, se fuera, o nos demostrara que nos equivocamos en su elección?~
+@249  = ~Y aquí lo estáis consiguiendo.~
+@250  = ~¿El mejor... en qué? No, mejor no respondáis. Me gusta el misterio.~
+~¿La mejor... en qué? No, mejor no respondáis. Me gusta el misterio.~ 
+@251  = ~Bah. Los niños y sus lloriqueos, las discusiones constantes, los parientes más ancianos... ¿Cómo puede el hijo de un dios desear algo así? ¿Cuánto tiempo aguantaría?~
+~Bah. Los niños y sus lloriqueos, las discusiones constantes, los parientes más ancianos... ¿Cómo puede la hija de un dios desear algo así? ¿Cuánto tiempo aguantaría?~
+@252  = ~Pero bueno, al fin y al cabo no es MI problema. (Gracias a los dioses).~
+@253  = ~Mmm. Suena como si algo... despertara, por el modo en que decís eso.~
+@254  = ~Pero cambiando de tema...~
+@255  = ~¿No lo sabéis? ¿Nunca habéis sido feliz?~
+@256  = ~Bueno, de acuerdo. Lo comprendo... creo.~
+@257  = ~Sabéis, es como un sueño: yo, preguntándole al hijo de un dios qué le hace feliz. Es algo muy raro. Extraordinario, casi diría yo.~
+~Sabéis, es como un sueño: yo, preguntándole a la hija de un dios qué le hace feliz. Es algo muy raro. Extraordinario, casi diría yo.~
+@258  = ~Pero me estoy yendo por las ramas. No estáis aquí por ser un Hijo de Bhaal, sino porque sois competente, dispuesto e inteligente. Id. Y buena suerte.~
+~Pero me estoy yendo por las ramas. No estáis aquí por ser una Hija de Bhaal, sino porque sois competente, dispuesta e inteligente. Id. Y buena suerte.~
+
+//Séptimo banter. Respuesta a la pregunta "¿Os gustaría cenar conmigo esta noche?".
+
+@259  = ~¿Una... una cena? Ja. No puedo bajar a la taberna y pedir una mesa, <CHARNAME>. ¡La gente se pondría a cotillear!~
+@260  	= ~Entonces los mataremos a todos.~
+@261  	= ~¿Cómo, tenéis miedo de un puñado de arpías?~
+@262  	= ~¿Es que hay alguien que no deba saber que quiero cenar con vos?~
+@263  = ~No. Es que esto no es muy habitual. Por si no lo sabíais, se supone que nuestro pacto es secreto. Aparecer juntos en público no nos beneficiaría en nada.~
+~No. Es que esto no es muy habitual. Por si no lo sabíais, se supone que nuestro pacto es secreto. Aparecer juntas en público no nos beneficiaría en nada.~
+@264  = ~Aunque me siento tentada...~
+@265  = ~¿Qué os parece si venís a verme dentro de un cadáver o dos? Para entonces ya lo tendré todo preparado. No está nada mal, ¿eh?~
+@266  	= ~Me parece bien.~
+@267  	= ~¿"Dentro de un cadáver o dos"? ¿Esa es vuestra forma de decir "en uno o dos días", o "de aquí un par de horas"?~
+@268  	= ~Dejad que me lo piense.~
+@269  	= ~Pronto nos veremos, espero.~
+@270  = ~¿Queréis decir lo que decís o decís lo que queréis decir? Ahí tenéis vuestra respuesta.~
+@271  = ~Muy bien, pero por favor, matadme a alguien mientras tanto. Las buenas noticias siempre me abren el apetito.~
+
+//Octavo banter. Respuesta a la pregunta "¿Cómo van los preparativos de la cena?".
+
+@272  = ~¿Mmm? ¿Qué cena?~
+@273  	= ~¿Os habéis olvidado de nuestra cita o es que simplemente tenéis miedo?~
+@274  	= ~Nuestra cena, Lynn. Juntos. Esta noche.~
+~Nuestra cena, Lynn. Juntas. Esta noche.~
+@275  	= ~Lo comprenderé si habéis cambiado de opinión.~
+@276  = ~(Lynn se aparta silenciosamente a un lado, permitiéndoos ver una mesa para dos).~
+@277  = ~¿Os gusta?~
+@278  	= ~No está nada mal.~
+@279  	= ~Oh, sí. Tanto como la dama.~
+@280  	= ~¿No teméis ser envenenada, o que os tiendan una emboscada?~
+@281  = ~Estoy segura de que un aventurero como vos ha visto cosas peores. Espero que vuestros compañeros no sean *muy* envidiosos. Tomad asiento.~
+@282  = ~Entre "¡Hrrrmph!" y "Gracias", escojo "Gracias". Tomad asiento.~
+@283  = ~Bueno, si he de morir a vuestro lado, el placer será todo vuestro. Aunque no debería pasarnos nada. ¿Estamos bien armados, no? Tomad asiento.~
+~Bueno, si he de morir a vuestro lado, el placer será todo vuestro. Aunque no debería pasarnos nada. ¿Estamos bien armadas, no? Tomad asiento.~
+@284  = ~Y ahora... ¿de qué podríamos hablar?~
+@285  = ~No deseo mentar a vuestras víctimas; no quiero hacer esto más duro para vos. Es un trabajo, no una maldita discusión de filosofía moral.~
+@286  = ~Hablar de vuestra familia tampoco sería muy conveniente, especialmente de vuestro Padre. E imagino que no tendréis hijos, ¿verdad? Supongo que lo sabríais.~
+~Hablar de vuestra familia tampoco sería muy conveniente, especialmente de vuestro Padre. E imagino que no tendréis hijos, ¿verdad? Estoy segura de que lo sabríais.~
+@287  	= ~No, no tengo.~
+@288  	= ~Parecéis sorprendida...~
+@289  	= ~¿Por qué me lo preguntáis?~
+@290  = ~Oh, cariño. No creo que quiera saber nada más, gracias.~
+@291  = ~Bueno, parece que no tenéis a nadie salvo a vuestros compañeros. Sois como una gran familia. Vuestra amante, vuestra hermanita, vuestros amigos y amigas... Vuestro grupo parece proporcionaros todo eso y mucho más. Es curioso.~
+~Bueno, parece que no tenéis a nadie salvo a vuestros compañeros. Sois como una gran familia. Vuestro amante, vuestra hermanita, vuestros amigos y amigas... Vuestro grupo parece proporcionaros todo eso y mucho más. Es curioso.~
+@292  = ~¿O tal vez me equivoque? Contadme, <CHARNAME>, lo mucho que significa vuestro grupo para vos.~
+@293  	= ~¿No sabíais que viajo solo?~
+~¿No sabíais que viajo sola?~
+@294  	= ~No somos más que meros conocidos.~
+@295  	= ~Me siento muy cercano ellos, es cierto.~
+~Me siento muy cercana a ellos, es cierto.~
+@296  	= ~Los tengo en muy alta estima. Especialmente a... alguien.~
+@297  	= ~No me importaría nada si estuvieran todos muertos. Me basto yo solo.~
+~No me importaría nada si estuvieran todos muertos. Me basto yo sola.~
+@298  	= ~¿Qué importa? La persona que más necesitaba hace tiempo que se apartó de mi lado.~
+@299  = ~¿Siempre?~
+@300  	= ~Siempre.~
+@301  	= ~No a todas horas, aunque es cierto que nunca me he sentido cercano a nadie.~
+~No a todas horas, aunque es cierto que nunca me he sentido cercana a nadie.~
+@302  	= ~No, pero la persona con quien iba ya no está conmigo.~
+@303  = ~Ya veo. Como un lobo solitario.~
+@304  = ~Sí, pero... ¿no hay nadie que os atraiga más? ¿Alguien que os ame, alguien que améis? Porque sois muy especial, <CHARNAME>. Lo semejante se atrae.~
+@305  = ~Lamentablemente, no siempre es así. Lo sé por propia experiencia.~
+@306  	= ~Sí, se trata de una mujer.~
+~Sí, se trata de un hombre.~
+@307  	= ~Nadie ha podido llegar tan lejos conmigo, por ahora.~
+@308  = ~¿Se trataba de una antigua amante? ¿Un amigo?~
+~¿Se trataba de un antiguo amante? ¿Una amiga?~
+@309  	= ~Ambas cosas, supongo. Pero ahora estoy aquí, con vos.~
+@310  	= ~Era mi mejor amigo.~
+~Era mi mejor amiga.~
+@311  	= ~Se trata de alguien que amo más que a nada en este mundo.~
+@312  = ~Ah. Por los Nueve Infiernos, estaba segura y aun así quise estar junto a vos. Pero qué estúpida he sido.~
+@313  = ~Quería contaros una cosa, pero al ver que sentís algo tan especial por otra persona, esperaré. Para siempre, por lo que veo. En lugar de eso me gustaría preguntaros una cosa.~
+@314  	= ~¿Qué escogeríais si tuvierais que optar entre ella o la divinidad?~
+~¿Qué escogeríais si tuvierais que optar entre él o la divinidad?~
+@315  	= ~A ella. Quisiera estar a su lado para siempre.~
+~A él. Quisiera estar a su lado para siempre.~
+@316  	= ~Ya nada de eso es posible.~
+@317  	= ~La divinidad, por supuesto.~
+@318  	= ~No voy a responder a eso.~
+@319  = ~Sois todo un soñador. Me gusta eso. Claro que... ya no importa.~
+~Sois toda una soñadora. Me gusta eso. Claro que... ya no importa.~
+@320  = ~¿Por qué pensáis eso? Hace un año jamás habría imaginado que conocería al descendiente de un dios. ¿A que parece una idea ridícula? ¡Miradme ahora!~
+~¿Por qué pensáis eso? Hace un año jamás habría imaginado que conocería a la descendiente de un dios. ¿A que parece una idea ridícula? ¡Miradme ahora!~
+@321  = ~(Asiente reflexiva). Yo misma elegiría ese camino si tuviera la oportunidad.~
+@322  = ~Lo entiendo. Quizá nunca os veáis obligado a hacerlo...~
+~Lo entiendo. Quizá nunca os veáis obligada a hacerlo...~
+@323  = ~Gracias por esta velada. Pronto nos volveremos a ver, espero.~
+@324  = ~Es un alivio saberlo. No estaba segura de si había alguien más involucrado... De repente os veo con un renovado brillo de esperanza.~
+@325  = ~Estoy fascinada por vos. Me habéis fascinado completamente.~
+@326  	= ~¿Por qué lo habéis repetido dos veces?~
+@327  	= ~Y vos me parecéis arrebatadora.~
+@328  	= ~No me ocurre lo mismo con vos.~
+@329  = ~Porque nadie capta su significa en el primer intento. Ja, ja. No, no es por eso.~
+@330  = ~Debo serlo. Después de todo soy vuestra superior.~
+@331  = ~Veo que me habéis invitado a cenar tan solo para decirme eso. Muy astuto por vuestra parte.~
+@332  = ~Dejad que saboree estas palabras. No tan dulces como este vino, pero casi. Fascinante. Apasionante. Atrevido.~
+~Dejad que saboree estas palabras. No tan dulces como este vino, pero casi. Fascinante. Apasionante. Atrevida.~
+@333  = ~Intentadlo vos ahora.~
+@334  	= ~Fascinante. Maravillosa. Mmm... tenéis razón.~
+@335  	= ~Fascinante... No, no siento nada de nada.~
+@336  	= ~¿Os gustaría bailar conmigo?~
+@337  = ~Lo semejante se atrae...~
+@338  = ~Tch, tch. ¿Es que sois un bruto sin imaginación? Sé que sois mucho más que eso.~
+~Tch, tch. ¿Es que sois una torpe sin imaginación? Sé que sois mucho más que eso.~
+@339  = ~¿Os gustaría bailar?~
+@340  	= ~Estaba a punto de sugerir lo mismo.~
+@341  	= ~Por supuesto.~
+@342  	= ~Creo que preferiría... algo más.~
+@343  	= ~¿Con vos? Ni pensarlo.~
+@344  = ~(Ella asiente, e inmediatamente comenzáis a deslizaros juntos por la habitación, en silencio; vuestras sombras danzan al son de una melodía que solo vosotros podéis oír).~
+~(Ella asiente, e inmediatamente comenzáis a deslizaros juntas por la habitación, en silencio; vuestras sombras danzan al son de una melodía que solo vosotras podéis oír).~
+@345  = ~(Podéis ver los oscuros dedos de su sombra tañer vuestra espalda como si fuera un piano, al tiempo que sentís la calidez de un staccato recorriendo vuestra espina dorsal).~
+@346  = ~(Os mira fijamente, y una pregunta comienza a formarse en sus labios...).~
+@347  	= ~No, ni siquiera había pensado en eso.~
+@348  	= ~Creo que sé lo que queréis decirme...~
+@349  	= ~Sí. Sí a todo.~
+@350  	= ~¿Mmm?~
+@351  = ~(Ella niega con su cabeza).~
+@352  = ~Gracias por esta maravillosa velada, pero me temo que no puedo alargarla más: lugares a los que ir, personas a las que matar... eso para vos. Yo tengo otras obligaciones.~
+@353  	= ~¿Cuáles?~
+@354  	= ~Es porque soy un Hijo de Bhaal, ¿verdad? ¡Me teméis!~
+~Es porque soy una Hija de Bhaal, ¿verdad? ¡Me teméis!~
+@355  	= ~¿Qué ocurre? ¿He dicho algo que no debía?~
+@356  = ~Debo sobrevivir. Convertirme en vuestra amante solo complicaría las cosas. No puedo pasar el tiempo con vos por iniciativa propia... especialmente cuando esta es condenable. Lo siento.~
+@357  	= ~Así que es por mí... Sin embargo, aún me fascináis.~
+@358  	= ~¿Por qué?~
+@359  	= ~Entonces es que TENÉIS miedo.~
+@360  = ~*suspiro* Idos de aquí, <CHARNAME>, por favor. No dejéis a mi frío, frío baño esperando.~
+@361  = ~Esa pregunta solo tiene una respuesta.~
+@362  = ~Porque sí.~
+@363  = ~Así es. ¿Os sentís mejor después de escuchar eso?~
+
+//Noveno banter. Respuesta a la pregunta "¿Cómo estáis de la rodilla? ¿Ya se ha curado?".
+
+@364  = ~Me encuentro mucho mejor, gracias. Aunque no puedo decir lo mismo de otras personas.~
+@365  = ~Imaginaos la noticia: el alguacil Crull, que fue recientemente asignado a la investigación de, ah, unos misteriosos asesinatos en la ciudad, ha sido encontrado brutalmente asesinado -muy probablemente a sangre fría- en su propia cama. ¿Pero en qué mundo tan terrible vivimos?~
+@366  	= ~Sois una cínica.~
+@367  	= ~Estoy de acuerdo. La gente de ahora no sabe lo que es la moral.~
+@368  	= ~¿No os preocupa que algún día os hagan lo mismo?~
+@369  = ~Voy a echarme a llorar.~
+@370  = ~Especialmente cuando se trata de valorar la vida humana. Ahora que lo pienso, ¿a qué precio estaba vuestra última víctima?~
+@371  = ~¿A mí? Lo dudo mucho.~
+@372  = ~Pronto acabará nuestro contrato. Diez es el número mágico, aunque nos conformaremos con nueve. Siento que debo advertiros sobre algo.~
+@373  = ~Sé que sois consciente de vuestra habilidad y competencia. Y también de vuestra suerte. Seríais capaz de echar abajo el cuartel general de los Ladrones de las sombras, aplastar a un ejército de muertos vivientes, matar a un dragón... ¿qué más? Bueno, estoy segura de que hasta mi...~
+@374  = ~Ups, casi se me escapa. Sois muy bueno.~
+~Ups, casi se me escapa. Sois muy buena.~
+@375  	= ~¡Pero si no he dicho nada!~
+@376  	= ~¿Qué es lo que intentáis decirme?~
+@377  	= ~Vais a hacer que me sonroje.~
+@378  = ~No, pero me estabais escuchando. Un oído atento puede resultar igual de mortal que el puñal más afilado.~
+@379  = ~En cualquier caso, os recomiendo precaución. Pensadlo bien, <CHARNAME>. ¿Por qué creéis que debería deciros esto?~
+@380  	= ~¿Por qué tenéis miedo de lo que pueda llegar a hacer?~
+@381  	= ~¿Por qué sois más poderosa que cualquiera de las cosas que habéis mencionado?~
+@382  	= ~¿Por qué trabajáis para alguien más poderoso que cualquiera de las cosas que habéis mencionado?~
+@383  	= ~Porque tiene sentido. Cualquier nuevo oponente es peligroso.~
+@384  	= ~No lo sé. Decídmelo vos.~
+@385  = ~Intentadlo de nuevo.~
+@386  = ~Sinceramente, no comprendo lo que estáis intentando decirme. Lo siento, Lynn.~
+@387  	= ~Estáis tratando de advertirme sobre alguien. Alguien muy poderoso y astuto.~
+@388  	= ~¿Me estáis diciendo que no tengo ninguna oportunidad de vencer a quien se encuentra detrás de todo esto?~
+@389  	= ~No me interesa saberlo.~
+@390  = ~Lo soy, y quizás... ¡quizás!, sea tan fuerte como vos. O puede ser, no os lo aseguro, que lo sea un poco más. Nunca lo sabréis. Aunque no habéis captado la idea.~
+@391  = ~Exactamente. Y también que hay enemigos más poderosos que otros.~
+@392  	= ~No lo haré. Quiero que vos me lo digáis.~
+@393  = ~Muy bien.~
+@394  = ~Nadie va a apuñalaros por la espalda "porque sabíais demasiado". Pero presumir de ello *podría* acarrearos algunas consecuencias.~
+@395  	= ~¿Quién puede ser tan poderoso? ¿Podríais darme una pista?~
+@396  	= ~¿Os gustaría contarme algo más?~
+@397  	= ~De acuerdo. Consideradme advertido.~
+~De acuerdo. Consideradme advertida.~
+@398  	= ~Por supuesto, lo comprendo.~
+@399  = ~Dejemos este tema, entonces. Alguien con tan poca curiosidad como vos no le pasará nada, estoy segura.~
+@400  = ~Me alegro. Espero que no lo olvidéis.~
+@401  = ~Preferiría no hacerlo.~
+@402  	= ~Algunas de mis víctimas eran muy importantes. Seguro que es un político...~
+@403  	= ~Alguien muy influyente en Athkatla... Probablemente se trate de los Ladrones de las sombras o los Magos Encapuchados...~
+@404  	= ~Una misteriosa y muy poderosa persona u organización...~
+@405  	= ~Alguien que incluso vos teméis...~
+@406  	= ~No tiene sentido pensar en ello. Gracias por la advertencia, Lynn.~
+@407  = ~(Lynn os mira con ojos adustos).~
+@408  	= ~Siempre he pensado que las intrigas no sirven para dirigir una ciudad, y mucho menos en Amn. Quien esté detrás de todo esto es probable que incluso pertenezca al mismo Consejo...~
+@409  	= ~He oído que el gran maestro de los Ladrones de las sombras es un experto asesino capaz de espiar a quien desee...~
+@410  	= ~¿Se trata del Consejo de los Seis? ¿Alguno de sus miembros?~
+@411  	= ~¿Algunos de mis antiguos enemigos de Puerta de Baldur quieren hacerme pagar por lo que les hice?~
+@412  	= ~¿Otro Hijo de Bhaal? ¿O quizá alguien que tenga relación con ellos?~
+@413  = ~Prefiero no saberlo.~
+@414  = ~Ah... Una suposición interesante. Pero, ¿no se supone que tenéis que salir a matar a alguien?~
+@415  	= ~Gracias.~
+@416  	= ~¿Por qué me contáis todo esto?~
+@417  	= ~Tenéis razón. Pronto nos veremos.~
+@418  = ~El mundo no gira a vuestro alrededor, <CHARNAME>. Os habéis equivocado y solo teníais una oportunidad. No permitiré que esta conversación continúe.~
+@419  = ~Nunca dije que os respondería.~
+@420  = ~Hmm. ¿Qué esperáis que os diga? ¿"De nada"? A trabajar.~
+@421  = ~Porque sí. Me caéis bien, solo por eso. Pero no esperéis que os proteja si metéis las narices donde no os llaman.~
+@422  = ~Siempre tan optimista, ¿eh?~
+
+//Décimo banter. Respuesta a la pregunta "Siento como si de un modo u otro pronto nos fuéramos a despedir".
+
+@423  = ~Ajá. ¿Y cómo os hace sentir eso?~
+@424  	= ~Os echaré de menos. Aunque me iré con la satisfacción de un trabajo bien hecho.~
+@425  	= ~¿No os uniríais a mí si os lo preguntara, verdad?~
+@426  	= ~Un poco triste, y también algo preocupado.~
+~Un poco triste, y también algo preocupada.~
+@427  	= ~¿Se supone que debería sentir algo?~
+@428  = ~Igual que yo, entonces.~
+@429  = ~Ja. No.~
+@430  = ~Entiendo cómo os sentís. Imagino que yo también me alegraré cuando todo esto acabe.~
+@431  = ~Solo vos lo sabéis, <CHARNAME>.~
+@432  = ~Observaré vuestros... progresos. Tengo mucha curiosidad por saber cuán lejos podréis llegar.~
+@433  	= ~Os deseo todo lo mejor.~
+@434  	= ~Gracias, Lynn.~
+@435  = ~Cuidaos vos también.~
+@436  = ~Yo también a vos.~
+@437  = ~Necesito salir a matar a alguien ahora mismo.~
+@438  = ~Ya basta de sentimentalismos. ¡A trabajar!~
+@439  = ~Adelante.~
+
+//Más frases de Lynn no relacionadas con los banters.
+
+@440  = ~Esta es vuestra primera misión, <CHARNAME>. Aún no se os permite escoger.~
+@441  = ~Muy bien, así se hará. Pero sabed que solo podréis hacer esto una o dos veces, como mucho.~
+@442  = ~No, no. Ya habéis rechazado dos misiones. Vuestra única opción es retiraros de toda la operación.~
+@443  	= ~Entiendo. Continuaré con mi asignación actual.~
+@444  	= ~Entonces eso es lo que haré.~
+@445  	= ~Espero que pronto nos veamos de nuevo.~
+@446  = ~¿Dónde os creéis que estamos? Esto es Athkatla.~
+@447  = ~Y ahora, si fuera vos, me encargaría de cumplir con mi cometido.~
+@448  = ~Gracias por compartir conmigo esa información de tan incalculable valor.~
+@449  = ~Muy bien. Nos veremos *muy* pronto.~
+@450  = ~Habéis mostrado clemencia a quien no se la merecía. Mi paciencia ha llegado a su límite.~
+@451  = ~Solo cuando nuestra asociación comience a dar sus frutos. Hasta entonces, a trabajar.~
+
+//Confirmación de la primera misión (lord Melyin) y asignación de la segunda (Nevier Costa).
+
+@452  = ~Un trabajo rápido y limpio. Bien hecho.~
+@453  = ~Desgraciadamente no. Lord Melyin sigue vivo, y todo gracias a vos.~
+@454  = ~Aunque es verdad que ese maldito bastardo puede resultar muy convincente. ¿O es que habéis sentido algo de compasión por él? Hmm.~
+@455  = ~No importa. He decidido daros una nueva oportunidad. Aprovechadla bien; no creo que vuelva a ser tan generosa.~
+@456  = ~Decepcionante. Muy decepcionante.~
+@457  = ~Vuestra próxima víctima es Nevier Costa, un sacerdote de Lazhánder. Intentad no echar abajo el templo entero. No todos son igual de... *suspiro* Ya lo veréis. Cuanto antes acabéis con basura como él, mucho mejor. Añadiré quinientas monedas de oro a las... mil que os prometí. Buena suerte.~
+@458  	= ~¿Un sacerdote de Lazhánder? Entonces iré a preguntar por él.~
+@459  	= ~Esperadme. Pronto volveré.~
+@460  	= ~Me niego a asesinar a un sacerdote de Lazhánder. Buscad a otra persona.~
+@461  	= ~No pienso hacerlo. De hecho, ya no pienso trabajar más para vos.~
+@462  = ~No atraigáis demasiado la atención.~
+@463  = ~Estoy convencida de ello.~
+@464  = ~Hay sacerdotes y... sacerdotes. Encontradlo y observadlo atentamente. Si aún creéis que debe seguir con vida, venid a contármelo.~
+
+//Confirmación de la segunda misión (Nevier Costa) y asignación de la tercera (Amara).
+
+@465  = ~Excelente. Aquí tenéis la recompensa que os prometí.~
+@466  	= ~No, no lo está.~
+@467  = ~Será mejor que no cometáis más errores si queréis seguir trabajando para mí.~
+@468  = ~¿Y podéis decírmelo así, con total naturalidad? Comprendo.~
+@469  = ~Vuestro próximo objetivo es una mujer. La han visto muchas veces en los barrios bajos, así que ya sabéis adónde ir. Se llama Amara; abandonó su hogar y su familia, por lo que no puedo contaros nada más. Preguntad por los alrededores.~
+@470  = ~Podría costaros mucho encontrarla, así que doblaré vuestra recompensa inicial: recibiréis dos mil monedas de oro.~
+@471  	= ~¿Por dónde debería comenzar? ¿Por las cloacas? ¿En la Corona de cobre?~
+@472  	= ~Me dirigiré hacia allí inmediatamente.~
+@473  = ~¿He de matar a una mujer indefensa? ¿Qué puede haber hecho?~
+@474  	= ~Me niego. Buscad a otra persona, no pienso asesinar a nadie más.~
+@475  = ~Sí, sí, por ahí. Buena suerte.~
+@476  = ~Sé que lo haréis.~
+@477  = ~¿De qué es capaz una mujer? Encontradla y lo descubriréis.~
+
+//Confirmación de la tercera misión (Amara) y asignación de la cuarta (Alguacil Daton).
+
+@478  = ~Sé de alguien que se pondrá muy contento al recibir esta noticia. *suspiro* No se puede andar por ahí provocando a ciertas personas.~
+@479  = ~En serio, <CHARNAME>, deberíais dejar de insultar a mi inteligencia.~
+@480  = ~No lo volváis a hacer.~
+@481  = ~Venid a verme cuando estéis preparado para vuestra próxima misión. Podría resultar... complicada.~
+~Venid a verme cuando estéis preparada para vuestra próxima misión. Podría resultar... complicada.~
+@482  = ~Regresad cuando sintáis que podéis continuar.~
+@483  = ~Lo habéis hecho bien y os merecéis un descanso. Venid a verme cuando estéis preparado para el próximo trabajo. Podría resultar... complicado.~
+~Lo habéis hecho bien y os merecéis un descanso. Venid a verme cuando estéis preparada para el próximo trabajo. Podría resultar... complicado.~
+@484  = ~No puedo decir que sean buenas noticias. Entiendo vuestra decisión, pero...~
+@485  = ~Vuestras actividades han llamado la atención del gobierno, especialmente a un tal alguacil llamado Daton.~
+@486  	= ~¿Perdón? ¿*Mis* actividades?~
+@487  	= ~Debo eliminarle, ¿no?~
+@488  	= ~¿Qué tiene que ver esto con mi próximo objetivo?~
+@489  	= ~Esto sí que no. No pienso matar a un oficial del gobierno.~
+@490  = ~¿Mmm? Oh, parece que se me ha escapado. Creía que no os daríais cuenta...~
+@491  = ~Pues sí.~
+@492  = ~Todo, ya que *es* vuestro próximo objetivo.~
+@493  = ~Escuchadme atentamente si deseáis continuar en libertad. Es evidente que no podéis atacarle en el interior del edificio gubernamental. Buscadle en el puerto cuando le toque cambio de turno. ¿Quizá esté en el cuartel? No me importa, es vuestro problema. No falléis.~
+@494  	= ~Naturalmente.~
+@495  	= ~Ya deberíais saber que podéis contar conmigo.~
+@496  	= ~No, sigo sin querer hacerlo.~
+@497  	= ~¿Cuánto me pagaréis?~
+@498  = ~Me he dado cuenta; y en más de un aspecto, quizá.~
+@499  = ~No debería resultaros muy difícil, pero aseguraos de actuar con el máximo sigilo. No nos gustaría tener que pagar más impuestos, ¿verdad?~
+@500  = ~¿Sois un hombre o un crío, <CHARNAME>? No podéis plantearos "querer algo". O trabajáis para mí o no.~
+~¿Sois una mujer o una cría, <CHARNAME>? No podéis plantearos "querer algo". O trabajáis para mí o no.~
+@501  = ~Comprendo vuestra indecisión, pero no nos podemos permitir el lujo de tenerla en cuenta.~
+@502  = ~Daton podría convertirse en un serio problema, sobre todo ahora, que ha confirmado algunas de sus sospechas a causa de vuestras acciones. Recibiréis dos mil quinientas monedas de oro. No es una gran recompensa, pero no está mal.~
+
+//Confirmación de la cuarta misión (alguacil Daton) y asignación de la quinta (sir Alexis).
+
+@503  = ~¡Bien hecho! Os merecéis cada una de las monedas de vuestra recompensa. Aquí tenéis.~
+@504  = ~¿Os gustaría tomaros un respiro, o estáis ya preparado para vuestro siguiente objetivo?~
+~¿Os gustaría tomaros un respiro, o estáis ya preparada para vuestro siguiente objetivo?~
+@505  	= ~Preferiría descansar un rato, pero volveré cuando esté listo para continuar.~
+~Preferiría descansar un rato, pero volveré cuando esté lista para continuar.~
+@506  	= ~Tengo otros asuntos de los que ocuparme, así que por ahora preferiría dejarlo.~
+@507  	= ~No perdamos más tiempo. Dadme el nombre de mi próximo objetivo.~
+@508  	= ~He decidido acabar con nuestro acuerdo.~
+@509  = ~Sé que lo haréis.~
+@510  = ~De acuerdo, pues. Intentad no matar a nadie antes de que yo os lo pida.~
+@511  = ~Entonces os basta con no volver más por aquí. Aunque yo me lo pensaría dos veces, si fuera vos.~
+@512  = ~El caballero de la Orden del Muy Radiante Corazón, sir Alexis. No sé nada más sobre él. De hecho, si pudierais contarme por qué debe morir, os lo agradecería. Tengo mucha curiosidad.~
+@513  = ~Os daré tres mil monedas de oro por su cabeza. Si fuera vos iniciaría mis pesquisas en el edificio principal de la Orden, preguntando a los paladines que hay por allí. Aseguraos de no levantar sospechas.~
+@514  	= ~¿Algo más?~
+@515  	= ~No pienso hacer esto.~
+@516  = ~No, la verdad es que no. Andando.~
+@517  = ~Tres mil monedas. Y... venid a verme más tarde.~
+@518  = ~¿Es que no os pica la curiosidad, <CHARNAME>? ¡Es un caballero, y alguien quiere verlo muerto! Convendría saber al menos por qué, ¿no? Vamos, sé que os morís de ganas de saberlo.~
+
+//Confirmación de la quinta misión (sir Alexis) y asignación de la sexta (Oulav Steros).
+
+@519  = ~Aquí tenéis vuestra recompensa. Aquel joven, ¿qué ha sido...?~
+@520  = ~Olvidadlo. Ya me lo imagino. Tomad el dinero.~
+@521  = ~Por fin conozco los... detalles que rodean la muerte de sir Alexis. Pero vos, <CHARNAME>, me habéis decepcionado.~
+@522  = ~Y no me gusta que me decepcionen.~
+@523  = ~Disfrutad de un buen trago ahí abajo. Cuando estéis preparado, venid a verme y os asignaré otro objetivo. No hay prisa.~
+~Disfrutad de un buen trago ahí abajo. Cuando estéis preparada, venid a verme y os asignaré otro objetivo. No hay prisa.~
+@524  = ~Ha llegado la hora de tratar con gente y sustancias peligrosas. ¿Os suena de algo... el loto negro?~
+@525  	= ~Pues claro, lo consumo cada día.~
+@526  	= ~Sé lo que es.~
+@527  	= ~No me suena de nada.~
+@528  	= ~Sí, y desearía acabar con su tráfico en Athkatla.~
+@529  = ~Qué asco. Tenéis un sentido del humor muy desconcertante.~
+@530  = ~Me lo imaginaba.~
+@531  = ~Es un potente narcótico. Su tráfico es ilegal, pero muy rentable.~
+@532  = ~Tendréis vuestra oportunidad.~
+@533  = ~Id a ver a Oulav Steros, uno de sus traficantes. Llegad a un acuerdo con él y descubrid quién le proporciona la mercancía. Debe andar cerca de aquí, en el distrito del puente. Recibiréis dos mil monedas si descubrís quién es su proveedor; mil, si no lo hacéis.~
+@534  = ~Eso es todo. Partid.~
+
+//Confirmación de la sexta misión (Oulav Steros) y asignación de la séptima (Qyr).
+
+@535  = ~Mmm. No me esperaba esto de vos. No importa.~
+@536  = ~¡Bien hecho! Habéis hecho un buen trabajo.~
+@537  = ~Me alegro de veros otra vez. Mucho, de hecho. Me pregunto si...~
+@538  = ~Sin duda tendréis otros asuntos que atender. Nos veremos más tarde.~
+@539  = ~No tengo nada para vos ahora mismo. Tan solo unas pocas tareas sin importancia... que alguien debe llevar a cabo.~
+@540  = ~Un momento.~
+@541  = ~Aquí tengo una, aunque tendréis que salir de Athkatla. Además, no podré confirmar si la habéis cumplido o no, salvo por vuestra palabra.~
+@542  = ~Necesito que me devolváis unos documentos y que matéis a su actual poseedor, incluso si son más de uno. Espero que cuatro mil monedas de oro puedan cubrir vuestros gastos.~
+@543  = ~¿Haréis esto por mí?~
+@544  	= ~Podéis darlo por hecho.~
+@545  	= ~No, no lo haré.~
+@546  = ~El hombre a quien debéis buscar se llama Qyr. Se le vio por última vez en Caravasar.~
+@547  = ~Os recuerdo que es de suma importancia que recuperéis esos documentos.~
+@548  = ~Entonces no tenemos más que hablar. Volved de aquí uno o dos días.~
+
+//Confirmación de la séptima misión (Qyr) y asignación de la octava (Tea y Gannis).
+
+@549  = ~Dejadme verlos...~
+@550  = ~Sí, todo está en orden. No me miréis de esa forma; no puedo contaros nada, os lo aseguro. Lo que sí puedo hacer es daros vuestra recompensa.~
+@551  = ~Vuestra próxima misión podría resultar bastante complicada. Descansad y venid a verme cuando estéis preparado, ¿de acuerdo? Odiaría perder a mi mejor agente. ¿O debería decir "ejecutor"?~
+~Vuestra próxima misión podría resultar bastante complicada. Descansad y venid a verme cuando estéis preparada, ¿de acuerdo? Odiaría perder a mi mejor agente. ¿O debería decir "ejecutora"?~
+@552  = ~Me pregunto si querréis hacerlo... pero no debo preocuparme por eso, ¿verdad?~
+@553  = ~Debéis eliminar a los arpistas Tea y Gannis. Son marido y mujer.~
+@554  = ~Os aseguro que no sé dónde pueden estar; tendréis que recurrir a otras vías de información. Preguntad a quien creáis que pueda saber algo.~
+@555  = ~Recibiréis cinco mil monedas. Sí, cinco mil. Deben ser silenciados a toda costa. Buena suerte.~
+
+//Confirmación de la octava misión (Tea y Gannis) y asignación de la novena (Kern).
+
+@556  = ~Me habéis alegrado el día. Vaya, vaya; y yo que andaba tan preocupada, ¿podéis imaginároslo? Nunca dudé de vos. Bien hecho.~
+@557  	= ~¿No os interesa saber lo que me contaron?~
+@558  	= ~Me dijeron que habían cumplido con su cometido. Mataron a vuestros dos hombres.~
+@559  = ~No, no quiero. Lo único que importa es que están muertos. Esos dos eran muy buenos.~
+@560  = ~No, <CHARNAME>. No "a nuestros dos", sino solo "a dos".~
+@561  = ~Debo, ah, enviar unos mensajes muy importantes, así que, si me perdonáis...~
+@562  = ~¡Están vivos, maldita sea! No comprendo por qué me habéis desobedecido.~
+@563  = ~Os dejé MUY claro que esta misión era muy importante. Es evidente que he fallado... o mejor dicho, vos lo habéis hecho.~
+
+//Confirmación de la novena misión (Kern) y despedida temporal.
+
+@564  = ~Así es. Probablemente se trate de vuestra última misión.~
+@565  = ~No pretendo decir que os atacaré en cuanto acabéis. Os lo creáis o no, no pienso hacerlo. Simplemente es hora de seguir adelante, tanto para mí como para vos.~
+@566  = ~Por otro lado, una alianza de corta duración tiene más posibilidades de sobrevivir que una más larga. Las palabras pueden llegar a hacer muchísimo mal, lo sé por propia experiencia.~
+@567  = ~Hablemos ahora de vuestro objetivo.~
+@568  = ~Se llama Kern y es un asesino profesional; tened mucho cuidado. Desconozco dónde puede estar, aunque sabemos que ha solicitado varias veces los servicios de una prostituta llamada Sofía, aquí mismo, en el distrito del puerto. Encontradla y le encontraréis.~
+@569  = ~Y sí, recibiréis otras cinco mil monedas de oro... si sobrevivís.~
+@570  = ~Muy impresionante.~
+@571  = ~Entonces ha llegado la hora de despedirnos. Seré breve: ha sido un placer.~
+@572  	= ~Lo mismo digo.~
+@573  	= ~¿Nos volveremos a ver?~
+@574  = ~Si me necesitáis para algo, ya sabéis dónde encontrarme.~
+@575  	= ~¡Esperad! ¡No os podéis marchar de esta forma!~
+@576  = ~Adiós.~
+@577  = ~Visitad a Bernard en la Corona de cobre algún día de estos...~
+
+//Reencuentro con Lynn. Asignación de la décima misión (Lahar Feenick).
+
+@578  = ~¡Me alegro de veros de nuevo! Ha pasado mucho tiempo, como se suele decir.~ [O#CRLY08]
+@579  	= ~¡Lynn! ¿Cómo estáis?~
+@580  	= ~Yo también me alegro de veros.~
+@581  	= ~¿Qué tenéis para mí?~
+@582  = ~<CHARNAME>, <CHARNAME>... No habéis cambiado nada.~
+@583  = ~Tengo una nueva misión para vos. Una extremadamente peligrosa.~
+@584  = ~Pero antes de contaros nada, necesito que me prometáis que vais a hacerlo. No podréis cambiar de opinión más adelante.~
+@585  = ~La recompensa valdrá la pena, y sabéis que podéis confiar en mí. Pero necesito que me deis un "sí" ahora.~
+@586  	= ~Sí.~
+@587  	= ~No, Lynn. No puedo hacerlo.~
+@588  	= ~Decidme primero qué tendría que hacer.~
+@589  	= ~¡Contádmelo todo ahora mismo!~
+@590  = ~Quizá hayáis notado una extraña presencia en la habitación. Esto es así por un motivo.~
+@591  = ~Hoy por fin vuestra curiosidad se verá satisfecha. Dejadme presentaros a alguien.~
+@592  = ~No puedo, <CHARNAME>. Haced lo que queráis.~
+@593  = ~Sois una ingenua si creéis que aceptaré así, sin más.~
+@594  	= ~Un momento. Acepto realizar este trabajo.~
+@595  	= ~Adiós.~
+@596  = ~No tenéis necesidad de gritar. La puerta se encuentra justo detrás de vos.~
+@597  	= ~¡Volveré!~
+@598  	= ~Lamento haberme puesto así. Tenéis mi palabra.~
+@599  = ~Por supuesto. Estoy segura de que la alfombra estará encantada de recibiros.~
+@600  = ~Quizás. De todas formas, os deseo lo mejor.~
+@601  = ~<CHARNAME>, conoced a Rhin, mi... superior y el hombre más poderoso de Athkatla. Rhin, no creo que haga falta presentaros a nuestro invitado, ¿verdad?~ [O#CRLY09]
+~<CHARNAME>, conoced a Rhin, mi... superior y el hombre más influyente de Athkatla. Rhin, no creo que haga falta presentaros a nuestra invitada, ¿verdad?~ [O#CRLY09]
+@602  = ~No, a no ser que haya algo que no sepa de él. Buenas tardes.~ [O#CRRH01]
+~No, a no ser que haya algo que no sepa de ella. Buenas tardes.~ [O#CRRH01]
+@603  	= ~Buenas tardes para vos también.~
+@604  	= ~¿Por qué estoy aquí?~
+@605  	= ~¿De verdad estamos por la tarde?~
+@606  = ~¡Shh! Ahora no.~
+@607  = ~¡Shh! Sí, <CHARNAME>, siempre estamos por la tarde, pero... ¡ahora no!~
+@608  = ~Un nuevo candidato a miembro del Consejo está ganando demasiada influencia. Se aproxima con cautela pero con paso firme. Demasiado firme. Alguien debe hacer algo.~ [O#CRRH02]
+@609  	= ~¿Significa que debo eliminarle, no?~
+@610  	= ~No creo que pueda hacer nada.~
+@611  	= ~¡Vais a matarlo! ¿Qué me impide contar a toda Athkatla la verdad?~
+@612  = ~No tenemos tiempo para bromas, <CHARNAME>. Ya hablaremos más adelante de las conspiraciones y los misteriosos pactos que tanto os afectan. Ahora, prestad atención.~
+@613  = ~Confío en que seréis capaz de hacerlo... con algo de ayuda.~
+@614  = ~Hace poco, uno de sus más íntimos amigos fue convenientemente silenciado. Su funeral tendrá lugar en el cementerio de Athkatla. Se tomarán extraordinarias medidas de seguridad para protegerle, por supuesto... pero vos deberéis ser capaz de superarlas.~ [O#CRRH03]
+@615  	= ~¿Qué sugerís que haga?~
+@616  	= ~¿Qué ayuda me proporcionaréis?~
+@617  	= ~¿Creéis que puedo hacerlo solo?~
+~¿Creéis que puedo hacerlo sola?~
+@618  = ~Viniendo de Rhin, lo consideraría todo un cumplido.~
+@619  = ~Lynn se encargará de su asesinato. Vuestra tarea consistirá en limpiar el área para que tenga tiempo de escapar. Matad a todo el mundo, sin excepciones.~
+@620  = ~Cuando acabéis, volved a esta posada. Lynn pasará a veros.~
+@621  	= ~¿Cuál será mi pago?~
+@622  	= ~¿Qué ocurrirá si me arrestan?~
+@623  	= ~De acuerdo.~
+@624  = ~Un objeto mágico y diez mil monedas de oro. Quiero una actuación rápida y precisa.~
+@625  = ~Los guardias os descubrirán primero a vos. Por eso no debe quedar nadie vivo. Improvisad para salir del paso, pero no falléis; esto es extremadamente importante. No permitáis que Lynn tenga que hacer vuestro trabajo sucio.~
+@626  	= ~Lo entiendo.~
+@627  	= ~¿Por qué no puedo ser yo quien mate al objetivo?~
+@628  	= ~Así que *pueden* arrestarme.~
+@629  = ~No es imposible, aunque sí poco probable.~
+@630  = ~Porque lo teletransportarían a un lugar seguro en cuanto vieran a un hombre armado. Podría enviar sólo a Lynn, pero probablemente no saldría con vida.~
+~Porque lo teletransportarían a un lugar seguro en cuanto vieran a una mujer armada. Podría enviar sólo a Lynn, pero probablemente no saldría con vida.~
+@631  = ~Entonces ya está decidido. Nos veremos en el distrito del cementerio.~
+@632  = ~Os estaré vigilando.~ [O#CRRH04]
+
+//Décima misión (Lahar Feenick).
+
+@633  = ~¿Estáis preparado? ¿Nervioso?~ [O#CRLY10]
+~¿Estáis preparada? ¿Nerviosa?~ [O#CRLY10]
+@634  	= ~Un poco.~
+@635  	= ~Para nada.~
+@636  	= ~Preparado, calmado y decidido.~
+~Preparada, calmada y decidida.~
+@637  	= ~¡Mostradme lo buena que sois!~
+@638  = ~Todo irá bien. Aunque conozco a unas cuantas personas ahí dentro que no podrán decir lo mismo.~
+@639  = ~Nervios de acero, ¿eh? Me alegro.~
+@640  = ~Repasemos el plan una vez más. Me ocultaré para evitar que me vean y entraré. Seguidme poco después; para entonces ya me habré acercado lo suficiente a la víctima.~
+@641  = ~En cuanto crucéis la puerta, comenzad a matar a todo el mundo. No dejéis que nadie escape, esto es muy importante.~
+@642  	= ~¿Cómo se llama?~
+@643  	= ~¿Por qué no puedo hacerlo todo yo?~
+@644  	= ~Estáis muy guapa cuando dais órdenes.~
+@645  	= ~Hagámoslo de una vez.~
+@646  = ~Lahar Feenick.~
+@647  = ~Porque descubrirían vuestras intenciones en cuanto pusierais un pie ahí arriba. Conjuraré unos cuantos hechizos de ocultación que me enseñaron los magos de la Escuela de las Maravillas. Tuve... un buen profesor.~
+@648  = ~Mmm. Ya hablaremos de eso más tarde.~
+@649  = ~Preparaos.~
+@650  = ~Si pensáis que voy a participar en este vil asesinato, ¡estáis muy equivocado!~
+~Si pensáis que voy a participar en este vil asesinato, ¡estáis muy equivocada!~
+@651  = ~Por Torm, ¡no pienso formar parte de esto!~
+@652  = ~Ahora.~
+@653  = ~¡Deteneos! ¡Estáis bajo arresto!~ [O#CRGEW1]
+@654  	= ~¿Qué se supone que he hecho?~
+@655  	= ~¿Yo? ¿Por qué?~
+@656  	= ~¡Rogad por vuestras vidas porque vais a morir!~
+@657  = ~Nos acompañaréis sin ofrecer resistencia. Es una orden directa del Consejo de los Seis. ¡Escoltas, haced vuestro trabajo!~
+
+//Juicio.
+
+@658  = ~¡Psst! No tenemos mucho tiempo.~ [O#CRLY11]
+@659  	= ~¡Lynn! ¿Qué demonios está ocurriendo?~
+@660  	= ~¡Todo esto es por vuestra culpa! ¡Sacadme de aquí ahora mismo!~
+@661  	= ~Os escucho.~
+@662  = ~Esperábamos que no os arrestaran, aunque sabíamos que podría ocurrir. Pronto os sacaremos de aquí.~
+@663  = ~Os recuerdo que tuve que acabar vuestro trabajo en el cementerio. Me debéis una.~
+@664  	= ~No digáis nada.~
+@665  = ~¡En pie! El juez está esperando.~ [O#CRGEW2]
+@666  = ~Tendréis un juicio rápido. Sabe todo lo que hicisteis.~
+@667  = ~El acusado está aquí, lord Damir... su señoría.~ [O#CRGEW3]
+~La acusada está aquí, lord Damir... su señoría.~ [O#CRGEW3]
+@668  = ~Excelente. Que los escoltas se preparen; no permitiré que nadie escape de la justicia en mi corte.~ [O#CRDAM1]
+@669  = ~Procuraremos darnos prisa. ¿Os declaráis culpable, joven?~
+@670  	= ~No he hecho nada.~
+@671  	= ~No, soy inocente.~
+@672  	= ~(Permanecer en silencio).~
+@673  	= ~Sí, soy culpable.~
+@674  = ~Entiendo. En ese caso...~
+@675  = ~Me lo imaginaba. Muy bien, en ese caso...~
+@676  = ~¡Cómo os atrevéis a interrumpir...! Ah, Iltarch Dannihyr.~ [O#CRDAM2]
+@677  = ~¡Por los dioses! ¡Ese hombre es un miembro del Consejo!~ [O#CRGEW4]
+@678  = ~Silencio.~ [O#CRRH05]
+@679  = ~Os equivocáis de persona, lord Damir. Parece que habéis valorado erróneamente el curso completo de los acontecimientos.~ [O#CRRH06]
+@680  = ~¿Eso creéis? Entonces os ruego que me contéis lo que sucedió realmente.~ [O#CRDAM3]
+@681  = ~Con mucho gusto. Esta desafortunada víctima, aquí presente, fue emboscada por unos asaltantes desconocidos.~ [O#CRRH07]
+@682  = ~Unos "asaltantes desconocidos", ¿eh?~
+@683  = ~<CHARNAME>, el héroe de Candelero, Puerta de Baldur, Nashkel y, más recientemente, Athkatla, donde venció a una poderosa vampiresa que aterrorizaba la ciudad, intentó socorrer a Lahar Feenick. Desgraciadamente, no llegó a tiempo. Lahar y sus guardias ya estaban muertos.~
+~<CHARNAME>, la heroína de Candelero, Puerta de Baldur, Nashkel y, más recientemente, Athkatla, donde venció a una poderosa vampiresa que aterrorizaba la ciudad, intentó socorrer a Lahar Feenick. Desgraciadamente, no llegó a tiempo. Lahar y sus guardias ya estaban muertos.~
+@684  = ~Y bien, ¿hay alguien que pueda demostrar vuestras palabras?~
+@685  = ~Yo puedo, su señoría.~ [O#CRLY12]
+@686  = ~¡Jovencita, esto es un juicio a puerta cerrada! Ah, vos sois la señorita... la señorita Lynn, ¿verdad?~ [O#CRDAM4]
+@687  = ~Así es, su señoría. He venido para demostrar que esta persona es inocente.~ [O#CRLY13]
+@688  = ~*suspiro* Hablad, pues.~ [O#CRDAM5]
+@689  = ~Yo soy... era la amante de Lahar. Sus criados pueden confirmarlo. Vi todo lo que ocurrió. Aparecieron... varios hombres encapuchados; ocho por lo menos, dos de ellos eran enanos. Asesinaron a todo el mundo, y me hubieran matado a mí también si no llega a ser por la intervención de <CHARNAME>.~
+@690  = ~<CHARNAME> intentó perseguirlos... ¡pero se esfumaron en el aire! Entonces llegaron los escoltas. Eso es todo cuanto sé.~
+@691  = ~Vaya, vaya. Esto complica las cosas.~
+@692  = ~Tenéis un informe completo y una testigo. Vuestro deber, tal y como os confió el Consejo, es encontrar a esos asaltantes. También opino que deberíais disculparos con nuestro invitado.~
+~Tenéis un informe completo y una testigo. Vuestro deber, tal y como os confió el Consejo, es encontrar a esos asaltantes. También opino que deberíais disculparos con nuestra invitada.~
+@693  = ~No sé a qué estáis jugando, Iltarch, ¡pero esto no quedará así!~
+@694  = ~No opino lo mismo. Vamos, <CHARNAME>.~
+
+//Despedida definitiva de Lynn. Incluye folleteo.
+
+@695  = ~Desearía que Rhin no tuviera que... desaparecer durante un tiempo, pero bien está lo que bien acaba. Me alegra poder daros vuestra recompensa.~ [O#CRLY14]
+@696  = ~Ha llegado la hora de despedirnos, y esta vez para siempre.~
+@697  	= ~Adiós, Lynn. Os deseo lo mejor.~
+@698  	= ~Lynn, antes de que os vayáis... ¿es cierto que Rhin es un miembro del Consejo?~
+@699  	= ~¿De verdad erais la amante de Lahar Feenick?~
+@700  	= ~Os deseo.~
+@701  	= ~¿Qué me decís de una última cena?~
+@702  = ~Ojalá. Entonces hubiera muerto hace mucho tiempo. No, pero sus criados dirán... lo que amablemente les hemos pedido que digan. En cualquier caso, preferiría no seguir hablando de este tema.~
+@703  = ~Adiós, entonces.~
+@704  = ~¿Quién es Rhin? ¿Es cierto que es un miembro del Consejo?~
+@705  = ~Quizás nos volvamos a ver, de aquí varios meses o años... pero no lo creo.~
+@706  = ~Así es. Y... mucho más que eso. Fue un mago de la Escuela de las Maravillas, y mi mentor. Vigila atentamente a muchas personas. Pero no tenéis por qué saber nada de esto.~
+@707  	= ~Comprendo. Gracias por compartir esta información.~
+@708  = ~Cuidaos de vos mismo y de vuestros enemigos.~
+~Cuidaos de vos misma y de vuestros enemigos.~
+@709  = ~Hmm. Una última cena en nuestra última noche. Suena fascinante y... excitante. En todos los sentidos.~
+@710  = ~Lástima que no tenga tiempo.~
+@711  	= ~Tenemos todo el del mundo. Mi grupo ya se ha retirado; nadie se dará cuenta.~
+@712  	= ~Aquí estamos a salvo. A salvo... y a solas.~
+@713  	= ~Lynn... dejad de burlaros de mí.~
+@714  	= ~Tenéis razón. Adiós, entonces.~
+@715  	= ~No solo eso. Hay alguien más, lo siento.~
+@716  = ~No pasa nada. Demostráis mucho valor al decírmelo.~
+@717  = ~Se os metido en la cabeza pasar la noche conmigo, ¿eh? ¿No preferís que lo intentemos a mi manera? O quizá... eso ya lo veremos.~
+@718  = ~Seguidme.~
+@719  = ~(Lynn os conduce a una habitación antigua y escasamente amueblada. Cierra con cuidado la puerta, se da la vuelta girando sobre sus talones y cae entre vuestros brazos).~
+@720  = ~¿En qué estáis pensando?~
+@721  	= ~Bueno..., en muchas cosas.~
+@722  	= ~En una cena romántica, otro baile, una larga conversación, un beso... ¿sigo?~
+@723  	= ~En vos.~
+@724  	= ~¿Por qué no saltamos directamente a la parte donde os quito la ropa?~
+@725  = ~Contadme más cosas sobre Rhin. ¿Quién es realmente? ¿Es uno de vuestros amantes?~
+@726  = ~Pues claro que no. ¿Por qué debería...?~
+@727  = ~Por todos los dioses, debí habérmelo imaginado. ¡Lo único que queríais era sonsacarme más información! Pues bien, buscadla en otra parte. Adiós, <CHARNAME>.~
+@728  	= ~¡Esperad! Lo siento, no debería haber dicho eso. Os aseguro que os lo compensaré.~
+@729  	= ~Vamos, ¿es que no hubierais hecho lo mismo en mi lugar? Por favor, no os vayáis.~
+@730  	= ~Adiós, Lynn.~
+@731  = ~Mmm. Me gusta cómo suena.~
+@732  = ~*suspiro* Ya veremos.~
+@733  = ~Mientras no tengáis la intención de deteneros ahí...~
+@734  = ~Más os vale que el preámbulo no sea muy largo si no queréis que cambie de opinión...~
+@735  = ~Sujetadme fuerte. Hay algo muy peligroso en esta habitación... nosotros.~
+@736  = ~Mmm... Esto va a ser una apasionante aventura... una danza en la oscuridad...~
+@737  = ~(Ella os besa en los labios).~ [o#crblan]
+@738  = ~Y ahora, de verdad y definitivamente... adiós.~
+
+//Reacción de Aerie.
+
+@739  = ~<CHARNAME>, habéis pasado de-demasiado tiempo ahí dentro, y t-tengo que preguntároslo. Esa mujer... ¿habéis estado los dos...?~ [o#crblan]
+~<CHARNAME>, habéis pasado de-demasiado tiempo ahí dentro, y t-tengo que preguntároslo. Esa mujer... ¿habéis estado las dos...?~ [o#crblan]
+@740  	= ~Pues claro que no.~
+@741  	= ~Me gusta mucho.~
+@742  	= ~¿Y qué si le hemos hecho?~
+@743  = ~Oooh, <CHARNAME>, ¡no deberíais confiar en ella! Esas cosas que os hace... ¡es malvada! ¡No debéis olvidarlo!~
+@744  = ~¡Lo sabía! ¡Lo sabía desde el principio! Habéis pasado la noche con esa mujer. ¿Cómo habéis podido, <CHARNAME>? ¿Cómo habéis podido?~ [o#crblan]
+@745  	= ~Aerie, creí haberos dejado bastante claro que solo éramos amigos.~
+~Aerie, creí haberos dejado bastante claro que solo éramos amigas.~
+@746  	= ~Me gusta ella, al igual que vos. ¿Qué tiene eso de malo?~
+@747  = ~Lo lamento profundamente, Aerie. Soy un hombre débil, lo admito. Os juro que nunca más la volveréis a ver.~
+~Lo lamento profundamente, Aerie. Soy una mujer débil, lo admito. Os juro que nunca más la volveréis a ver.~
+@748  	= ~No ocurrió nada, Aerie. Por favor, dejad de imaginaros cosas raras.~
+@749  = ~Lo... lo entiendo. No os volveré a molestar.~
+@750  = ~¡¿Que qué tiene de malo?!~
+@751  = ~No sé por qué debería confiar en vos, <CHARNAME>. No es la primera vez que me mentís.~
+@752  = ~D-De acuerdo. Pero no me habléis. Quiero... quiero estar a solas un rato.~
+@753  = ~¡Dejad de hablarme como si fuera un niña pequeña! ¡Sé la verdad!~
+@754  = ~Creía que podía confiar en vuestra palabra, <CHARNAME>. No sé en qué estaba pensando. Estaba tan equivocada...~
+
+//Reacción de Jaheira.
+
+@755  = ~Es hora de que hablemos de vuestra superior, <CHARNAME>.~ [o#crblan]
+@756  	= ~No tengo nada contaros, Jaheira.~
+@757  	= ~Confío en ella. No son más que negocios.~
+@758  	= ~¿Qué ocurre? ¿Queréis que deje de verla?~
+@759  = ~Tened mucho cuidado, <CHARNAME>, o algún día descubriréis que habéis llegado demasiado lejos.~
+@760  = ~Así que habéis pasado una noche con esa mujer. No creo que haya mucho más que discutir.~ [o#crblan]
+@761  	= ~Efectivamente, y no pienso explicaros nada más.~
+@762  	= ~Jaheira, por favor... no seáis así. Lo lamento muchísimo.~
+@763  	= ~¡No es cierto! ¡Dormí solo!~
+~¡No es cierto! ¡Dormí sola!~
+@764  	= ~Sí, admito haber cometido un gravísimo error. ¿Podréis perdonarme?~
+@765  = ~Por mí perfecto.~
+@766  = ~No pienso tolerar semejante trato, <CHARNAME>. Deberíais saberlo.~
+@767  = ~Hace mucho tiempo que nos conocemos, pero vuestra acción no es algo que perdonarse tan a la ligera. Intentad hacerlo de nuevo y nuestra relación habrá terminado.~
+@768  = ~Yo sé lo que vi. Ya basta.~
+
+//Reacción de Viconia.
+
+@769  = ~Desprendéis el olor de esa elg'caress. ¿Os gustó? No importa. Hacedlo otra vez y no seré tan indulgente.~ [o#crblan]
+@770  = ~¿Qué debería hacer, jaluk? Ella se acostó con vos. ¿Tendré que hacer yo lo mismo?~ [o#crblan]
+~¿Qué debería hacer, jalil? Ella se acostó con vos. ¿Tendré que hacer yo lo mismo?~ [o#crblan]
+@771  	= ~Um... ¿por favor?~
+@772  	= ~Pensé que no os importaría.~
+@773  	= ~No quiero perderos, Viconia.~
+@774  	= ~¡No! ¡Por favor! ¡No lo volveré a hacer, lo juro!~
+@775  = ~No pienso olvidarme de esto, podéis estar seguro.~
+~No pienso olvidarme de esto, podéis estar segura.~
+@776  = ~Os podéis preparar para recibir unos cuantos azotes más tarde. Primero debemos recuperar vuestra alma, pero después...~
+@777  	= ~Os amo, Viconia.~
+@778  	= ~¿Después?~
+@779  = ~Continuemos adelante.~
+@780  = ~No penséis que estoy siendo compasiva. Si la vuelvo a ver, la azotaré con mi látigo por humillarme. Respecto a vos, jaluk... pronto saborearéis mi venganza.~
+~No penséis que estoy siendo compasiva. Si la vuelvo a ver, la azotaré con mi látigo por humillarme. Respecto a vos, jalil... pronto saborearéis mi venganza.~
+
+//Chivándome de Lynn al alguacil jefe Brega.
+
+@781  	= ~Sé quién se encuentra detrás de los últimos asesinatos. Se trata de una mujer llamada Lynn. Podréis encontrarla en la posada Las cinco jarras.~
+@782  = ~¿Habéis descubierto algo con la información que os comuniqué? ¿La habéis encontrado?~
+@783  = ~¿Sabéis descubierto algo más sobre Lynn?~
+@784  	= ~¡He descubierto una conspiración! ¡Hay un miembro del Consejo que contrata a asesinos!~
+@785  = ~Gracias, ciudadano. Verificaré esta nueva información.~
+~Gracias, ciudadana. Verificaré esta nueva información.~
+@786  = ~Envié a unos cuantos hombres, pero aún no han regresado. Cuando lo hagan ya investigaré más a fondo.~
+@787  = ~El caso está cerrado. La señorita Lynn es una honrada y respetada ciudadana. Volved a vuestros asuntos, joven. Es evidente que os habéis equivocado.~
+@788  = ~Vigilad vuestra lengua, <CHARNAME>. Ya me han advertido sobre vos y vuestra difícil situación. Sé que habéis hecho mucho por esta ciudad, y por eso no os condenaré. No tentéis vuestra suerte de nuevo.~
+
+//Chivándome de Lynn a Renal Cabellorrojo.
+
+@789  = ~¿Lynn, decís?~
+@790  	= ~Sí. ¿La conocéis?~
+@791  	= ~Así se llama, sí.~
+@792  	= ~¿Podéis hacer algo?~
+@793  = ~Conozco a alguien que sí. Y no le gustará nada saber que habéis venido a contármelo.~
+@794  = ~Entiendo... Habéis cometido un error, <CHARNAME>.~
+@795  = ~Sí. Os daré un consejo.~
+@796  = ~Si fuera vos, abandonaría Athkatla durante una buena temporada.~
+
+//Primera misión: lord Melyin.
+
+@797  	= ~Estoy buscando a lord Melyin. ¿Sabéis dónde podría encontrarle?~
+@798  	= ~Lord Melyin prometió que dejaría algo para mí.~
+@799  = ~¿No os habéis encontrado con él por el camino? Acaba de irse. Tomad la salida sudoeste del Paseo y estoy seguro de que lo encontraréis.~
+@800  = ~Aún no ha venido, <SIRMAAM>. Normalmente llega por la tarde y se va poco después de ponerse el sol.~
+@801  = ~¿Lord Melyin? Ya no ha vuelto más por aquí desde... bueno, desde que vos preguntasteis por él. Espero que se encuentre bien.~
+@802  = ~Se rumorea que ha abandonado la ciudad. Mal asunto. No debería haber contraído tantas deudas. Afortunadamente, yo nunca tuve ningún problema con él.~
+@803  = ~¡Eh, el de ahí! ¿Qué queréis?... ¡Estáis armado! ¡Guardias! ¡¡Guardias!!~
+~¡Eh, la de ahí! ¿Qué queréis?... ¡Estáis armada! ¡Guardias! ¡¡Guardias!!~
+@804  	= ~¡Silencio! He venido porque tengo que deciros algo muy importante.~
+@805  	= ~¡Dejad de gritar y escapad de aquí ahora mismo!~
+@806  	= ~¡Ha llegado la hora de vuestra muerte!, o eso creo.~
+@807  = ~¿Sois un recaudador de impuestos? ¡Puedo pagar, os lo juro! Por favor, dejad de apuntarme con eso.~
+~¿Sois una recaudadora de impuestos? ¡Puedo pagar, os lo juro! Por favor, dejad de apuntarme con eso.~
+@808  	= ~Un momento. ¿Debéis dinero? ¿Cuánto? Me enviaron aquí para asesinaros.~
+@809  	= ~Os remuerde la conciencia, ¿verdad?~
+@810  	= ~No pienso seguir escuchando vuestros balbuceos. Rezad vuestras últimas oraciones, mercader.~
+@811  = ~Debo... bueno... unas diez mil monedas de oro. ¡Deberíais saberlo! Ellos tendrían que habéroslo dicho.~
+@812  = ~¡Aún no lo he reunido todo! Solo tengo... cuatro mil. ¡Es una fortuna, y os la daré toda a vos! Tan solo os pido que me dejéis huir de la ciudad. ¡Nunca imaginé que enviarían asesinos a por mí! ¡Nunca!~
+@813  	= ~Lo lamento, pero ya es demasiado tarde.~
+@814  	= ~Vuestros problemas no me importan, anciano. Los negocios son los negocios.~
+@815  	= ~Muy bien. ¿Cuándo podríais dármelo?~
+@816  = ~Mañana, en la taberna Mitocio. Por favor, id solo. Le dejaré el dinero al posadero. ¡No tenéis nada que perder!~
+~Mañana, en la taberna Mitocio. Por favor, id sola. Le dejaré el dinero al posadero. ¡No tenéis nada que perder!~
+@817  	= ~No, sois vos quien no tiene nada que perder. Me traicionaréis en cuanto me dé la vuelta. De ninguna manera.~
+@818  	= ~No me fío de vos.~
+@819  = ~¡Os lo suplico! No soy más que un pobre viejo. Estos guardias no podrían hacer nada contra vos. Puede que mi esposa ya no me ame, pero deseo lo mejor para mi nieto y... ¿quién pagará su ropa, sus estudios? Yo... yo podría...~
+@820  = ~Démonos prisa, camarada. Alguien podría oírnos.~
+@821  = ~¡Esto tiene que ser un error! ¿Cómo puede ser este hombrecito uno de los malos? ¿Qué opina Bubú? ¿Está <CHARNAME> del lado de la justicia y la rectitud o no?~
+@822  = ~Lo único que deseo es seguir con vida. Por favor...~
+@823  	= ~No.~
+@824  	= ~(Atacarle).~
+@825  	= ~Por todos los dioses, ¡apartaos de mi vista!~
+@826  = ~¡Gracias, gracias! ¡Muchísimas gracias!~
+@827  = ~¡Rápido, larguémonos de aquí, simios descerebrados!~
+@828  = ~¡¡Guardias!!~
+@829  = ~¡Dejad a este pobre hombre en paz, <CHARNAME>! ¡Esto ha llegado demasiado lejos!~
+@830  = ~¿Qué estáis haciendo, <CHARNAME>? ¡No!~
+@831  = ~¡A mí! ¡¡Que alguien me ayude!!~
+
+//Segunda misión: Nevier Costa.
+
+@832  	= ~¿Podría hablar con Nevier Costa?~
+@833  	= ~¿Sabíais que Costa se dedica a acosar a chicas en los barrios bajos?~
+@834  	= ~¿Sabíais que Costa se dedicaba a acosar a chicas en los barrios bajos?~
+@835  = ~Por supuesto. Voy a llamarle inmediatamente y... oh, lo olvidé. El Portador del Alba Costa ha sido reclamado de nuevo en los barrios bajos, donde cuida de los enfermos y bendice a los más desfavorecidos en nombre de Lazhánder.~
+@836  = ~Los sacerdotes del Señor del Alba siempre están muy ocupados. Podréis encontrarlo allí.~
+@837  = ~Vigilad vuestra lengua cuando estéis en presencia del Señor del Alba, muchacho. No permitiré que esparzáis semejantes embustes de nuevo.~
+~Vigilad vuestra lengua cuando estéis en presencia del Señor del Alba, muchacha. No permitiré que esparzáis semejantes embustes de nuevo.~
+@838  = ~Dejad de lloriquear, patética criatura. Pronto os dejará de doler.~
+@839  = ~P-Pero..., ¿y si...?~
+@840  = ~N-No tengo dinero para criar a un hijo...~
+@841  = ~¡Estúpida, Lazhánder bendice la fertilidad! ¿No comprendéis que es ahora cuando más cerca estáis de su gloria? Ya veo que no.~
+@842  = ~¡Este hombre habría caído fulminado en un instante si fuera un servidor del Vigilante!~
+@843  = ~Esto me recuerda a las historias que nos contaba tía Petunia antes de ir a dormir. Al final siempre aparecía un grifo que se comía al malo de un bocado. ¿Habéis visto a alguno cerca de aquí?~
+@844  = ~Me... me... escuece...~
+@845  = ~¡Callaos! Tomad estas monedas y no digáis NADA. Complacedme en todo lo que os diga y el Señor del Alba velará por el alma de vuestra difunta madre; ¿o es que preferís que siga consumiéndose eternamente en los Nueve Infiernos?~
+@846  = ~¿Cuánto?~
+@847  	= ~¿Qué queréis decir?~
+@848  	= ~Dos mil.~
+@849  	= ~Olvidadlo, Costa. Enfrentaos a la muerte como un hombre.~
+@850  	= ~¿Qué acaba de pasar aquí?~
+@851  = ~No os hagáis el despistado. Os gustaría recibir la bendición de Lazhánder y gozar de una vida plena, ¿verdad? Entonces haced como si no hubierais visto nada.~
+~No os hagáis la despistada. Os gustaría recibir la bendición de Lazhánder y gozar de una vida plena, ¿verdad? Entonces haced como si no hubierais visto nada.~
+@852  = ~¿Dos mil? ¡No me hagáis reír! Nadie os creería.~
+@853  = ~Que así sea. ¡Atacad, no estoy indefenso!~
+@854  = ~Nada de vuestra incumbencia. La chica regresará y vos recibiréis la bendición de Lazhánder siempre que mantengáis la boca cerrada. ¿Entendido?~
+@855  	= ~Quinientas.~
+@856  = ~Esto es... asqueroso.~
+@857  = ~¡No os lo penséis más, <CHARNAME>! ¡Él es una vergüenza para todo aquello que representa Lazhánder! ¡Debemos evitar que continúe con sus crímenes!~
+@858  = ~¡Ja, ja, ja! ¡Se nota que sabe lo que hace! Podríamos aprender unas cuantas cosas de él.~
+@859  = ~No pienso ofreceros más. Rápido, ¿qué decís?~
+@860  	= ~De acuerdo.~
+@861  	= ~Quiero mil, ni una menos.~
+@862  	= ~¡Recogeré el dinero de vuestro cadáver, sucio pervertido!~
+@863  	= ~Silencio, escoria.~
+@864  = ~Buen chico.~
+~Buena chica.~
+@865  	= ~De acuerdo, con quinientas me bastará.~
+@866  	= ~Entonces no hay trato.~
+
+//Tercera misión: hermana de Amara.
+
+@867  = ~Por favor, dejadme en paz. Bastante mal me siento ya...~
+@868  	= ~¿Ha ocurrido algo?~
+@869  	= ~¿Por qué estáis llorando?~
+@870  	= ~Vale, pues nada. Adiós.~
+@871  = ~Mi hermana... Ellos... me han quitado a mi hermana...~
+@872  	= ~¿Quiénes son ellos?~
+@873  	= ~¿Adónde se la han llevado?~
+@874  	= ~¡Hablad más alto, mujer! Quizá pueda seros de ayuda.~
+@875  = ~*snif* Por favor... dejadme sola...~
+@876  = ~Amara... ha tenido que escapar. La están buscando y... ¡yo no puedo hacer nada por ella! ¡Nada!~
+@877  	= ~Pobre muchacha. ¿Quiénes la están buscando? ¿Queréis que la proteja?~
+@878  	= ~Puedo ayudaros, si queréis. ¿Dónde puedo encontrarla?~
+@879  	= ~Amara. Ese nombre me suena de algo...~
+@880  	= ~No puedo perder el tiempo con esto.~
+@881  = ~¿Vos... vos queréis...? ¡No! ¡Seguro que sois uno de ellos! ¡Largo! ¡No permitiré que le pongáis un dedo encima!~
+~¿Vos... vos queréis...? ¡No! ¡Seguro que sois una de ellos! ¡Largo! ¡No permitiré que le pongáis un dedo encima!~
+@882  	= ~Sí, así es; ¡pienso ASESINARLA a sangre fría, y es una verdadera LÁSTIMA que no podáis hacer nada por impedirlo! ¡Ja, ja, ja, ja!~
+@883  	= ~¡Tranquilizaos, por favor! ¿Acaso os parezco un asesino? Soy un héroe; detuve una guerra entre Amn y Puerta de Baldur.~
+~¡Tranquilizaos, por favor! ¿Acaso os parezco una asesina? Soy una heroína; detuve una guerra entre Amn y Puerta de Baldur.~
+@884  	= ~Si no podéis confiar en nadie, vuestra hermana morirá. Tarde o temprano acabarán por encontrarla.~
+@885  	= ~Muy bien, no me digáis nada si no queréis.~
+@886  = ~Sois... ¡sois un monstruo!~
+@887  = ~E-Ella... d-de acuerdo...~
+@888  = ~Por el día da vueltas por la ciudad. Aún le queda algo de dinero y... no sabría deciros por dónde para.~
+@889  = ~Pero por la noche no regresa a su casa, ni tampoco se aloja en ninguna posada. Tiene miedo, así que... duerme en el Paseo, cerca de la puerta sur. Allí la encontraréis.~
+@890  = ~Por favor, haced lo que sea para protegerla.~
+@891  = ~(La mujer se tapa la cara y sale corriendo).~
+@892  = ~¿Qué... qué es lo que queréis ahora?~
+@893  	= ~Nada. Os dejaré en paz.~
+@894  	= ~Es evidente que necesitáis ayuda. Por favor, contadme qué os aflige.~
+@895  = ~Ya os contado todo lo que sabía. Dejadnos a mí y a mi pobre hermana en paz.~
+@896  	= ~Lo haré. Por ahora.~
+@897  	= ~Pero necesito saber dónde se encuentra.~
+@898  = ~No v-volváis a acercaros a mí.~
+
+//Tercera misión: Amara.
+
+@899  = ~¡N-No os acerquéis!~
+@900  	= ~He estado buscándoos, Amara.~
+@901  	= ~Aún no he decidido si finalmente os mataré.~
+@902  	= ~(Intentar apuñalarla).~
+@903  	= ~(Intentar estrangularla).~
+@904  = ~¡NO!~
+@905  = ~Escuchadme, por favor. No he hecho nada malo, ¡y jamás he atacado a nadie!~
+@906  = ~Yo e-estoy enamorada de un hombre maravilloso. Él también me ama, pero su esposa desea quedarse con toda su fortuna y... me quiere ver muerta. Por favor...~
+@907  	= ~Contadme de qué va todo esto.~
+@908  	= ~¿De verdad creéis que me voy a tragar vuestro cuento?~
+@909  	= ~Continuad...~
+@910  	= ~Silencio, jovencita.~
+@911  	= ~(Atacar).~
+@912  = ~Nos conocimos hace un año, y nuestro amor surgió a primera vista. Trabajaba para ellos como chica de la limpieza. Su mujer sospechó de mí desde el principio...~
+@913  	= ~Por lo visto, tuvo buenas razones para hacerlo, ¿no creéis?~
+@914  	= ~¿Cómo lo descubrió?~
+@915  	= ~Lo comprendo. Podéis marcharos.~
+@916  	= ~Ya basta. Tengo un trabajito que terminar.~
+@917  = ~Quizá... quizá yo tuviera la culpa después de todo. Éramos tan felices... y tan imprudentes. Nos vio juntos en el jardín.~
+@918  = ~P-Puede que esta mujer merezca un escarmiento, pero por favor, ¡no le hagáis daño! ¡Dejad simplemente que se vaya!~
+@919  = ~Ahora todo cobra sentido. Esta chiquilla debe pagar por las consecuencias que ha provocado su infantil actuación.~
+@920  = ~(La muchacha traga saliva y desvía la mirada).~
+@921  	= ~E-Estoy embarazada.~
+@922  	= ~¿Que estáis QUÉ?~
+@923  	= ~De acuerdo, podéis marcharos. Buscad un lugar seguro donde cobijaros.~
+@924  	= ~No me lo creo.~
+@925  	= ~No me importa.~
+@926  = ~Es... es verdad. ¡No miento! ¡Por eso su mujer me odia tanto! Cree que pienso... alejarla de él. ¡Y tiene toda la razón!~
+@927  	= ~No os mataré, pero debéis iros de aquí inmediatamente. ¡Ahora!~
+@928  	= ~Parecéis demasiado risueña como para estarlo. No, sigo sin creeros.~
+@929  	= ~Miradme a los ojos, Amara. Miradme fijamente y jurad que vuestra historia es cierta. Juradlo por vuestro dios y por todo lo que más queráis.~
+@930  = ~N-No estoy mintiendo...~
+@931  	= ~Entonces marchaos. Abandonad este lugar y regresad de las sombras cuando todo este asunto haya caído en el olvido.~
+@932  	= ~Juradlo por vuestros dioses. Solo entonces os creeré.~
+@933  	= ~No es mi problema. Voy a acabar con vos aquí y ahora.~
+@934  = ~Lo juro por Helm el Vigilante, y... y también p-por...~
+@935  = ~¡Muy bien, de acuerdo! ¡Es ELLA la encinta! Parece que quiere protegerlo librándose de mí. Desea que su marido regrese a casa, ¡pero no sabe que ya no le pertenece! ¡Es MÍO!~
+@936  	= ~También puede que fuera idea del marido. Quizá no le interese complicarse la vida.~
+@937  	= ~No me importa, Amara. Podéis salir de aquí.~
+@938  	= ~¡Me habéis mentido! ¡Moriréis por haber tratado de engañarme!~
+@939  	= ~Ya me he cansado de todo este melodrama. He venido hasta aquí para terminar un trabajo, y eso es lo que pienso hacer.~
+@940  = ~¿Él? P-Pero... Oh.~
+@941  = ~Él... él ya no era tan amable como antes, y... hace tiempo que no viene a verme...~
+@942  	= ~Lo siento mucho. Sería conveniente que abandonarais la ciudad, muchacha.~
+@943  	= ~De todas formas voy a terminar lo que había comenzado. No es nada personal.~
+@944  	= ~Ahora que sabéis la verdad, no veo ninguna razón para que sigáis con vida.~
+@945  = ~¡¡SOCORRO!! ¡Que alguien me ayude, por favor!~
+@946  = ~¿Dejaréis... dejaréis que me vaya? ¿De verdad? ¡Oh!~
+@947  = ~¿Qué ocurre, ciudadana?~
+@948  = ~¡Este hombre quiere matarme!~
+~¡Esta mujer quiere matarme!~
+@949  = ~¿Es eso cierto?~
+@950  = ~La chica parece una persona decente, y además ese individuo está armado...~
+~La chica parece una persona decente, y además esa individua está armada...~
+@951  = ~¿Qué significa todo esto?~
+@952  	= ~Nada, capitán. Tan solo estoy manteniendo una amigable charla con esta muchacha.~
+@953  	= ~No es más que una golfa, soldado.~
+@954  	= ~Tengo una mala noticia que daros, chicos: hoy vais a morir.~
+@955  	= ~Nada que os importe. (Atacarles).~
+@956  	= ~Ya me iba. Lamento haberos importunado.~
+@957  = ~¡No es verdad, está mintiendo!~
+@958  = ~Tranquilizaos, pequeña, ya pasó todo. Y vos, ciudadano, ¿por qué no continuáis con vuestros asuntos en otra parte y dejáis a la jovencita en paz?~
+~Tranquilizaos, pequeña, ya pasó todo. Y vos, ciudadana, ¿por qué no continuáis con vuestros asuntos en otra parte y dejáis a la jovencita en paz?~
+@959  	= ~Por supuesto. Lo siento.~
+@960  	= ~Sois hombre muerto, soldado. Un hombre MUY muerto.~
+@961  	= ~¿Por qué no dejáis de molestarme y os largáis de aquí? Me gustaría estar un rato a solas con la chica. Nadie os ha dado vela en este entierro.~
+@962  = ~No pasa nada, pero os vigilaré de cerca. Vamos muchacha, ya pasó todo.~
+@963  = ~Habéis escogido el camino correcto, amigo mío. Espero que no os desviéis de él otra vez.~
+~Habéis escogido el camino correcto, amiga mía. Espero que no os desviéis de él otra vez.~
+@964  = ~Espero que no nos encontremos con otra situación parecida a esta durante mucho tiempo. Debéis tener más cuidado, <CHARNAME>.~
+@965  = ~O-Os lo agradezco. Tenía tanto miedo...~
+@966  = ~¡No permitiré que continuéis con esto!~
+@967  = ~¡Auxilio! ¡Que alguien nos ayude, sea quien sea!~
+@968  = ~Pensé que habíais recuperado el buen juicio, pero es evidente que no es así. ¡No permitiré que hagáis daño a esta joven!~
+@969  = ~No quería alzar mi arma contra vos, <CHARNAME>, pero me habéis obligado a ello. ¡Esto ha llegado demasiado lejos!~
+@970  = ~¡Rápido, escapad de aquí, chica!~
+
+//Cuarta misión: alguacil Daton.
+
+@971  = ~Si buscáis ayuda aquí no la encontraréis. No hemos tenido mucho que hacer estos días.~
+@972  	= ~¿Dónde podría encontrar al alguacil Daton?~
+@973  	= ~Comprendo. Gracias por vuestro tiempo.~
+@974  = ~¿El alguacil Daton? Bajó a los muelles a continuar con su ronda: putas y cerveza. Eh, no me miréis así. Está reuniendo información, si es que no ha terminado ya. En ese caso debería estar en la taberna.~
+@975  = ~Vuestra cara me suena. ¿Os conozco de algo?~
+@976  	= ~Quizá. Yo soy <CHARNAME>.~
+@977  	= ~Me conocen como el héroe de Puerta de Baldur.~
+~Me conocen como la heroína de Puerta de Baldur.~
+@978  	= ~¿Podríamos hablar en un lugar más tranquilo?~
+@979  = ~He oído hablar de vos, aunque dudo que pueda ayudaros en algo.~
+@980  = ~¿Y habéis venido hasta aquí para pavonearos de todas las fechorías que habéis cometido? Ninguna persona decente os miraría la cara si supiera de todas vuestras acciones.~
+@981  = ~Eso he oído.~
+@982  = ~Será en los infiernos. Sois peor que toda la escoria que pulula por este lugar.~
+@983  = ~Preferiría tener una buena razón para hacerlo. Estoy muy ocupado.~
+@984  	= ~Es sobre las muertes que estáis investigando...~
+@985  	= ~Sé quién es el asesino que estáis buscando.~
+@986  	= ~Creedme, es muy importante. Podría ayudaros en vuestra investigación.~
+@987  	= ~Oh, no importa.~
+@988  = ~Si tenéis algo que decirme, hacedlo ahora. Estoy muy ocupado.~
+@989  = ~¿Cómo es posible que sepáis...?~
+@990  = ~Esperad. No debemos hablar aquí.~
+@991  = ~Esperad. Sabéis algo, ¿verdad? Sí, estoy seguro.~
+@992  = ~Debemos hablar.~
+@993  = ~Nos veremos cerca de la casa del herrero.~
+@994  = ~Y bien, ¿qué es lo que sabéis acerca de los asesinatos que estoy investigando?~
+@995  	= ~Nada.~
+@996  	= ~Antes de nada, por favor, prometedme que me protegeréis. ¡Me encuentro en un grave peligro!~
+@997  	= ~Sé quién está detrás de todo esto. Se llama Lynn, y podréis encontrarla en la segunda planta de la posada Las cinco jarras. Intentó reclutarme.~
+@998  	= ~Yo soy el asesino, imbécil. Preparaos para morir.~
+~Yo soy la asesina, imbécil. Preparaos para morir.~
+@999  = ~No juguéis conmigo. Nadie sabía nada de esto, salvo mis superiores... y los del asesino, por lo que veo.~
+@1000 	= ~De acuerdo. Sé quién está detrás de todo esto. Podréis encontrarla en la segunda planta de la posada Las cinco jarras. Responde al nombre de Lynn.~
+@1001 	= ~Sí. Yo soy el asesino.~
+~Sí. Yo soy la asesina.~
+@1002 	= ~Primero debéis prometer que me protegeréis.~
+@1003 = ~U-Un momento, ¡deteneos! ¿Por qué estáis haciendo todo esto? ¡Merezco una explicación!~
+@1004 	= ~No intentéis ganar tiempo. Estáis solo y nadie vendrá a ayudaros. Enfrentaos a la muerte como un hombre.~
+@1005 	= ~Las razones no les importan a los muertos.~
+@1006 	= ~Porque me pagan.~
+@1007 	= ~Lo hago porque es mi trabajo.~
+@1008 = ~¿Quién? ¿Quién os manda hacer... esto: asesinar a inocentes, a gente indefensa? ¿Quién querría verlos muertos?~
+@1009 	= ~No necesitáis saberlo.~
+@1010 	= ~¿Qué importa? Yo soy el asesino, ¿es que no os basta con eso?~
+~¿Qué importa? Yo soy la asesina, ¿es que no os basta con eso?~
+@1011 	= ~Una mujer, aunque no me dijo por qué.~
+@1012 = ~¡Estúpido, ¿es que no veis que os están utilizando?! ¡Acabaréis igual que vuestras víctimas cuando ya no os necesiten!~
+~¡Estúpida, ¿es que no veis que os están utilizando?! ¡Acabaréis igual que vuestras víctimas cuando ya no os necesiten!~
+@1013 = ~¡Necesito saber el nombre de vuestro superior, comprendedlo! Debo detener todo esto y... ¡si me lo decís os pondré en prisión preventiva! ¡No os ahorcarán si colaboráis!~
+@1014 	= ~Pero soy un asesino. ¿Me dejaríais marchar así, sin más?~
+~Pero soy una asesina. ¿Me dejaríais marchar así, sin más?~
+@1015 	= ~Nunca. Y ahora, morid.~
+@1016 	= ~Como queráis. Se trata de Renal Cabellorrojo. ¿Estáis contento ahora?~
+@1017 	= ~Muy bien. Se llama Lynn, y podréis encontrarla en la segunda planta de la posada Las cinco jarras.~
+@1018 = ~No me ascenderán a alguacil jefe por detener a un asesino, pero sí por destapar una elaborada red criminal. ¿Acaso creéis que Brega está donde está por castigar a *todos* los culpables y proteger a *todos* los inocentes?~
+@1019 = ~Rápido, decídmelo. Decídmelo. ¡Decídmelo!~
+@1020 	= ~Mi superior se llama Lynn. Podréis encontrarla en la segunda planta de la posada Las cinco jarras.~
+@1021 	= ~No. No sois mejor que quien me da las órdenes.~
+@1022 	= ~Olvidadlo.~
+@1023 = ~Lo haré. ¡Hablad, <PRO_MANWOMAN>!~
+@1024 	= ~Sé quién es el asesino. Soy... yo.~
+@1025 	= ~Muy bien. La asesina se llama Lynn, y podréis encontrarla en la segunda planta de la posada Las cinco jarras.~
+@1026 	= ~Tan solo deseo seguir con mi vida y que la gente se olvide de todas estas cosas horribles que he hecho...~
+@1027 = ~Así que habéis sido vos. Decidme quién os mandaba hacerlo.~
+@1028 = ~Se llama Lynn, y podréis encontrarla en la segunda planta de la posada Las cinco jarras.~
+@1029 = ~Mentís y lo sabéis. Los Ladrones de las sombras no tienen nada que ver esto; matarían ellos mismos al asesino si supieran quién es.~
+@1030 = ~Veo que no pensáis colaborar.~
+@1031 = ~<CHARNAME>, si la mitad de lo que oído es cierto, no creo que mi estancia en este grupo sea muy duradera.~
+@1032 = ~Esto no me gusta nada. Escoged cuidadosamente el camino que deseáis recorrer.~
+@1033 = ~No pienso permitir que ataquéis a este hombre, <CHARNAME>. ¡Es un agente de la ley!~
+@1034 = ~¡No dejaré que matéis a este hombre! ¡Defendeos, canalla!~
+@1035 = ~*suspiro* Que así sea.~
+@1036 = ~¿Lynn?... Ese nombre me suena de algo.~
+@1037 = ~Por fin el puesto de alguacil jefe está a mi alcance... a mi alcance...~
+@1038 = ~Así que a este hombre... ¿no le importa proteger a los inocentes? Me... me da miedo, <CHARNAME>.~
+@1039 = ~¡Dejad de pensároslo, <CHARNAME>, u os veréis privado de mis servicios en este mismo instante! ¡Matadlo ahora que podéis! ¡Rápido! (¿Es que voy a tener que escarmentar a estos simios constantemente?).~
+~¡Dejad de pensároslo, <CHARNAME>, u os veréis privada de mis servicios en este mismo instante! ¡Matadlo ahora que podéis! ¡Rápido! (¿Es que voy a tener que escarmentar a estos simios constantemente?).~
+@1040 = ~Voy a por ella ahora mismo. No abandonéis la ciudad.~
+@1041 	= ~Un momento, ¿qué ocurrirá conmigo?~
+@1042 	= ~¿Alguacil jefe?~
+@1043 	= ~Pero soy un asesino. ¿No pensáis detenerme?~
+~Pero soy una asesina. ¿No pensáis detenerme?~
+@1044 	= ~No lo creo. He cambiado de opinión: voy a mataros.~
+@1045 = ~¿Vos? No me importa lo que os ocurra. Sois libre para ir por donde queráis. Vuestra intervención en este caso ha terminado. Tan solo intentad no interponeros en mi camino.~
+@1046 = ~Gracias a vos conozco el nombre y el paradero de vuestra superior. ¡Mi meteórico ascenso está a punto de comenzar! Por todos los dioses, si no me convierten en alguacil jefe en menos de un mes, ¡yo mismo me encargaré de asesinar a Brega!~
+
+//Quinta misión: sir Alexis.
+
+@1047 	= ~Estoy buscando a sir Alexis, un caballero de la Orden. ¿Sabéis dónde podría encontrarle?~
+@1048 = ~Sir Alexis ha sufrido una pérdida muy dolorosa recientemente. No perturbéis su espíritu sin necesidad.~
+@1049 = ~*suspiro* Afortunadamente, no tardamos mucho en encontrar al asesino. En su estado, sir Alexis podría haber caído consumido por la sed de venganza. Por desgracia, su corazón aún no conoce la paz.~
+@1050 = ~Podréis encontrarlo de visita en la prisión, retorciéndose en su sufrimiento. Después de todo, incluso nuestros mejores caballeros son humanos. Os repito mi advertencia, joven: no le perturbéis sin necesidad.~
+@1051 = ~... y por eso debéis sufrir.~
+@1052 = ~E-Esperad, ¿me estáis diciendo que...?~
+@1053 = ~Vos la matasteis. ¡La matasteis! ¡Apartaos de mí, lunático!~
+@1054 = ~Os equivocáis, Chris. Os confundís completamente. ¿Me estáis diciendo que nada de eso ocurrió? ¿Me estáis diciendo que NUNCA entrasteis en mi casa y que NO apuñalasteis a mi esposa?~
+@1055 = ~¡Vos, fuisteis vos quien la mató! ¡Que alguien me saque de aquí!~
+@1056 = ~Pero ocurrió, y por eso os pudriréis en esta cárcel hasta el fin de vuestros días, mestizo miserable.~
+@1057 = ~¡No!~
+@1058 	= ~¿Qué está pasando aquí?~
+@1059 	= ~¿Sois sir Alexis?~
+@1060 	= ~Mi más sentido pésame por vuestra pérdida, sir Alexis.~
+@1061 	= ~Vaya, vaya. Deteniendo al hombre equivocado, ¿eh, caballerete?~
+@1062 = ~¡Ayudadme, por favor! ¡Este hombre mató a su esposa y está intentando culparme a mí de ello!~
+@1063 = ~¡Ella seguiría con vida si vos no la hubierais seducido con vuestras burdas promesas de fama y fortuna! ¡Os aprovechasteis de su buena fe para entrar en mi hogar como un vulgar ladrón! ¡Vos SOIS el culpable!~
+@1064 = ~Y vos la apuñalasteis poco antes de que yo llegara, para así convertirme en el cabeza de turco. ¡Bien pensado, señor! Pero decidme, ¿qué opina vuestro dios de todo esto? ¿Qué creéis que pensarán vuestros compañeros cuando vean que no sois capaz de conjurar ni la más elemental de las curaciones?~
+@1065 = ~Los habitantes de la superficie y su hipocresía. Qué novedad.~
+@1066 = ~Los dioses abandonaron a este pobre hombre hace mucho tiempo. Seguro que fue objeto de algún tipo de sugestión mágica.~
+@1067 = ~¡Cómo os atrevéis! ¡Seréis ahorcado mañana al amanecer!~
+@1068 = ~Entonces mi gloria resplandecerá a esa hora. Pronto la veré de nuevo.~
+@1069 	= ~Ya he oído bastante. Lamento vuestra pérdida, sir Alexis. Espero que ahorquen a este bastardo mañana por la mañana, como todos deseamos. Adiós.~
+@1070 	= ~Tengo una orden que cumplir y no tengo intención de desobedecerla. (Apuñalar a sir Alexis).~
+@1071 	= ~(Apuñalar a sir Alexis por la espalda).~
+@1072 	= ~Sois un mentiroso y un asesino, sir Alexis. Desvelaré la verdad ante todos y libraré a este joven de la muerte.~
+@1073 = ~Gracias. Me alegra ver que aún queda gente decente hoy en día.~
+@1074 = ~Si la verdadera justicia existe, no olvidará la afrenta que ha sufrido hoy aquí.~
+@1075 = ~Gnnngh...~
+@1076 = ~Ha muerto...~
+@1077 = ~¿Y ahora qué ocurrirá conmigo?~
+@1078 	= ~Pues que mañana os ahorcarán. Lo siento.~
+@1079 	= ~No puedo hacer nada por vos.~
+@1080 	= ~No voy a permitir que ejecuten a una persona inocente. ¿Qué puedo hacer para ayudaros?~
+@1081 = ~¡Así que antes confiáis en la palabra de un asesino que en la mía propia! ¡Que así sea! ¡Sabed que nunca recibiréis ayuda por mi parte!~
+@1082 = ~¡Nunca os saldréis con la vuestra!~
+@1083 = ~¿No? Bueno, creo que estoy a punto de conseguirlo. Jamás investigarían entre los miembros de la Orden.~
+@1084 = ~¿Lo habéis oído? ¡Acaba de autoinculparse!~
+@1085 	= ~Deteneos, sir Alexis. ¡Responderéis por vuestros actos ante un tribunal!~
+@1086 = ~¡Tenemos que hacer algo, <CHARNAME>! ¡Debemos intervenir!~
+@1087 = ~Los tribunales no podrían demostrar nada. Adiós.~
+@1088 	= ~(Dejarle ir).~
+@1089 	= ~(Apuñalarle antes de que se vaya).~
+@1090 = ~¿Así es como acabará todo? Dejadme, no quiero hablar con nadie en mi última noche.~
+@1091 = ~No quiero hablar con nadie. Dejadme en paz.~
+@1092 = ~Nada, supongo... ¡Esperad! Podéis contárselo a su superior, el prelado Wessalen. Explicadle toda la verdad. También podríais hablar con el alguacil jefe Brega.~
+@1093 	= ~¿Creéis que podría convencerles después de haber asesinado a un caballero de la Orden?~
+@1094 	= ~Lo intentaré, pero ¿creéis que servirá para algo?~
+@1095 	= ~No, tendréis afrontar vuestro problema solo. Lo siento.~
+@1096 = ~No, no lo creo. Además fueron ellos quienes me condenaron. Tenéis razón.~
+@1097 = ~Podríamos... ¿podríamos ayudar a este hombre? P-Por favor..., siento mucha lástima por él...~
+@1098 = ~¿No se os ocurre nada que podamos hacer?~
+@1099 = ~Entonces... ¡ya sé! Traedme un pergamino de Invisibilidad y podré escabullirme sin que los guardias me vean. Por favor.~
+@1100 	= ~Tendréis vuestro pergamino, Chris.~
+@1101 	= ~No puedo hacerlo. Me convertiría en el principal sospechoso.~
+~No puedo hacerlo. Me convertiría en la principal sospechosa.~
+@1102 	= ~No, lo haré por la vía legal.~
+@1103 	= ~No puedo perder el tiempo dando vueltas por ahí.~
+@1104 	= ~Tengo uno aquí mismo. Tomad.~
+@1105 = ~¿Sí? ¿Lo habéis conseguido?~
+@1106 	= ~Aquí lo tenéis.~
+@1107 = ~¡Soy libre! ¡Me habéis proporcionado la mejor llave que podría tener! Muchas gracias por todo.~
+@1108 = ~¡Adiós! De nuevo os agradezco todo lo que habéis hecho por mí. ¡Cuando los guardias abran la puerta saldré corriendo de esta prisión!~
+
+//Sexta misión: Oulav Steros. Primera parte (Simón).
+
+@1109 = ~¡¿Quién viene?!~
+@1110 = ~No parece un cliente, Oul.~
+@1111 = ~Ni tampoco un guardia. ¡Eh, fuera de aquí! ¡No estamos comerciando con loto ni nada parecido!~
+@1112 = ~¡CERRAD LA BOCA, LOS DOS! El de ahí, ¿quién sois y qué queréis?~
+~¡CERRAD LA BOCA, LOS DOS! La de ahí, ¿quién sois y qué queréis?~
+@1113 	= ~Me llamo <CHARNAME>. Me gustaría hablar con vos.~
+@1114 	= ~Me llamo <CHARNAME>. Busco trabajo.~
+@1115 	= ~Loto, ¿eh? Quizá pueda ayudaros.~
+@1116 	= ~No os importa. He venido para mataros a todos.~
+@1117 = ~¿Solo eso? ¿Quién sois, el matón del barrio?~
+~¿Solo eso? ¿Quién sois, la matona del barrio?~
+@1118 	= ~No, la verdad es que soy un poderoso Hijo de Bhaal.~
+~No, la verdad es que soy una poderosa Hija de Bhaal.~
+@1119 	= ~¿Qué?~
+@1120 	= ~No perderé el tiempo respondiendo preguntas estúpidas. Ha llegado vuestra hora.~
+@1121 = ~¡Mmm! ¿Uno poderoso, decís? Entonces tengo un trabajito para vos. Ya me mataréis más tarde, ¿de acuerdo?~
+~¡Mmm! ¿Una poderosa, decís? Entonces tengo un trabajito para vos. Ya me mataréis más tarde, ¿de acuerdo?~
+@1122 	= ~Muy bien, os escucho.~
+@1123 	= ~Ni pensarlo.~
+@1124 = ~No importa. Escuchadme, tengo un trabajo para vos.~
+@1125 = ~De acuerdo chicos, ya sabéis qué hacer.~
+@1126 = ~Hmm. Tengo una faena en mente.~
+@1127 = ~¿Buscáis trabajo? ¿O tal vez estéis pensando en delatarnos a la autoridad local?~
+@1128 	= ~Ambas cosas, aunque primero preferiría aceptar el trabajo, si es que tenéis alguno.~
+@1129 	= ~De hecho estoy aquí para mataros.~
+@1130 	= ~Creo que simplemente me iré.~
+@1131 = ~No lo creo, amigo. Habéis venido aquí con un propósito. Contádmelo o moriréis.~
+~No lo creo, amiga. Habéis venido aquí con un propósito. Contádmelo o moriréis.~
+@1132 	= ~¿Buscáis pelea? ¡Entonces la tendréis!~
+@1133 	= ~Busco un trabajo.~
+@1134 	= ~Estoy aquí para mataros.~
+@1135 = ~Sabéis quiénes somos, ¿verdad? Pero vos ni pertenecéis a la guardia, ni a la clientela habitual, ni tampoco a la asociación de traficantes. Así que si no queréis morir lo único que os queda es trabajar para mí.~
+@1136 = ~Como podéis ver, necesito a gente competente a mi lado; estos dos patanes no pueden encargarse de todo. Realizad una simple tarea para mí y os contrataré.~
+@1137 = ~Espero que sepáis lo que estáis haciendo, <CHARNAME>.~
+@1138 = ~Increíble. ¿Por qué sigo viajando en vuestro grupo, abbil? Lo único que me falta es que me hagáis limpiar una cuadra.~
+@1139 = ~Hay un muchacho que me debe algo de dinero. Se llama Simón, y nunca sale de las habitaciones de atrás de la Corona de cobre, si entendéis lo que quiero decir. Encontradle y haced que me lo devuelva.~
+@1140 	= ~¿Cuánto debe?~
+@1141 	= ~De acuerdo, lo haré.~
+@1142 	= ~Pensaba que esas habitaciones estaban cerradas al público.~
+@1143 	= ~No lo creo. Primero os mataré a vos.~
+@1144 = ~Su deuda asciende a cuatrocientas monedas de oro. Id para allá.~
+@1145 = ~¿Qué? Oh, qué alma más cándida tenemos aquí.~
+@1146 = ~Mueven demasiado dinero como para cerrarlas.~
+@1147 = ~Habéis vuelto. ¿Qué tal ha ido el asunto de la deuda?~
+@1148 	= ~Aún no he hablado con él.~
+@1149 	= ~Pronto volveré.~
+@1150 	= ~Aquí tenéis el dinero.~
+@1151 = ~Hmm.~
+
+//Sexta misión: Oulav Steros. Segunda parte (El Pulgar).
+
+@1152 = ~Bien, ¿está todo? Así me gusta.~
+@1153 = ~Ya que estáis aquí, podríais hacer otra tarea. Id al Regalo del mar y decidle a El Pulgar que "el envío se ha pospuesto hasta de aquí dos días". Bastará con eso. ¿Entendido?~
+@1154 	= ~Un momento, ¿y mi paga?~
+@1155 	= ~No me gusta hacer esto. ¿Ya puedo traficar con loto?~
+@1156		= ~¿El Pulgar trafica con loto negro?~
+@1157 = ~Aún no recibiréis nada. Debía asegurarme de que erais una persona digna de confianza, y ahora ya lo sé.~
+@1158 = ~Bien. Id para allá.~
+@1159 = ~Vos seréis lo que yo quiera que seáis, y más os vale no seguir insistiendo.~
+@1160 = ~No hagáis preguntas innecesarias. A trabajar.~
+@1161 = ~Estoy esperando.~
+@1162 	= ~No tengo nada que contaros.~
+@1163 	= ~No pienso continuar trabajando para vos.~
+@1164 	= ~Le he hecho saber el mensaje.~
+@1165 = ~Eso es malo, para vos.~
+
+//Sexta misión: Oulav Steros. Tercera parte (Soborno al oficial y muerte de Oulav).
+
+@1166 = ~Vaya, parece que al final sí que puedo contar con vuestra ayuda. Me alegro.~
+@1167 = ~Por supuesto, Oul. Es muy complicado encontrar un grupo tan digno de confianza como nuestra alegre pandilla. Basta que me miréis mi noble rostro para convenceros. Por favor, ignorad los granos.~
+@1168 = ~*suspiro* Desearía acabar con esto cuanto antes mejor, <CHARNAME>.~
+@1169 = ~Creo que ya estáis preparado para vuestro primer trabajo importante.~
+~Creo que ya estáis preparada para vuestro primer trabajo importante.~
+@1170 = ~Aquí tenéis ochocientas monedas de oro. Dádselas de mi parte al oficial al mando que custodia las puertas de la ciudad. Id durante el día. ¿Está claro?~
+@1171 	= ~Más que el agua.~
+@1172 	= ~¿Por qué durante el día?~
+@1173 	= ~Debo ir de día a las puertas de la ciudad y dar este dinero al oficial de parte de Oulav Steros.~
+@1174 	= ~Os habéis olvidado de preguntarme si quiero hacerlo. Pues bien, no quiero.~
+@1175 = ~Me gusta cómo piensa este chico.~
+~Me gusta cómo piensa esta chica.~
+@1176 = ~Porque ese oficial no hace el turno de noche, estúpido. Venga, arreando.~
+~Porque ese oficial no hace el turno de noche, estúpida. Venga, arreando.~
+@1177 = ~Exactamente. Me gusta cómo piensa este chico.~
+~Exactamente. Me gusta cómo piensa esta chica.~
+@1178 = ~¿Lo decís en serio?~
+@1179 	= ~Podéis estar seguro.~
+@1180 	= ~No... la verdad es que no.~
+@1181 = ~¿Y bien?~
+@1182 	= ~Lo haré tan pronto como me sea posible.~
+@1183 	= ~Ya me he cansado de vuestras absurdas tareas. ¡Morid!~
+@1184 	= ~Ya está hecho.~
+@1185 = ~Más os vale.~
+@1186 = ~Bien, bien. Lo comprobaré antes de recompensaros. No os preocupéis, no es más que una mera formalidad; ochocientas monedas es mucho dinero.~
+@1187 = ~Oh, sí. Estamos completamente abrumados de gratitud.~
+@1188 = ~¿Y ahora qué más? Me estoy cansando de todo esto, <CHARNAME>.~
+@1189 = ~Mientras tanto, tengo otra tarea para vos. Sé de alguien que quiere matarme. No estoy hablando del típico borracho, este es un tema serio.~
+@1190 = ~Y ahora sé que sois vos, por todo lo que me habíais contado. No me importa si lo decíais en serio o no; no pienso arriesgarme. ¡Chicos!~
+@1191 = ~*suspiro* Acabemos rápido con esto.~
+@1192 = ~Necesito pruebas. No perdáis el tiempo intentando descubrir sus motivos. Quiero el nombre del asesino y su cabeza para ayer.~
+@1193 	= ~Eso es imposible. No tengo ninguna intención de suicidarme.~
+@1194 	= ~Sí, claro. Ahora mismo salgo a buscar al... asesino.~
+@1195 	= ~No pienso hacerlo. Me marcho.~
+@1196 = ~¿Cómo? Por los dioses. Nunca lo hubiera sospechado.~
+@1197 = ~¡Os dije que no debíais confiar en <PRO_HIMHER>!~
+@1198 = ~Démonos prisa en acabar con esto.~
+@1199 = ~Sé que no me defraudaréis.~
+@1200 = ~No, no lo haréis. Os necesito, y os necesito ahora.~
+@1201 	= ~Qué lástima que me dé igual.~
+@1202 	= ~De acuerdo, lo haré.~
+@1203 	= ~Yo soy el asesino que buscáis, idiota.~
+~Yo soy la asesina que buscáis, idiota.~
+@1204 = ~¿Y bien? ¿Habéis descubierto quién quiere matarme? Necesito saber su nombre.~
+@1205 	= ~Soy yo. Y eso es exactamente lo que tengo pensado hacer.~
+@1206 	= ~Aún no sé quién es.~
+@1207 = ~Será mejor que os deis prisa. Mis chicos se están impacientando.~
+@1208 = ~Hablad con Oul. Yo no tengo nada que deciros.~
+@1209 = ~Así que queréis algo de loto negro, ¿eh?~
+@1210 = ~¿Qué? No me molestéis, ¡estoy pensando!~
+@1211 = ~Os recomiendo escuchar a Oul. He visto lo que le pasa a la gente que no lo hace.~
+
+//Sexta misión: Oulav Steros. Conversación con Simón.
+
+@1212 = ~Hola. Me llamo Simón. Sois muy imponente.~
+~Hola. Me llamo Simón. Sois muy guapa.~
+@1213 	= ~Ya, claro. Parece que le debéis cuatrocientas monedas a Oulav.~
+@1214 	= ~He venido a cobrar vuestra deuda, Simón.~
+@1215 	= ~(Romperle el cuello sigilosamente).~
+@1216 = ~Um, no recuerdo dónde he puesto el dinero.~
+@1217 	= ~No me importa. Dádmelo u os partiré el pescuezo.~
+@1218 	= ~Haced memoria, Simón.~
+@1219 	= ~No pasa nada. Concentraos y seguro que os vendrá a la cabeza.~
+@1220 = ~¿Y?~
+@1221 	= ~¡Estoy esperando!~
+@1222 	= ~Dadme el dinero de una vez, Simón.~
+@1223 = ~Ah, ¿lo queréis ahora?~
+@1224 	= ~¡Sí!~
+@1225 	= ~¡Estáis jugando con fuego, Simón! ¡Dádmelo INMEDIATAMENTE!~
+@1226 	= ~No, prefiero una tacita de té. ¡Pues claro que lo quiero ahora!~
+@1227 = ~Claro, claro, no hace falta que os exaltéis tanto. ¿Bastará con cinco monedas?~
+@1228 	= ~¡No! ¡Debéis *cuatrocientas* monedas a Oulav!~
+@1229 	= ~No, Simón. Cuatrocientas.~
+@1230 	= ~*suspiro* Sí, bastará con eso.~
+@1231 = ~De acuerdo, aquí tenéis. ¿Puedo irme ya?~
+@1232 	= ~Sí, por favor. Largaos de aquí y no volváis más.~
+@1233 	= ~Haced lo que os plazca.~
+@1234 	= ~¡No! ¡Moriréis por vuestra insolencia!~
+@1235 = ~¡Genial! Bueno, adiós.~
+@1236 = ~¡Eh, que yo no os he hecho nada! ¡No me miréis así! ¡T-Tengo que irme!~
+
+//Sexta misión: Oulav Steros. Conversación con El Pulgar.
+
+@1237 = ~Oulav Steros dice que el envío se ha pospuesto hasta de aquí dos días.~
+@1238 = ~De acuerdo, me viene bien.~
+
+//Sexta misión: Oulav Steros. Conversación con el oficial.
+
+@1239 = ~He venido a daros esta suma de parte de Oulav Steros.~
+@1240 = ~Bien. ¿Algo más?~
+@1241 = ~No, nada más.~
+@1242 = ~También necesitaría saber quién hará la próxima entrega y desde dónde.~
+@1243 = ~Moveos.~
+@1244 = ~Kett, como siempre. Ya está en camino una caravana desde Puerto Cálim. Sois nuevo, ¿eh?~
+~Kett, como siempre. Ya está en camino una caravana desde Puerto Cálim. Sois nueva, ¿eh?~
+@1245 = ~Y ahora moveos. No interrumpáis mi guardia. Je, je, je.~
+
+//Séptima misión: Qyr.
+
+@1246 = ~¡<CHARNAME>! Justo a la persona a quien quería ver.~
+@1247 	= ~¿Cómo es que sabéis mi nombre?~
+@1248 	= ~¿Qué está pasando aquí?~
+@1249 = ~Lo busqué cuando trabajé de funcionario en el gobierno, <CHARNAME>. Sé que fuisteis vos quien detuvo la guerra contra Puerta de Baldur.~
+@1250 = ~Me llamo Qyr, y sois la única persona que puede ayudarme.~
+@1251 = ~¡Pues claro que sí, hombrecito! <CHARNAME>, Minsc y Bubú estarán encantados de ayudaros en todo lo que haga falta.~
+@1252 = ~Tened cuidado, amigo mío. Siento una fuerte inquietud que emana de él. Os tiene miedo.~
+~Tened cuidado, amiga mía. Siento una fuerte inquietud que emana de él. Os tiene miedo.~
+@1253 = ~He de hablaros de un tema muy importante, pero no delante de oídos atentos. Por favor, presentaos en la calle posterior a la herrería, al norte. Vuestro grupo puede acompañaros, si es que confiáis en ellos, ¡pero venid!~
+@1254 	= ~De acuerdo, lo haré.~
+@1255 	= ~Creo que estaríais más seguro aquí dentro.~
+@1256 = ~Gracias. Ayudaréis a salvar a un hombre inocente... y a muchas más vidas.~
+@1257 = ~Es probable, ¿pero durante cuánto tiempo?~
+@1258 = ~No puedo contaros nada más. Debéis confiar en mí.~
+@1259 = ~Por favor. Ayudaréis a salvar a un hombre inocente... y a muchas más vidas.~
+@1260 = ~¿Os creéis que soy un estúpido que no sabe ni por dónde sopla el viento? ¡La gente comenta cosas! Se os ha visto en la prisión, y la guardia ha estado a punto de arrestaros más de una vez. ¡Os han enviado a por mí!~
+@1261 = ~Nadie moverá el culo para salvar a este pataslargas. Le rajaré la garganta antes de que pueda mover un jodío dedo.~
+@1262 = ~Bah. ¿Estáis intentando amenazarnos, rivvil?~
+@1263 = ~La paranoia es una enfermedad muy común. Recuerdo cuando mi medio-primo Ruperto aseguraba aterrorizado que unos ogrillones querían comérselo, hasta que un día... un ogrillón se lo comió. Hrm... Odio las historias que no dan ningún tipo de giro inesperado.~
+@1264 = ~Debo tomar precauciones. ¡No saldréis vivo de Caravasar!~
+~Debo tomar precauciones. ¡No saldréis viva de Caravasar!~
+@1265 	= ~No tenéis por qué morir. Basta con que me deis los documentos.~
+@1266 	= ~¿Qué es lo que está pasando aquí? ¿Qué habéis hecho? ¿De quién huís?~
+@1267 	= ~Intentad detenerme, entonces.~
+@1268 = ~Creéis que me perdonarían, ¿eh? ¿Creéis que se olvidarían del asunto si me rindiera y os diera estos papeles?~
+@1269 = ~¡Entonces es que no sabéis nada!~
+@1270 = ~Ah, ¿es que no os lo han dicho? Claro que no, ¿por qué iban a hacerlo? Cuando sepáis todo lo que sé, vuestra cabeza triplicará su precio.~
+@1271 = ~Incluso aunque sobreviváis contra mí y los mercenarios que he contratado, ellos nos os permitirían seguir con vida. Creen que os lo contaré todo, y por todos los dioses, ¡vaya si lo haré!~
+@1272 = ~El Consejo de los Seis está corrupto. No estoy hablando de los típicos sobornos, no. ¡ALGUNOS DE SUS MIEMBROS SON LADRONES DE LAS SOMBRAS! Intentan encubrir la verdad, ¡pero aquí tengo las pruebas que lo demuestran!~
+@1273 	= ~Sí, claro. Y soy la reina de Tezhyr.~
+@1274 	= ~Dádmelos, Qyr. Devolvedme esos documentos ahora mismo.~
+@1275 	= ~Entonces debéis morir.~
+@1276 	= ~¡Debéis contárselo a la guardia! ¡Debéis hacer algo!~
+@1277 	= ~Os dejaré marchar, Qyr.~
+@1278 = ~No me importa que no me creáis. Lo único que deseo es sobrevivir. ¡Dejaréis de perseguirme ahora mismo!~
+@1279 = ~Me mataríais en cuanto os los diera, ¿verdad? Jamás. ¡Dejaréis de perseguirme ahora mismo!~
+@1280 = ~Os enviaron a por mí en cuanto desaparecí, lo supe desde el principio. Pero esto ha terminado. ¡Dejaréis de perseguirme ahora mismo!~
+@1281 = ~¡Ya lo hago! Intento vivir en paz. ¡Por eso dejaréis de perseguirme ahora mismo!~
+@1282 = ~¡Yo no puedo daros la misma oportunidad! ¡Dejaréis de perseguirme ahora mismo!~
+@1283 = ~¡Ahora! ¡Atacad!~
+
+//Octava misión: Tea y Gannis.
+
+@1284 	= ~¿Sabéis dónde podría encontrar a Tea y a Gannis?~
+@1285 = ~Me voy.~
+@1286 = ~No sé de qué me estáis hablando.~
+@1287 	= ~Ribald, ¿podríais decirme dónde encontrar a Tea y a Gannis?~
+@1288 = ~¿Qué os hace pensar que lo sé?~
+@1289 	= ~Porque conocéis a todo el mundo, Ribald.~
+@1290 	= ~¿Me estáis diciendo que no lo sabéis?~
+@1291 	= ~Son dos arpistas. Creía que ya conocíais a Jaheira.~
+@1292 = ~De acuerdo, de acuerdo. Es cierto que los vi hace varios días. Si tenéis algo que tratar con ellos, los encontraréis en la posada Delosar. Pero a mí no me metáis en sus asuntos; quieran o no siempre están metidos en líos.~
+@1293 = ~Mi mujer está cansada. Por favor, no nos molestéis.~
+@1294 = ~Saludos. ¿Hay algo que mi marido o yo podamos hacer por vos?~
+@1295 	= ~La verdad es que os agradecería que bebierais algo de veneno.~
+@1296 	= ~Mmm, se me ocurren mil cosas que podríamos hacer.~
+@1297 	= ~Sois arpistas, ¿verdad? ¿Qué estáis haciendo aquí?~
+@1298 = ~No, no lo creo.~
+@1299 = ~Oh. Ja, ja, ja.~
+@1300 = ~Dejadnos en paz, por favor. A mi esposa y a mí nos gustaría descansar.~
+@1301 	= ~Me temo que es demasiado tarde para eso.~
+@1302 	= ~Sé que sois arpistas. ¡Detened ahora mismo vuestras actividades!~
+@1303 	= ~¿Qué ocurrirá si no lo hago?~
+@1304 = ~Si no tenéis nada que decirnos, por favor, idos de aquí.~
+@1305 = ~¿Significa eso que estáis esperando el mensaje de alguien?~
+@1306 = ~Es una forma de hablar.~
+@1307 = ~Encuentro que sois *demasiado* impertinente.~
+@1308 = ~Además, parecéis tener asuntos que tratar con nosotros. Nos encontramos en desventaja.~
+@1309 = ~Dejad de jugar con <PRO_HIMHER>. ¿No veis que sabe quiénes somos?~
+@1310 = ~No podemos desperdiciar esta oportunidad, Gannis.~
+@1311 = ~Tea...~
+@1312 = ~Pero si ya nos *conoce*. ¡No podemos dejar que se vaya, lo sabéis bien!~
+@1313 	= ~Sé que sois arpistas, pero poco más.~
+@1314 	= ~Me han ordenado mataros, pero no estoy seguro de querer hacerlo.~
+~Me han ordenado mataros, pero no estoy segura de querer hacerlo.~
+@1315 	= ~Estáis maquinando alguna fechoría, ¿eh? No me extraña que vuestras cabezas valgan tanto.~
+@1316 	= ~¡Qué giro tan afortunado del destino! ¡Por una vez no seré yo quien ataque primero!~
+@1317 = ~Me gustaría discutir este tema con él. Especialmente porque reconozco en su porte a un compañero de profesión.~
+~Me gustaría discutir este tema con ella. Especialmente porque reconozco en su porte a una compañera de profesión.~
+@1318 = ~¿Qué es lo que os ha traído hasta Athkatla?~
+@1319 = ~Ah, Jaheira. Sabía que esa voz me sonaba de algo. Se trata de un asunto privado. Nada sabe el Heraldo de Athkatla, y así es como debe ser.~
+@1320 = ~Escuchadme atentamente.~
+@1321 = ~No soy un arpista.~
+~No soy una arpista.~
+@1322 = ~¿"Un compañero de profesión"? Así que sois asesinos.~
+~¿"Una compañera de profesión"? Así que sois asesinos.~
+@1323 	= ~Ya me he cansado de vuestra cháchara. Preparaos para morir.~
+@1324 	= ~¿Quién ha dicho que lo fuerais?~
+@1325 = ~Os han enviado a matarnos, ¿verdad? Sí, lo imaginaba.~
+@1326 = ~Pero llegáis demasiado tarde: nuestra misión ha finalizado. Podéis comunicárselo a vuestros superiores.~
+@1327 	= ~¿Cuál era vuestro objetivo? Si me lo decís os dejaré escapar.~
+@1328 	= ~Lo haré, pero después de acabar con vuestra vida.~
+@1329 	= ~Entonces, ¿para qué estoy aquí?~
+@1330 = ~¡Dejad que sea yo quien lo mate, Gannis!~
+~¡Dejad que sea yo quien la mate, Gannis!~
+@1331 = ~No estamos hablando solo con este hombre, Tea. También estamos hablando con sus dirigentes, que son quienes realmente conocen la situación.~
+~No estamos hablando solo con esta mujer, Tea. También estamos hablando con sus dirigentes, que son quienes realmente conocen la situación.~
+@1332 = ~Y estoy seguro de que querrán escuchar lo que tengo que decir.~
+@1333 = ~Dejad de intentar infiltraros en los arpistas. Los dos hombres que enviasteis están muertos, y ni siquiera la buena posición que ostentaban les sirvió para algo. No mostramos piedad ante los espías.~
+@1334 = ~¿Más traidores entre los arpistas? No sé si nos están contando la verdad, <CHARNAME>, apenas los conozco. Así que... lo dejo a vuestra elección.~
+@1335 = ~Os detendréis o se os obligará a deteneros. Y ahora haced lo que creáis conveniente.~
+@1336 	= ~Haré lo que debo hacer. (Atacarles).~
+@1337 	= ~Con mucho gusto. Defendeos si así lo preferís, no me importa.~
+@1338 	= ~Me voy a ir aquí. Os recomiendo que hagáis lo mismo.~
+@1339 	= ~Bah, os dejaré marchar. Largo.~
+@1340 = ~Os lo dije, Gannis, no tienen ninguna intención de razonar con nosotros.~
+@1341 = ~Que así sea.~
+@1342 = ~No os preguntaré por vuestros motivos, entonces. Vámonos, Tea.~
+@1343 = ~Me... me habéis sorprendido. No me lo esperaba.~
+
+//Novena misión: Kern.
+
+@1344 	= ~Estoy buscando a una chica llamada Sofía. ¿Sabéis dónde podría encontrarla?~
+@1345 = ~Me temo que no. La mayoría de las muchachas que trabajan en esto son muy retraídas. Tendréis que preguntarles directamente a ellas.~
+@1346 = ~Hola, cariño. ¿Puedo hacer algo por vos?~
+@1347 	= ~Estoy buscando a una chica llamada Sofía.~
+@1348 	= ~Nada, gracias.~
+@1349 = ~No sé dónde está, señor. No la he visto desde hace varios días. Tan solo espero que ese asesino no le haya hecho nada... *escalofrío*~
+~No sé dónde está, señora. No la he visto desde hace varios días. Tan solo espero que ese asesino no le haya hecho nada... *escalofrío*~
+@1350 = ~¿Mmm? ¿Queréis algo?~
+@1351 = ~¿Sofía? La última vez que supe de ella parecía haber encontrado a su príncipe azul, ya me entendéis.~
+@1352 = ~Será mejor que preguntéis a Rosa. Creo que eran amigas íntimas..~
+@1353 	= ~Estoy buscando a una chica llamada Sofía. ¿La conocéis?~
+@1354 	= ~No importa.~
+@1355 = ~Apartaos, cariño. No puedo perder el tiempo charlando. Quizá podamos hacerlo cuando tengáis algo importante que decir.~
+@1356 = ~¿A Sofía? Sí, claro. Es el sueño de cualquier chica trabajadora.~
+@1357 	= ~¿Por? ¿Qué le ocurrió?~
+@1358 	= ~¿"Chica trabajadora"? ¿No deberíais decir "dama de compañía"?~
+@1359 	= ~¿Podríais contarme algo más?~
+@1360 = ~Por favor..., marchaos.~
+@1361 = ~Ahora es una señorita muy elegante. Todo el mundo la llama la dama Sofía.~
+@1362 	= ~¿Quién es el responsable de esta milagrosa transformación?~
+@1363 	= ~¿De dónde sacó tanto dinero?~
+@1364 = ~Bueno, también podéis llamarlo así.~
+@1365 = ~No lo sé. Preguntad a otras chicas si queréis saber más, pero no a mí. No soy tan estúpida.~
+@1366 	= ~¿Qué es lo que sabéis?~
+@1367 	= ~¿Tenéis miedo, Rosa?~
+@1368 	= ~Gracias por vuestro tiempo.~
+@1369 = ~Olvidaos de ella. Sé de alguien que intentó buscarla, y al día siguiente los guardias encontraron su cabeza flotando en las alcantarillas.~
+@1370 	= ~Bueno, es evidente que no me gustaría tener vuestro aspecto.~
+@1371 	= ~A mí tampoco me gustaría ser vos. Tenemos que hablar, Sofía.~
+@1372 	= ~¿Dónde está Kern?~
+@1373 	= ~Tenéis la apariencia de una dama, pero por dentro no sois más que una vulgar meretriz.~
+@1374 	= ~¿Qué ha ocurrido, Sofía? Contádmelo todo.~
+@1375 = ~¡Por favor, marchaos! ¡A él no le gusta que la gente haga preguntas! No quiero que... ¡Marchaos de aquí!~
+@1376 	= ~Puedo protegeros, Sofía. Ya no volverá a molestaros.~
+@1377 	= ~No os pienso hacer daño, pero debo encontrarme con él.~
+@1378 	= ~Sé defenderme, Sofía.~
+@1379 	= ~¿Podéis contarme algo más sobre él?~
+@1380 = ~¡No quiero saber nada de él!~
+@1381 = ~¡Dejadme en paz! Llamaré a las guardias si vos..., si os atrevéis a...~
+@1382 = ~¡No podéis hacer nada!~
+@1383 = ~No, por favor. No lo hagáis.~
+@1384 = ~¿D-De verdad? Los otros dos pensaban igual. Nadie puede derrotarle.~
+@1385 = ~No puede verme hacer esto. Me prohibió que hablara con nadie, excepto con él. No puedo...~
+@1386 = ~Le amo, de verdad. Y no... no por su sustento ni por su protección. Me dijo que todo el mundo lo hace, que debería agradecer estar sólo con él, y no quién sabe cuántas horas en una esquina, pero, pero...~
+@1387 = ~P-Pobre muchacha...~
+@1388 = ~Debemos evitar que ese hombre vuelva a acercarse a esta chica. Esto no está bien.~
+@1389 = ~Tengo mucho miedo. Pensé que daría igual que matase personas, pero... ¡pero me importa!~
+@1390 	= ~Shhh. Basta que me digáis dónde está.~
+@1391 	= ~Muy bien. Entonces me marcharé.~
+@1392 	= ~Sofía, por favor... permitid que os ayude.~
+@1393 = ~¡Ahí! ¡Ahí viene!~
+@1394 = ~Marchaos de aquí, mi dama.~
+@1395 = ~*sollozo* Por favor..., no...~
+@1396 = ~Mi dama.~
+@1397 = ~A-Ahora mismo...~
+@1398 = ~¿Lynn?~
+@1399 	= ~¿La conocéis?~
+@1400 	= ~No es de vuestra incumbencia.~
+@1401 	= ~No soy ella.~
+@1402 	= ~Eso ya lo sé. Pero os ha enviado ella, ¿verdad?~
+@1403 = ~La recuerdo bien, siempre adulando y arrastrándose ante el jefe. Me ponía enfermo. Imagino que por eso ahora está en la posición que está.~
+@1404 = ~Yo era uno de los mejores. SOY uno de los mejores. Pero en cuanto ven que comenzáis a desobedecer órdenes, os convierten en un objetivo más. Algún día os ocurrirá lo mismo..., si es que hoy sobrevivís.~
+@1405 = ~El destino es sorprendente, ¿verdad? Jamás nos muestra qué nos espera al acabar el día, y nos deja siempre con ese sabor agridulce...~
+@1406 = ~Eso es porque aún no conoce al famoso Yoshimo, temido por todos.~
+@1407 = ~Sois muy poderoso. ¿Qué tal si...? No, debemos luchar, ¿verdad? Sabéis dónde encontrar a Sofía, y yo no pienso permitir que nadie le ponga la mano encima. La amo.~
+~Sois muy poderosa. ¿Qué tal si...? No, debemos luchar, ¿verdad? Sabéis dónde encontrar a Sofía, y yo no pienso permitir que nadie le ponga la mano encima. La amo.~
+@1408 	= ~No pienso atacar a una mujer indefensa, salvo que algún día se convierta en uno de mis objetivos, claro.~
+@1409 	= ~¿Estáis seguro? ¡Pero si os teme!~
+@1410 	= ~¡Entonces morid, escoria!~
+@1411 	= ~De acuerdo. Comencemos cuando queráis.~
+@1412 	= ~¿Qué os parecería si os dejara ir, Kern?~
+@1413 = ~Lo haríais. Sé que lo haríais. ¿Entendéis ahora por qué debo mataros?~
+@1414 = ~He hecho todo lo que he podido por ella. Ojalá pudiera decir algo similar de mí mismo.~
+@1415 = ~Estoy preparado. ¿Y vos?~
+@1416 = ~¿Y que algún día volváis para llevaros a Sofía? ¿Mi dama Sofía? No, no me fío de vuestra palabra.~
+@1417 	= ~Algún día tendréis que aprender a hacerlo.~
+@1418 	= ~Entonces solo queda una salida.~
+@1419 = ~Es posible, pero llevo el tiempo suficiente en este negocio como para saber que nunca se debe confiar en otro asesino.~
+@1420 = ~Tanta sensiblería demuestra que me estoy haciendo viejo. Acabemos con esto.~

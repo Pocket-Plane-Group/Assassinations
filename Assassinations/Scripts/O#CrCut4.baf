@@ -1,0 +1,11 @@
+IF
+True()
+THEN
+RESPONSE #100
+CutSceneId(Player1)
+CreateCreature("O#CrKern",[3315.3237],0)
+Wait(1)
+ActionOverride("O#CrKern",MoveToPoint([2784.3427])
+Wait(4)
+ActionOverride("O#CrKern",StartDialogueNoSet(Player1))
+END

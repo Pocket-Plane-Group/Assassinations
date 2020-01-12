@@ -1,0 +1,36 @@
+IF
+AreaCheck("AR0800")
+AreaType(OUTDOOR)
+InMyArea(Player1)
+Global("O#CrLynnSpawn2","GLOBAL",0)
+Dead("C6Bodhi") 
+Global("O#CrLynnNineQuestsComplete","GLOBAL",1)
+Global("O#CrLynnBetrayed","GLOBAL",0)
+Global("O#CrLynnFinalQuest","GLOBAL",0)
+Global("O#CrLynnFinalBoySpawn","MYAREA",0)
+THEN
+RESPONSE #100
+CreateCreatureObjectOffset("O#CrBoy",Player1,[-1.-1])
+SetGlobal("O#CrLynnFinalBoySpawn","MYAREA",1)
+END
+
+IF
+Global("O#CrLynnFinalQuest","GLOBAL",3)
+Global("O#CrLynnFinalQuestLynnS800","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("O#Lynn",[1584.790],0)
+SetGlobal("O#CrLynnFinalQuestLynnS800","GLOBAL",1)
+END
+
+IF
+AreaCheck("AR0800")
+Exists("O#CrBoy")
+InMyArea(Player1)
+Global("O#CrLynnSpawn2","GLOBAL",1)
+Global("O#CrLynnFinalBoySpawn","MYAREA",1)
+THEN
+RESPONSE #100
+SetGlobal("O#CrLynnFinalBoySpawn","MYAREA",2)
+ActionOverride("O#CrBoy",EscapeArea())
+END

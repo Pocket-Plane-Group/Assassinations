@@ -1,0 +1,19 @@
+IF
+True()
+THEN
+RESPONSE #100
+CutSceneId(Player1)
+SetGlobal("O#CrLynnFinalQuest","GLOBAL",7)
+ActionOverride("O#Lynn",DestroySelf())
+Wait(1)
+CreateCreature("O#CrLah",[1888.653],0)
+CreateCreature("O#CrLah1",[1803.752],0)
+CreateCreature("O#CrLah2",[2014.758],0)
+CreateCreature("O#CrLah3",[1736.576],0)
+CreateCreature("O#CrLah4",[1810.583],0)
+CreateCreature("O#Gewen",[1008.410],0)
+CreateCreature("O#Gewen",[1877.1959],8)
+Wait(1)
+ActionOverride("O#CrLah",Kill(Myself))
+EndCutSceneMode()
+END

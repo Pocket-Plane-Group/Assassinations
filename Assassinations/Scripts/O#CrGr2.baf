@@ -1,0 +1,20 @@
+IF
+AttackedBy([GOODCUTOFF],DEFAULT)
+Allegiance(Myself,NEUTRAL)
+Global("O#CrHarperAttacked","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("O#CrHarperAttacked","LOCALS",1)
+SetGlobal("O#CrAttackedHarpers","GLOBAL",1)
+Enemy()
+END
+
+IF
+Global("O#CrAttackedHarpers","GLOBAL",1)
+Allegiance(Myself,NEUTRAL)
+Global("O#CrHarperHostile","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("O#CrHarperHostile","LOCALS",1)
+Enemy()
+END

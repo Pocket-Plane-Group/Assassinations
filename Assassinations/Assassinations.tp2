@@ -1,0 +1,375 @@
+BACKUP ~Assassinations/Backup~
+AUTHOR ~http://forums.pocketplane.net~
+VERSION ~v15~
+
+README ~Assassinations/%LANGUAGE%/Readme-Assassinations.txt~ ~Assassinations/Readme-Assassinations.txt~ 
+
+ALWAYS
+  ACTION_IF NOT VARIABLE_IS_SET bg2_chapter BEGIN
+    ACTION_IF GAME_IS ~eet~ BEGIN
+      OUTER_SET bg2_chapter = 12
+    END ELSE BEGIN
+      OUTER_SET bg2_chapter = 0
+    END
+    OUTER_FOR (i=1; i<=10; i=i+1) BEGIN
+      OUTER_SET bg2_chapter = bg2_chapter + 1
+      OUTER_SPRINT name_source ~bg2_chapter_%i%~
+      OUTER_SET EVAL ~%name_source%~ = bg2_chapter
+    END
+  END
+
+/*
+  // No exception, everything needs to be converted
+  ACTION_DEFINE_ARRAY O#noconvert BEGIN END
+*/
+
+  // Only setup-Mod.tra needs to be reloaded
+  ACTION_DEFINE_ARRAY O#reload BEGIN Setup-Assassinations END
+
+  // There is no "language" folder so the root of all languages in %MOD_FOLDER%
+  LAF HANDLE_CHARSETS
+    INT_VAR
+      infer_charsets = 1
+    STR_VAR
+      tra_path = EVAL ~%MOD_FOLDER%~
+      // charset_table = O#charsets // Included for illustrative purposes.
+//      noconvert_array = O#noconvert
+      reload_array = O#reload
+  END
+END
+
+AUTO_TRA ~Assassinations/%s~
+
+LANGUAGE ~English~ ~English~ ~Assassinations/English/Setup-Assassinations.tra~
+LANGUAGE ~Russian~ ~Russian~ ~Assassinations/Russian/Setup-Assassinations.tra~
+LANGUAGE ~Spanish (Translated by Memnoch)~ ~Spanish~ ~Assassinations/Spanish/Setup-Assassinations.tra~
+LANGUAGE ~German (Translated by Toran)~ ~German~ ~Assassinations/German/Setup-Assassinations.tra~
+LANGUAGE ~Italian (Translated by ilot)~ ~Italian~ ~Assassinations/Italian/Setup-Assassinations.tra~
+LANGUAGE ~Polish (Translated by Cuttooth)~ ~Polish~ ~Assassinations/Polish/Setup-Assassinations.tra~
+LANGUAGE ~French (Translated by Le Marquis)~ ~French~ ~Assassinations/French/Setup-Assassinations.tra~
+LANGUAGE ~Chinese (Translated by Merzbau)~ ~Schinese~ ~Assassinations/Schinese/Setup-Assassinations.tra~
+
+BEGIN @0
+
+ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
+ADD_JOURNAL @10000 @10010 @10020 @10030 @10040 @10050 @10060 @10070 @10080 @10090 @10100 @10110 @10120 @10130 @10140 @10150 @10160 @10170 @10180 @10190 @10200 @10210 @10220 @10230 @10240 @10250 @10260 @10270 @10280 @10290 @10300 @10310 @10320 @10330 @10340 @10350 @10360 @10370 @10380 @10390 @10400 @10410 @10420 @10430 @10440 @10450 @10460 @10470 @10480 @10490 @10500 @10510 @10520 @10530 @10540 @10550 @10560
+END
+
+COPY ~Assassinations/Blank~ ~override~
+
+COPY ~Assassinations/Areas~ ~override~
+
+// Setting a script to the prison area, if it hasn't been done already
+COPY_EXISTING ~ar1005.are~ ~override~
+WRITE_ASCII 0x94 ~AR1005~
+BUT_ONLY_IF_IT_CHANGES
+
+// Characters
+
+COPY ~Assassinations/Characters/O#Lynn.cre~ ~override/O#Lynn.cre~
+WRITE_ASCII 0x248 ~O#Lynn~ #8   // override
+WRITE_ASCII 0x2cc ~O#Lynn~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#Lynn~ #32  // death variable
+SAY NAME1 @1
+SAY NAME2 @1
+SAY SELECT_COMMON1 @2
+SAY SELECT_COMMON2 @3
+SAY SELECT_COMMON3 @4
+SAY SELECT_COMMON4 @5
+SAY SELECT_COMMON5 @6
+SAY SELECT_COMMON6 @7
+
+COPY ~Assassinations/Characters/O#CrBoy.cre~ ~override/O#CrBoy.cre~
+WRITE_ASCII 0x248 ~O#Start~ #8   // override
+WRITE_ASCII 0x2cc ~O#CrBoy~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#CrBoy~ #32  // death variable
+
+COPY ~Assassinations/Characters/O#CrFein.cre~ ~override/O#CrFein.cre~
+WRITE_ASCII 0x2cc ~O#CrFein~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#CrFein~ #32  // death variable
+SAY NAME1 @39
+SAY NAME2 @39
+
+COPY ~Assassinations/Characters/O#CrGoon.cre~ ~override/O#CrGoon.cre~
+WRITE_ASCII 0x280 ~O#CrGoon~ #32  // death variable
+
+COPY ~Assassinations/Characters/O#CrMel.cre~ ~override/O#CrMel.cre~
+WRITE_ASCII 0x248 ~O#Start~ #8   // override
+WRITE_ASCII 0x2cc ~O#CrMel~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#CrMel~ #32  // death variable
+SAY NAME1 @13
+SAY NAME2 @13
+
+COPY ~Assassinations/Characters/O#CrGua1.cre~ ~override/O#CrGua1.cre~
+WRITE_ASCII 0x280 ~O#CrGua1~ #32  // death variable
+SAY NAME1 @35
+SAY NAME2 @35
+
+COPY ~Assassinations/Characters/O#CrGua2.cre~ ~override/O#CrGua2.cre~
+WRITE_ASCII 0x280 ~O#CrGua2~ #32  // death variable
+SAY NAME1 @35
+SAY NAME2 @35
+
+COPY ~Assassinations/Characters/O#CrNev.cre~ ~override/O#CrNev.cre~
+WRITE_ASCII 0x248 ~O#Start~ #8   // override
+WRITE_ASCII 0x2cc ~O#CrNev~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#CrNev~ #32  // death variable
+SAY NAME1 @14
+SAY NAME2 @14
+
+COPY ~Assassinations/Characters/O#CrGir2.cre~ ~override/O#CrGir2.cre~
+WRITE_ASCII 0x2cc ~O#CrGir2~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#CrGir2~ #32  // death variable
+
+COPY ~Assassinations/Characters/O#CrAma.cre~ ~override/O#CrAma.cre~
+WRITE_ASCII 0x248 ~O#Start~ #8   // override
+WRITE_ASCII 0x2cc ~O#CrAma~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#CrAma~ #32  // death variable
+SAY NAME1 @15
+SAY NAME2 @15
+
+COPY ~Assassinations/Characters/O#CrWom3.cre~ ~override/O#CrWom3.cre~
+WRITE_ASCII 0x2cc ~O#CrWom3~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#CrWom3~ #32  // death variable
+SAY NAME1 @33
+SAY NAME2 @33
+
+COPY ~Assassinations/Characters/O#CrGu31.cre~ ~override/O#CrGu31.cre~
+WRITE_ASCII 0x2cc ~O#CrGu31~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#CrGu31~ #32  // death variable
+
+COPY ~Assassinations/Characters/O#CrGu32.cre~ ~override/O#CrGu32.cre~
+WRITE_ASCII 0x2cc ~O#CrGu32~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#CrGu32~ #32  // death variable
+
+COPY ~Assassinations/Characters/O#CrDat.cre~ ~override/O#CrDat.cre~
+WRITE_ASCII 0x2cc ~O#Daton~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#CrDat~ #32  // death variable
+SAY NAME1 @16
+SAY NAME2 @16
+
+COPY ~Assassinations/Characters/O#CrAle.cre~ ~override/O#CrAle.cre~
+WRITE_ASCII 0x248 ~O#Star1~ #8   // override
+WRITE_ASCII 0x2cc ~O#CrAle~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#CrAle~ #32  // death variable
+SAY NAME1 @17
+SAY NAME2 @17
+
+COPY ~Assassinations/Characters/O#CrChri.cre~ ~override/O#CrChri.cre~
+WRITE_ASCII 0x2cc ~O#CrChri~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#CrChri~ #32  // death variable
+SAY NAME1 @18
+SAY NAME2 @18
+
+COPY ~Assassinations/Characters/O#CrStee.cre~ ~override/O#CrStee.cre~
+WRITE_ASCII 0x248 ~O#CrGr1~  #8   // override
+WRITE_ASCII 0x2cc ~O#CrStee~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#CrStee~ #32  // death variable
+SAY NAME1 @19
+SAY NAME2 @19
+
+COPY ~Assassinations/Characters/O#CrStG1.cre~ ~override/O#CrStG1.cre~
+WRITE_ASCII 0x248 ~O#CrGr1~  #8   // override
+WRITE_ASCII 0x2cc ~O#CrStG1~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#CrStG1~ #32  // death variable
+
+COPY ~Assassinations/Characters/O#CrStG2.cre~ ~override/O#CrStG2.cre~
+WRITE_ASCII 0x248 ~O#CrGr1~  #8   // override
+WRITE_ASCII 0x2cc ~O#CrStG2~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#CrStG2~ #32  // death variable
+
+COPY ~Assassinations/Characters/O#CrSim.cre~ ~override/O#CrSim.cre~
+WRITE_ASCII 0x2cc ~O#CrSim~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#CrSim~ #32  // death variable
+SAY NAME1 @20
+SAY NAME2 @20
+
+COPY ~Assassinations/Characters/O#CrQyr.cre~ ~override/O#CrQyr.cre~
+WRITE_ASCII 0x2cc ~O#CrQyr~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#CrQyr~ #32  // death variable
+SAY NAME1 @21
+SAY NAME2 @21
+
+COPY ~Assassinations/Characters/O#CrGu71.cre~ ~override/O#CrGu71.cre~
+WRITE_ASCII 0x280 ~O#CrGu71~ #32  // death variable
+SAY NAME1 @34
+SAY NAME2 @34
+
+COPY ~Assassinations/Characters/O#CrGu72.cre~ ~override/O#CrGu72.cre~
+WRITE_ASCII 0x280 ~O#CrGu72~ #32  // death variable
+SAY NAME1 @34
+SAY NAME2 @34
+
+COPY ~Assassinations/Characters/O#CrGu73.cre~ ~override/O#CrGu73.cre~
+WRITE_ASCII 0x280 ~O#CrGu73~ #32  // death variable
+SAY NAME1 @34
+SAY NAME2 @34
+
+COPY ~Assassinations/Characters/O#CrTea.cre~ ~override/O#CrTea.cre~
+WRITE_ASCII 0x248 ~O#CrGr2~ #8   // override
+WRITE_ASCII 0x2cc ~O#CrTea~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#CrTea~ #32  // death variable
+SAY NAME1 @22
+SAY NAME2 @22
+
+COPY ~Assassinations/Characters/O#CrGan.cre~ ~override/O#CrGan.cre~
+WRITE_ASCII 0x248 ~O#CrGr2~ #8   // override
+WRITE_ASCII 0x2cc ~O#CrGan~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#CrGan~ #32  // death variable
+SAY NAME1 @23
+SAY NAME2 @23
+
+COPY ~Assassinations/Characters/O#CrSoph.cre~ ~override/O#CrSoph.cre~
+WRITE_ASCII 0x2cc ~O#CrSoph~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#CrSoph~ #32  // death variable
+SAY NAME1 @24
+SAY NAME2 @24
+
+COPY ~Assassinations/Characters/O#CrKern.cre~ ~override/O#CrKern.cre~
+WRITE_ASCII 0x248 ~O#CrKern~ #8   // override
+WRITE_ASCII 0x2cc ~O#CrKern~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#CrKern~ #32  // death variable
+SAY NAME1 @25
+SAY NAME2 @25
+
+COPY ~Assassinations/Characters/O#Rhin.cre~ ~override/O#Rhin.cre~
+WRITE_ASCII 0x2cc ~O#Rhin~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#Rhin~ #32  // death variable
+SAY NAME1 @26
+SAY NAME2 @26
+
+COPY ~Assassinations/Characters/O#Gewen.cre~ ~override/O#Gewen.cre~
+WRITE_ASCII 0x248 ~O#Start~ #8   // override
+WRITE_ASCII 0x2cc ~O#Gewen~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#Gewen~ #32  // death variable
+SAY NAME1 @27
+SAY NAME2 @27
+
+COPY ~Assassinations/Characters/O#CrEnf1.cre~ ~override/O#CrEnf1.cre~
+WRITE_ASCII 0x280 ~O#CrEnf1~ #32  // death variable
+
+COPY ~Assassinations/Characters/O#CrEnf2.cre~ ~override/O#CrEnf2.cre~
+WRITE_ASCII 0x280 ~O#CrEnf2~ #32  // death variable
+
+COPY ~Assassinations/Characters/O#Damir.cre~ ~override/O#Damir.cre~
+WRITE_ASCII 0x2cc ~O#Damir~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#Damir~ #32  // death variable
+SAY NAME1 @28
+SAY NAME2 @28
+
+COPY ~Assassinations/Characters/O#CrLah.cre~ ~override/O#CrLah.cre~
+WRITE_ASCII 0x280 ~O#CrLah~ #32  // death variable
+SAY NAME1 @31
+SAY NAME2 @31
+
+COPY ~Assassinations/Characters/O#CrLah1.cre~ ~override/O#CrLah1.cre~
+WRITE_ASCII 0x280 ~O#CrLah1~ #32  // death variable
+SAY NAME1 @32
+SAY NAME2 @32
+
+COPY ~Assassinations/Characters/O#CrLah2.cre~ ~override/O#CrLah2.cre~
+WRITE_ASCII 0x280 ~O#CrLah2~ #32  // death variable
+SAY NAME1 @32
+SAY NAME2 @32
+
+COPY ~Assassinations/Characters/O#CrLah3.cre~ ~override/O#CrLah3.cre~
+WRITE_ASCII 0x280 ~O#CrLah3~ #32  // death variable
+SAY NAME1 @32
+SAY NAME2 @32
+
+COPY ~Assassinations/Characters/O#CrLah4.cre~ ~override/O#CrLah4.cre~
+WRITE_ASCII 0x280 ~O#CrLah4~ #32  // death variable
+SAY NAME1 @32
+SAY NAME2 @32
+
+/* helper cre for Barkeep, because WINNKEEP.cre (Pugney) cannot initiate dialogue - added by jastey */
+COPY ~Assassinations/Characters/O#C#Spy.cre~ ~override/O#C#Spy.cre~
+WRITE_ASCII 0x2cc ~O#C#Spy~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#C#Spy~ #32  // death variable
+
+// Items
+
+COPY ~Assassinations/Items/O#CrSeal.itm~ ~override/O#CrSeal.itm~
+SAY NAME1 @36
+SAY NAME2 @36
+SAY UNIDENTIFIED_DESC @37
+SAY DESC @37
+
+COPY ~Assassinations/Items/O#CrNot1.itm~ ~override/O#CrNot1.itm~
+SAY NAME1 @8
+SAY NAME2 @8
+SAY UNIDENTIFIED_DESC @9
+SAY DESC @9
+
+COPY ~Assassinations/Items/O#CrNot2.itm~ ~override/O#CrNot2.itm~
+SAY NAME1 @8
+SAY NAME2 @8
+SAY UNIDENTIFIED_DESC @10
+SAY DESC @10
+
+COPY ~Assassinations/Items/O#CrPap1.itm~ ~override/O#CrPap1.itm~
+SAY NAME1 @11
+SAY NAME2 @11
+SAY UNIDENTIFIED_DESC @12
+SAY DESC @12
+
+COPY ~Assassinations/Items/O#CrAmul.itm~ ~override/O#CrAmul.itm~
+SAY NAME1 @29
+SAY NAME2 @29
+SAY UNIDENTIFIED_DESC @30
+SAY DESC @30
+
+// CamDawg's custom state
+APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
+UNLESS ~CD_STATE_NOTVALID~
+
+APPEND ~itemdial.2da~
+~O#CRSEAL      4978   O#CRSEAL~
+UNLESS ~O#CRSEAL~
+
+
+// Dialogue and scripts
+
+COMPILE EVALUATE_BUFFER ~Assassinations/Dialogue/Assassinations.d~
+
+	~Assassinations/Scripts/O#CrCut1.baf~
+	~Assassinations/Scripts/O#CrCut2.baf~
+	~Assassinations/Scripts/O#CrCut3.baf~
+	~Assassinations/Scripts/O#CrCut4.baf~
+	~Assassinations/Scripts/O#CrCut5.baf~
+	~Assassinations/Scripts/O#CrCut6.baf~
+	~Assassinations/Scripts/O#CrCut7.baf~
+	~Assassinations/Scripts/O#CrCut8.baf~
+	~Assassinations/Scripts/O#CrCut9.baf~
+	~Assassinations/Scripts/O#CrCu10.baf~
+	~Assassinations/Scripts/O#CrCu11.baf~
+	~Assassinations/Scripts/O#CrCu12.baf~
+	~Assassinations/Scripts/O#CrCu13.baf~
+
+	~Assassinations/Scripts/O#Lynn.baf~
+	~Assassinations/Scripts/O#CrKern.baf~
+	~Assassinations/Scripts/O#CrGr1.baf~
+	~Assassinations/Scripts/O#CrGr2.baf~
+	~Assassinations/Scripts/O#Start.baf~
+	~Assassinations/Scripts/O#Star1.baf~
+
+EXTEND_TOP ~Aerie.bcs~   ~Assassinations/Scripts/Aerie.baf~
+EXTEND_TOP ~Jaheira.bcs~ ~Assassinations/Scripts/Jaheira.baf~
+EXTEND_TOP ~Viconia.bcs~ ~Assassinations/Scripts/Viconia.baf~
+
+EXTEND_TOP ~AR0300.bcs~ ~Assassinations/Scripts/AR0300.baf~
+EXTEND_TOP ~AR0313.bcs~ ~Assassinations/Scripts/AR0313.baf~
+EXTEND_TOP ~AR0400.bcs~ ~Assassinations/Scripts/AR0400.baf~
+EXTEND_TOP ~AR0406.bcs~ ~Assassinations/Scripts/AR0406.baf~
+EXTEND_TOP ~AR0500.bcs~ ~Assassinations/Scripts/AR0500.baf~
+EXTEND_TOP ~AR0511.bcs~ ~Assassinations/Scripts/AR0511.baf~
+EXTEND_TOP ~AR0515.bcs~ ~Assassinations/Scripts/AR0515.baf~
+EXTEND_TOP ~AR0700.bcs~ ~Assassinations/Scripts/AR0700.baf~ 
+EXTEND_TOP ~AR0704.bcs~ ~Assassinations/Scripts/AR0704.baf~ //toggle Time() detection and spawn helper cre
+EXTEND_TOP ~AR0800.bcs~ ~Assassinations/Scripts/AR0800.baf~
+EXTEND_TOP ~AR1000.bcs~ ~Assassinations/Scripts/AR1000.baf~
+EXTEND_TOP ~AR1005.bcs~ ~Assassinations/Scripts/AR1005.baf~
+EXTEND_TOP ~AR2000.bcs~ ~Assassinations/Scripts/AR2000.baf~
+EXTEND_TOP ~AR2010.bcs~ ~Assassinations/Scripts/AR2010.baf~
+
+LAF HANDLE_AUDIO END

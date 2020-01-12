@@ -1,0 +1,10 @@
+IF
+True()
+THEN
+RESPONSE #100
+CutSceneId(Player1)
+ActionOverride("O#CrSoph",MoveToPoint([2411.3727])
+ActionOverride("O#CrSoph",EscapeArea())
+Wait(6)
+ActionOverride("O#CrKern",StartDialogueNoSet(Player1))
+END

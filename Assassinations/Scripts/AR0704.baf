@@ -1,0 +1,40 @@
+IF
+	Global("O#CrLynnQuest","GLOBAL",1)
+	Global("O#CrLynnQuestSpawn1_ItIsTime","MYAREA",0)
+	OR(7) 
+		Time(18) Time(19) Time(20) Time(21) Time(22) Time(23) TimeOfDay(NIGHT)
+	InMyArea(Player1)
+THEN
+  RESPONSE #100
+	SetGlobal("O#CrLynnQuestSpawn1_ItIsTime","MYAREA",1)
+END
+
+IF
+	Global("O#CrLynnQuestSpawn1_ItIsTime","MYAREA",1)
+	!Time(18) !Time(19) !Time(20) !Time(21) !Time(22) !Time(23) !TimeOfDay(NIGHT)
+	InMyArea(Player1)
+THEN
+  RESPONSE #100
+	SetGlobal("O#CrLynnQuestSpawn1_ItIsTime","MYAREA",0)
+END
+
+IF
+	Global("O#CrLynnQuestSpawn1_Add","GLOBAL",1)
+	Global("O#CrLynnQuest","GLOBAL",1)
+	OR(7) 
+		Time(18) Time(19) Time(20) Time(21) Time(22) Time(23) TimeOfDay(NIGHT)
+	InMyArea(Player1)
+	CombatCounter(0)
+	OR(4)
+		!InParty("Keldorn")
+		!InMyArea("Keldorn")
+		StateCheck("Keldorn",CD_STATE_NOTVALID)
+		!Exists("willia") //let Keldorn's Quest play out, first
+THEN
+  RESPONSE #100
+	CreateCreatureImpassable("O#C#Spy",[757.305],0) 
+//	CreateCreature("O#C#Spy",[785.376],0) 
+	SetGlobal("O#CrLynnQuestSpawn1_Add","GLOBAL",2)
+	Wait(1)
+	ActionOverride("O#C#Spy",StartDialogueNoSet(Player1))
+END

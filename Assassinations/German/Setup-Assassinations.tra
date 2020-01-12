@@ -1,0 +1,215 @@
+@0 = ~Assassinations Mod fuer Baldur's Gate II~
+@1 = ~Lynn~
+@2 = ~Tagchen.~ [O#CRLY01]
+@3 = ~Was wollt Ihr mir heute berichten?~ [O#CRLY02]
+@4 = ~Meiner Erfahrung nach, ist es aüsserst selten, dass auf eine unschuldige Person ein Kopfgeld ausgesetzt wird.~ [O#CRLY03]
+@5 = ~Behandelt mich wie eine Naturkatastrophe.~ [O#CRLY04]
+@6 = ~Ich glaube ich kann die Leute richtig einschätzen. Selbstverständlich, manchmal passiert es aüsserst selten ...~ [O#CRLY15]
+@7 = ~Ah. Unser Held kehrt zurück.~ [O#CRLY05]
+@8 = ~Notiz~
+@9 = ~Wenn Ihr nachts den zweiten Stock der Fünf Krüge aufsucht, könntet Ihr Dinge erfahren, die interessant für Euch sein könnten.~
+@10 = ~Sucht mich auf.~
+@11 = ~Qyr's Papiere~
+@12 = ~Es scheint als wären diese Bücher kodiert. Einige tragen das Zeichen der Schattendiebe.~
+@13 = ~Lord Melyin~
+@14 = ~Nevier Costa~
+@15 = ~Amara~
+@16 = ~Inspektor Daton~
+@17 = ~Sir Alexis~
+@18 = ~Chris~
+@19 = ~Oulav Steros~
+@20 = ~Simon~
+@21 = ~Qyr~
+@22 = ~Tea~
+@23 = ~Gannis~
+@24 = ~Lady Sofia~
+@25 = ~Kern~
+@26 = ~Rhin~
+@27 = ~Captain Gewen~
+@28 = ~Lord Damir~
+@29 = ~Amulett der Harmonie~
+@30 = ~Dieses Amulett wurde <CHARNAME> angeblich von Lady Lynn am Tage von Lord Lahar Feenick's Ermordung übergeben. Lady Lynn, bestreitet dies aufs entschiedenste.
+
+EIGENSCHAFTEN:
+
+Fähigkeiten: Immunität gegen Beeinflussung, Konfusion, Beherrschung und Festhalten~
+@31 = ~Lahar Feenick~
+@32 = ~Feenick's Leibwache~
+@33 = ~Schreiende Frau~
+@34 = ~Söldner~
+@35 = ~Lord Melyin's Leibwache~
+@36 = ~Eine versiegelte Nachricht~
+@37 = ~Dieses Schriftrolle sieht nicht besonders wichtig aus, trotzdem ist sie aufwendig versiegelt.~
+@39 = ~Fein~
+@10000 = ~Auftragsmorde
+
+Bernard in the Kupferkrone übergab mir eine Nachricht, einer mir unbekannten Frau. Die Nachricht lautet: "Wenn Ihr nachts den zweiten Stock der Fünf Krüge aufsucht, könntet Ihr Dinge erfahren, die interessant für Euch sein könnten."~
+@10010 = ~Auftragsmorde
+
+Es stellte sich heraus, dass Lynn mich als Meuchelmörder anheuern wollte. Ich lehnte ihr Angebot ab und Sie griff mich an.~
+@10020 = ~Auftragsmorde
+
+Es stellte sich heraus, dass Lynn mich als Meuchelmörder anheuern wollte. Mein erstes Opfer ist Lord Melyin. Er hält sich zur Zeit des Sonnenuntergangs meistens im Mithrest Inn auf.~
+@10030 = ~Auftragsmorde
+
+Der Schankwirt erzählte mir, dass Lord Melyin gerade gegangen sein. Normalerweise nimmt er den südwestlichen Ausgang der Promenade um heimzukehren. Wenn ich mich beeile, kann ich ihn vielleicht noch abfangen.~
+@10040 = ~Auftragsmorde
+
+Lord Melyin ist tot. Ich sollte Lynn darüber informieren.~
+@10050 = ~Auftragsmorde
+
+Ich beschloss Lord Melyin entkommen zu lassen. Er versprach mir beim Schankwirt des Mithrest Inn eine Belohnung für mich zu hinterlegen, aber ich bezweifele dass er sein Wort hält.~
+@10060 = ~Auftragsmorde
+
+Ich habe Inspektor Brega von Lynn's Aktivitäten berichtet. Ausserdem sagte ich ihm wo er sie finden kann. Er versprach mir die Sache zu untersuchen.~
+@10070 = ~Auftragsmorde
+
+Ich habe Renal Bloodscalp über Lynn's Aktivitäten berichtet und verriet ihm Lynn's Aufenthaltsort. Renal sagte ich hätte einen Fehler begangen.~
+@10080 = ~Auftragsmorde
+
+Lynn lockte mich in Athkatla in einen Hinterhalt. Ich tötete sie und ihre gekauften Helfer.~
+@10090 = ~Auftragsmorde
+
+Ich beschloss unseren Vertrag zu brechen und teilte dies Lynn mit. Unsere Zusammenarbeit ist damit beendet.~
+@10100 = ~Auftragsmorde
+
+Lynn entschied, dass ich zu oft Gnade gezeigt habe. Unsere Zusammenarbeit ist beendet.~
+@10110 = ~Auftragsmorde
+
+Mein zweites Opfer ist Nevier Costa, ein Priester des Lathander. Ich werde meine Nachforschungen im Tempel beginnen.~
+@10120 = ~Auftragsmorde
+
+Ein Priester des Lathander erzählte mir, dass sich Nevier Costa in den Slums aufhält, um die Armen zu pflegen. Ich werde ihn dort aufstöbern.~
+@10130 = ~Auftragsmorde
+
+Ich habe Nevier Costa in den Slums gefunden. Er war gerade mit einer jungen Frau zusammen. Sein Verhalten war alles andere als angemessen. Letzten Endes griff er mich an.~
+@10140 = ~Auftragsmorde
+
+Ich habe Nevier Costa in den Slums gefunden. Er war gerade mit einer jungen Frau zusammen. Sein Verhalten war alles andere als angemessen, aber gegen ein Bestechungsgeld von 500 Goldstücken liess ich ihn laufen.~
+@10150 = ~Auftragsmorde
+
+Mein drittes Opfer ist eine Frau namens Amara. Sie lebt in den Slums also werde ich sie dort suchen.~
+@10160 = ~Auftragsmorde
+
+Ich habe Amara's Schwester in den Slums gefunden. Sie verschwieg mir allerdings wo sich Amara versteckt hält.~
+@10170 = ~Auftragsmorde
+
+Aamar's Schwester erzählte mir, dass sich Amara nachts im Süden der Promenade versteckt .~
+@10180 = ~Auftragsmorde
+
+Ich habe Amara gefunden. Es stellte sich heraus, dass sie sich in einen reichen, verheirateten Mann verliebt hatte und sowohl der Mann wie auch seine Frau sie tot sehen wollten. Ich habe das Mädchen entkommen lassen.~
+@10190 = ~Auftragsmorde
+
+Ich habe Amara gefunden. Es stellte sich heraus, dass sie sich in einen reichen, verheirateten Mann verliebt hatte und sowohl der Mann wie auch seine Frau sie tot sehen wollten. Sie hat die Wachen zu Hilfe gerufen, aber ich habe sie trotzdem getötet.~
+@10200 = ~Auftragsmorde
+
+Mein viertes Opfer ist ein Offizier der Wache, Inspektor Daton. Ich kann ihn im Hafenviertel finden. Ich sollte mich in der Kaserne nach ihm erkundigen.~
+@10210 = ~Auftragsmorde
+
+Ich habe die Kaserne aufgesucht. Die Wachen haben erzählt, dass ich Inspektor Daton im Seeschatz finden kann.~
+@10220 = ~Auftragsmorde
+
+Inspektor Daton war sehr daran interessiert mich privat zu sprechen. Er bat mich ihn in der Nähe von Cromwell's Schmiede zu treffen.~
+@10230 = ~Auftragsmorde
+
+Ich habe Inspektor Daton über Lynn's Aktivitäten und ihren Aufenthaltsort aufgeklärt. Er ist sofort aufgebrochen.~
+@10240 = ~Auftragsmorde
+
+Inspektor Daton ist tot. Er versuchte vergeblich mir den Namen meines Auftraggebers zu entlocken.~
+@10250 = ~Auftragsmorde
+
+Mein fünftes Ziel ist ein Ritter des Ordens des Strahlenden Herzens, Sir Alexis.~
+@10260 = ~Auftragsmorde
+
+Der Prälat berichtete mir, dass Sir Alexis vor kurzem einen schweren persönlichen Verlust erlitten hat. Zur Zeit besucht er jemanden der im Gefängnis sitzt.~
+@10270 = ~Auftragsmorde
+
+Ich fand Sir Alexis bei einem jungen Mann, Chris. Er stellte sich heraus, dass Chris für ein Verbrechen eingesperrt wurde, das er nicht begangen hatte - Sir Alexis war der Schuldige. Ich habe Sir Alexis niedergestochen, aber ich habe Chris nicht geholfen, er wird bald hingerichtet. Chris bat mich um einen Unsichtbarkeitszauber um fliehen zu können.~
+@10280 = ~Auftragsmorde
+
+Ich habe Chris den Zauberspruch gebracht, so dass er fliehen konnte.~
+@10290 = ~Auftragsmorde
+
+Ich fand Sir Alexis bei einem jungen Mann, Chris. Es stellte sich heraus, dass Chris für ein scheussliches Verbrechen eingesperrt wurde und die Frechheit besass, Sir Alexis dieses Verbrechens zu Beschuldigen. Ich entschuldigte mich für die Störung und ging, genauso wie Sir Alexis. Ich weiss nicht wo er ist.~
+@10300 = ~Auftragsmorde
+
+Ich habe einen neuen Auftrag. Ich soll Oulav Steros, eine Lotushändler töten und herausfinden wer sein Lieferant ist. Oulav Steros hält sich im Hafenbereich des Brückenviertels auf.~
+@10310 = ~Auftragsmorde
+
+Ich habe Oulav's Vertrauen gewonnen. Er gab mir meinen ersten Auftrag: Ich soll 400 Goldmünzen, die ihm ein junger Mann namens Simon schuldet eintreiben. Simon hält sich normalerweise in den Hinterzimmern der Kupferkrone auf.~
+@10320 = ~Auftragsmorde
+
+Mein nächster Auftrag besteht darin dem Daumen im Seeschatz eine Nachricht zu überbringen.~
+@10330 = ~Auftragsmorde
+
+Jetzt habe ich meinen ersten echten Auftrag bekommen: Ich soll den Wachen im Torviertel 800 Goldmünzen überbringen. Vielleicht kann ich, wenn ich vorsichtig bin, den Namen von Oulav's Lotuslieferanten erfahren.~
+@10340 = ~Auftragsmorde
+
+Oulav Steros und seine Leibwachen sind tot und ich kann Lynn Bericht erstatten.~
+@10350 = ~Auftragsmorde
+
+Mein siebter Auftrag führt mich nach Handelstreff: Qyr, mein Opfer wurde dort zuletzt gesehen. Ich muss ihn finden, töten und die Dokumente die er gestohlen hat zurückbringen.~
+@10360 = ~Auftragsmorde
+
+Ich habe Qyr gefunden. Erstaunlicherweise vertraut er mir: Er braucht Schutz. Wir werden uns bei den Stadttoren im Norden treffen.~
+
+@10370 = ~Auftragsmorde
+
+Es stellte sich heraus, dass Qyr mir von Anfang an misstraute. Deshalb versuchte er mich in eine Falle zu locken. Nun sind er und seine Helfershelfer tot.~
+@10380 = ~Auftragsmorde
+
+Mein achter Auftrag besteht darin ein Paar Harfner zu töten: Tea und Gannis. Unglücklicherweise weiss Lynn nichts weiter über sie. Ich muss selber herausfinden wo sie sich aufhalten.~
+@10390 = ~Auftragsmorde
+
+Letzten Endes konnte mir Ribald Barterman sagen wo ich die beiden Harfner finden kann: Im Delosar Inn im Brückenviertel.~
+@10400 = ~Auftragsmorde
+
+Nun weiss ich was Tea und Gannis' Aufgabe war: Sie sollten die Verräter, welche die Harfner unterwandert hatten töten - jene Harfner, die für meinen Auftraggeber gearbeitet haben. Ich habe Tea und Gannis gehen lassen.~
+@10410 = ~Auftragsmorde
+
+Nun weiss ich was Tea und Gannis' Aufgabe war: Sie sollten die Verräter, welche die Harfner unterwandert hatten töten - jene Harfner, die für meinen Auftraggeber gearbeitet haben. Ich habe Tea und Gannis sofort getötet.~
+@10420 = ~Auftragsmorde
+
+Lynn sagt, dass dies mein letzter Auftrag ist, den ich von kriegen werde: Ich soll Kern töten, einen prfessionellen Meuchelmörder. Es ist unbekannt wo er sich aufhält, aber Lynn sagt, dass sich seine Geliebte, eine Hure namens Sophie, im Brückenviertel aufhält.~
+@10430 = ~Auftragsmorde
+
+Ich habe mich um gehört und herausgefunden, dass Sophie jetzt Lady Sofia heisst. Ich vermute, dass sie sich, wie die meisten Ladies, im Tempelviertel oder im Regierungsviertel aufhält.~
+@10440 = ~Auftragsmorde
+
+Ich habe Sophie gefunden und durch sie, Kern. Kern sorgte sich mehr um Sophie's Sicherheit als um seine eigene. Letztendlich, griff er mich an.~
+@10450 = ~Auftragsmorde
+
+Lynn war erfreut über Kern's Ableben. Unser Vertrag ist nun beendet, trotzdem bat sie mich ein Auge auf die Kupferkrone zu werfen. Eventuell, wird dort eines Tages eine weitere Nachricht auf mich warten...~
+@10460 = ~Auftragsmorde
+
+Bernard überreichte mir eine weitere Nachricht von Lynn. Der zweite Stock in den Fünf Krügen...~
+@10470 = ~Auftragsmorde
+
+Lynn stellte mir ihren Auftraggeber vor: Rhin. Das Komplott wird dichter: Ich soll einen Kandidaten auf einen Platz im Rat der Sechs töten, der von gut ausgebildeten Leibwachen beschützt wird! Ich soll Lynn am Friedhof treffen.~
+@10480 = ~Auftragsmorde
+
+Lynn bat mich zu schwören, dass ich die Mission ausführe, bevor sie mich in die Details einweiht. Ich lehnte ab und sie verschwand ohne ein weiteres Wort. Ich bezweifele, dass ich sie jemals wiedersehen werde.~
+@10490 = ~Auftragsmorde
+
+Während Lynn den eigentlichen Mord begeht, muss ich dafür sorgen dass es keine Zeugen gibt. Ich muss alle töten so schnell ich kann. Sie wird sich in einer Minute hoch schleichen. Ich werde ihr folgen.~
+@10500 = ~Auftragsmorde
+
+Ich wurde verhaftet und für den Mörder gehalten! Glücklicherweise, inszenierten Rhin(der ein Mitglied im Rat der Sechs ist!) und Lynn ein Spektakel vor dem Richter. Auch wenn es ihm nicht gefiel, blieb ihm keine andere Wahl . Ich bin frei - und Lynn hat mir bereits meine Belohnung übergeben. Dieses Abenteuer ist endgültig vorbei.~
+@10510 = ~Auftragsmorde
+
+Die Wache verriet mir Oulav's Lotuslieferanten: Kett, from Calimshafen. Jetzt weiss ich alles, was ich wissen muss.~
+@10520 = ~Auftragsmorde
+
+Lynn, die Frau die mir eine Nachricht überbringen liess, wollte dass ich jemandem eine Summe Goldes und eine versiegelte Nachricht überbringe. Ich lehnte Ihr Angebot an und sie ging.~
+@10530 = ~Auftragsmorde
+
+Lynn, die Frau die mir eine Nachricht überbringen liess, möchte dass ich Fein eine Summe Goldes und eine versiegelte Nachricht überbringe. Das Siegel der Nachricht darf nicht gebrochen werden.~
+@10540 = ~Auftragsmorde
+
+Ich konnte die Mission nicht beenden und sagte es Lynn. Sie griff mich an.~
+@10550 = ~Auftragsmorde
+
+Ich entschloss mich Lynn anzugreifen. Unsere Zusammenarbeit ist endgültig vorbei.~
+@10560 = ~Auftragsmorde
+
+Ein Junge überbrachte mir eine weitere Nachricht von Lynn. Der zweite Stock in den Fünf Krügen...~

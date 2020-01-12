@@ -1,0 +1,220 @@
+//Miscelánea: objetos y nombres personajes, líneas de Lynn...
+
+@0 = ~Asesinatos. Mod para Baldur's Gate II~
+@1 = ~Lynn~
+@2 = ~Saludos.~ [O#CRLY01]
+@3 = ~¿Qué nuevas traéis para mí?~ [O#CRLY02]
+@4 = ~Sé por propia experiencia que una persona inocente rara vez se encuentra en el punto de mira de un cazarrecompensas.~ [O#CRLY03]
+@5 = ~Tratadme como si fuera un desastre natural.~ [O#CRLY04]
+@6 = ~Veo que estáis comenzando a conocer más gente. Claro que a veces de forma... breve.~ [O#CRLY15]
+@7 = ~Ah. Nuestro héroe ha regresado.~ [O#CRLY05]
+~Ah. Nuestra heroína ha regresado.~ [O#CRLY05]
+@8 = ~Carta~
+@9 = ~Presentaos en la segunda planta de la posada Las cinco jarras si queréis escuchar algo muy interesante.~
+@10 = ~Venid a verme.~
+@11 = ~Documentos de Qyr~
+@12 = ~Son diversos libros de contabilidad, todos cifrados. Algunos de ellos llevan el sello de los Ladrones de las sombras.~
+@13 = ~Lord Melyin~
+@14 = ~Nevier Costa~
+@15 = ~Amara~
+@16 = ~Alguacil Daton~
+@17 = ~Sir Alexis~
+@18 = ~Chris~
+@19 = ~Oulav Steros~
+@20 = ~Simón~
+@21 = ~Qyr~
+@22 = ~Tea~
+@23 = ~Gannis~
+@24 = ~Dama Sofía~
+@25 = ~Kern~
+@26 = ~Rhin~
+@27 = ~Capitán Gewen~
+@28 = ~Lord Damir~
+@29 = ~Amuleto de la armonía~
+@30 = ~Este amuleto lo recibió <CHARNAME> de manos de la señorita Lynn el día en que lord Lahar Feenick fue asesinado. Sin embargo, la señorita Lynn niega que exista cualquier tipo de relación.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas: inmunidad a hechizar, confusión, dominación e inmovilizar persona~
+@31 = ~Lahar Feenick~
+@32 = ~Guardaespaldas de Feenick~
+@33 = ~Mujer sollozante~
+@34 = ~Mercenario~
+@35 = ~Guardaespaldas de lord Melyin~
+@36 = ~Carta lacrada~
+@37 = ~El diseño de este pergamino no destaca por su complejidad, salvo por los intrincados nudos y el lacre que lo sellan.~
+@39 = ~Fein~
+
+//Entradas de diario.
+
+@10000 = ~Asesinatos
+
+Bernard, el posadero de la Corona de cobre, me ha dado un mensaje de parte de una mujer de la que no sé nada. En la carta pone: "Presentaos en la segunda planta de la posada Las cinco jarras si queréis escuchar algo muy interesante".~
+@10010 = ~Asesinatos
+
+Resulta que Lynn quería que asesinara a varias personas a cambio de una buena recompensa. Me ha atacado en cuanto le he dicho que su oferta no me interesaba.~
+@10020 = ~Asesinatos
+
+Resulta que Lynn quiere que asesine a varias personas a cambio de una buena recompensa. Mi primer objetivo es lord Melyin. Parece que frecuenta la posada Mitocio hasta el anochecer.~
+@10030 = ~Asesinatos
+
+El posadero de la posada Mitocio me ha dicho que lord Melyin acaba de irse. Si me doy prisa llegaré a la salida sudoeste del Paseo antes de que pueda alcanzar su mansión.~
+@10040 = ~Asesinatos
+
+Lord Melyin está muerto. Debo informar a Lynn de esta noticia.~
+@10050 = ~Asesinatos
+
+He decidido dejar marchar a Lord Melyin. Ha prometido dejarme una generosa cantidad de dinero en la posada Mitocio, aunque sinceramente dudo que cumpla con su palabra.~
+@10060 = ~Asesinatos
+
+Le he contado al alguacil jefe Brega todo lo que sabía acerca de las actividades de Lynn, así como su paradero. Ha prometido investigar el caso.~
+@10070 = ~Asesinatos
+
+Le he contado a Renal Cabellorrojo todo lo que sabía acerca de las actividades de Lynn, así como su paradero. Me ha dicho que he cometido un error.~
+@10080 = ~Asesinatos
+
+Lynn me ha emboscado en Athkatla. He tenido que acabar con ella y sus lacayos.~
+@10090 = ~Asesinatos
+
+He decidido romper mi trato con Lynn, y así se lo he hecho saber. Cualquier relación que pudiera tener con ella ha terminado.~
+@10100 = ~Asesinatos
+
+Lynn cree que he mostrado demasiada clemencia ante mis víctimas y ha roto nuestro trato. Cualquier relación que pudiera tener con ella ha terminado.~
+@10110 = ~Asesinatos
+
+Mi segunda víctima es Nevier Costa, un sacerdote de Lazhánder. Debería iniciar mis pesquisas en el templo de su dios.~
+@10120 = ~Asesinatos
+
+El Dueño del Alba Kril me ha dicho que podré encontrar a Nevier Costa en los barrios bajos, socorriendo a los más desfavorecidos.~
+@10130 = ~Asesinatos
+
+Encontré a Nevier Costa en los barrios bajos con una chica. Su conducta indecente distaba mucho del modelo de comportamiento de un Portador del Alba. Me atacó después de intentar sobornarme.~
+@10140 = ~Asesinatos
+
+Encontré a Nevier Costa en los barrios bajos acosando a una chica. Sin embargo, acepté las quinientas monedas de oro que me ofrecía por no comentar a nadie sus "aventuras".~
+@10150 = ~Asesinatos
+
+Mi tercer objetivo es una mujer llamada Amara. Vive en los barrios bajos, así que debería empezar a investigar por esa zona.~
+@10160 = ~Asesinatos
+
+Me encontré con la hermana de Amara en los barrios bajos, pero no quiso decirme nada acerca del paradero de su hermana.~
+@10170 = ~Asesinatos
+
+La hermana de Amara me ha dicho que podría encontrar a su hermana cerca de la puerta sur del Paseo de Waukin.~
+@10180 = ~Asesinatos
+
+Por fin he encontrado a Amara. Me ha contado que se enamoró de un ricachón, y que él o su esposa querían verla muerta. He permitido que se fuera.~
+@10190 = ~Asesinatos
+
+Por fin he encontrado a Amara. Me ha contado que se enamoró de un ricachón, y que él o su esposa querían verla muerta. Ha pedido ayuda a unos guardias, pero no le ha servido de nada. Está muerta.~
+@10200 = ~Asesinatos
+
+Mi cuarto objetivo es el alguacil Daton, un oficial de la guardia. Debería poder encontrarlo en los cuarteles del distrito del puerto.~
+@10210 = ~Asesinatos
+
+En los cuarteles los soldados me han dicho que el alguacil Daton está en la taberna Regalo del mar.~
+@10220 = ~Asesinatos
+
+El alguacil Daton parecía muy interesado en hablar conmigo a solas. Me pidió que me personara cerca de la forja de Cromwell.~
+@10230 = ~Asesinatos
+
+Le he contado al alguacil Daton todo lo que sabía acerca de las actividades de Lynn, así como su paradero. Ha partido inmediatamente en su busca.~
+@10240 = ~Asesinatos
+
+El alguacil Daton está muerto. Intentó obligarme a revelar el nombre de mi superior, pero sus esfuerzos no le valieron de nada.~
+@10250 = ~Asesinatos
+
+Mi quinto objetivo es sir Alexis, un caballero de la Orden del Muy Radiante Corazón.~
+@10260 = ~Asesinatos
+
+El prelado me ha dicho que sir Alexis ha perdido recientemente a un ser querido. En estos momentos se encuentra de visita en la prisión.~
+@10270 = ~Asesinatos
+
+He encontrado en una celda a sir Alexis con un joven llamado Chris. Parece que este último fue encarcelado por un crimen que cometió el mismo sir Alexis. He apuñalado al caballero por la espalda, pero Chris será ejecutado si no hago nada por él. Me ha dicho que podría escapar de la prisión si le diera un pergamino de Invisibilidad.~
+@10280 = ~Asesinatos
+
+Le he dado un pergamino de Invisibilidad a Chris. Gracias a él ha podido escapar de la cárcel.~
+@10290 = ~Asesinatos
+
+He encontrado en una celda a sir Alexis con un joven llamado Chris. Este último fue encarcelado por perpetrar un terrible asesinato, y no solo contento con eso, tuvo el descaro de acusar al caballero de haberlo cometido él. Me disculpé con sir Alexis por haberle interrumpido y permití que se fuera. No sé adónde puede haber ido.~
+@10300 = ~Asesinatos
+
+Me han asignado la tarea de matar a Oulav Steros, un traficante de loto negro, y de descubrir el nombre de su proveedor. Podré encontrarlo en el distrito del puente.~
+@10310 = ~Asesinatos
+
+Después de ganarme la confianza de Oulav, me ha enviado a mi primera misión: cobrar una deuda de cuatrocientas monedas a Simón, un muchacho que se encuentra en las habitaciones de atrás de la Corona de cobre.~
+@10320 = ~Asesinatos
+
+Mi próxima tarea es darle un mensaje de parte de Oulav a El Pulgar, en el Regalo del mar.~
+@10330 = ~Asesinatos
+
+Por fin Oulav me ha confiado un trabajo importante. Tengo que darle ochocientas monedas de oro a un oficial de la guardia; podré encontrarle de día frente a las puertas de la ciudad. Tal vez, si se lo pregunto con cuidado, pueda revelarme el nombre del proveedor de loto que busco.~
+@10340 = ~Asesinatos
+
+Oulav Steros y sus matones están muertos. Tengo que informar a Lynn de esta nueva.~
+@10350 = ~Asesinatos
+
+Mi próximo objetivo es un hombre llamado Qyr; parece que fue visto por última vez en Caravasar. Debo encontrarlo, eliminarlo y recuperar unos documentos que robó.~
+@10360 = ~Asesinatos
+
+He encontrado a Qyr. Por extraño que parezca, parece confiar en mí. Me ha dicho que debíamos vernos en la calle posterior a la herrería, al norte.~
+@10370 = ~Asesinatos
+
+Vaya, resulta que lo único que pretendía Qyr era tenderme una emboscada. Él y sus mercenarios están muertos.~
+@10380 = ~Asesinatos
+
+Mi octava tarea consiste en eliminar a dos arpistas: Tea y Gannis. Desgraciadamente Lynn desconoce su paradero, así que tendré que buscarme la vida.~
+@10390 = ~Asesinatos
+
+¡Por fin! Ribald me ha dicho que puedo encontrar a los dos arpistas que busco en la posada Delosar, en el distrito del puente.~
+@10400 = ~Asesinatos
+
+He descubierto que el propósito de Tea y Gannis es el de eliminar a los traidores que se encuentran entre los arpistas... como algunos de los hombres que trabajan para mis superiores. He permitido que se fueran.~
+@10410 = ~Asesinatos
+
+He descubierto que el propósito de Tea y Gannis era el de eliminar a los traidores que se encuentran entre los arpistas... como algunos de los hombres que trabajan para mis superiores. He acabado con ellos inmediatamente.~
+@10420 = ~Asesinatos
+
+Lynn me ha explicado la que será mi última misión: matar a Kern, un asesino profesional. Desconoce su paradero, pero sabe que ha mantenido relaciones con una prostituta llamada Sofía aquí, en el distrito del puente.~
+@10430 = ~Asesinatos
+
+He preguntado por los alrededores y he descubierto que Sofía ahora es conocida como la dama Sofía. Imagino que podré encontrarla en el distrito del templo, o en el gubernamental.~
+@10440 = ~Asesinatos
+
+He encontrado a Sofía y, junto a ella, a Kern. El asesino parecía estar más preocupado por la seguridad de la mujer que por la suya propia. Finalmente me ha atacado.~
+@10450 = ~Asesinatos
+
+Lynn se alegró mucho al saber que Kern había muerto. Nuestro contrato ha terminado, pero aun así me dijo que no perdiera de vista la Corona de cobre, que quizá algún día de estos podría recibir otra carta...~
+@10460 = ~Asesinatos
+
+Bernard me ha dado otra nota de parte de Lynn. Supongo que podré encontrarme con ella en la segunda planta de la posada Las cinco jarras, como siempre.~
+@10470 = ~Asesinatos
+
+Lynn me ha presentado a su superior, Rhin. Este asunto se complica. ¡He de matar a un candidato a miembro del Consejo de los Seis, junto con toda su guardia personal! Debo encontrarme con Lynn en el distrito del cementerio.~
+@10480 = ~Asesinatos
+
+Lynn me preguntó si podía prometerle aceptar la misión antes de conocer más detalles. Se fue en cuanto me negué. Dudo que la vuelva a ver.~
+@10490 = ~Asesinatos
+
+Este es el plan: mientras Lynn se encarga de asesinar al candidato, yo debo matar con presteza a todos los guardias que lo protegen. Pronto subirá por las escaleras; tendré que seguirla poco después.~
+@10500 = ~Asesinatos
+
+¡Estaba bajo arresto y me iban a sentenciar a muerte! Afortunadamente, Rhin (¡un miembro del Consejo de los Seis!) y Lynn testificaron a mi favor inventándose una patraña delante del juez. No parecía muy convencido, pero no tuvo más remedio que dejarme ir. Soy libre, y Lynn me ha dado la recompensa que merecía. Parece que esta aventura por fin ha terminado.~
+@10510 = ~Asesinatos
+
+El oficial me reveló el nombre del proveedor de loto de Oulav: Kett, de Puerto Cálim. Por fin sé lo que quería.~
+@10520 = ~Asesinatos
+
+Lynn, la mujer que me envió la carta, deseaba que fuera al distrito del puerto con una misiva y una buena cantidad de dinero. Se fue en cuanto le dije que no me interesaba.~
+@10530 = ~Asesinatos
+
+Lynn, la mujer que me envió la carta, desea que vaya al distrito del puerto y le dé una misiva y una buena cantidad de dinero a un hombre llamado Fein, en el Regalo del mar. Recalcó que no debía abrir la misiva bajo ningún concepto.~
+@10540 = ~Asesinatos
+
+Lynn me atacó cuando le dije que no pude completar con éxito la misión.~
+@10550 = ~Asesinatos
+
+He decidido atacar a Lynn. Evidentemente cualquier trato que pudiera tener con ella ha terminado.~
+@10560 = ~Asesinatos
+
+Un chico me ha dado un mensaje de parte de Lynn. Supongo que podré encontrarme con ella en la segunda planta de la posada Las cinco jarras, como siempre.~

@@ -1,0 +1,10 @@
+IF
+True()
+THEN
+RESPONSE #100
+CutSceneId(Player1)
+CreateCreature("O#Rhin",[696.334],0)
+ActionOverride("O#Rhin",MoveToPoint([833.651]))
+Wait(3)
+ActionOverride("O#Damir",StartDialogueNoSet(Player1))
+END

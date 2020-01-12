@@ -1,0 +1,33 @@
+IF
+Allegiance(Myself,ENEMY)
+See(NearestEnemyOf(Myself))
+OR(2)
+StateCheck(Myself,STATE_INVISIBLE)
+StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+THEN
+RESPONSE #100
+AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+IF
+Allegiance(Myself,ENEMY)
+See(NearestEnemyOf(Myself))
+!StateCheck(Myself,STATE_INVISIBLE)
+!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+HasItemSlot(Myself,SLOT_MISC)
+THEN
+RESPONSE #100
+UseItemSlot(Myself,SLOT_MISC)
+END
+
+IF
+Allegiance(Myself,ENEMY)
+See(NearestEnemyOf(Myself))
+!StateCheck(Myself,STATE_INVISIBLE)
+!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+!HasItemSlot(Myself,SLOT_MISC)
+THEN
+RESPONSE #100
+RunAwayFrom(NearestEnemyOf(Myself),70)
+Hide()
+END

@@ -1,0 +1,7 @@
+IF
+Global("O#CrSimonSpawn","GLOBAL",1)
+THEN
+RESPONSE #100
+CreateCreature("O#CrSim",[1866.969],0)
+SetGlobal("O#CrSimonSpawn","GLOBAL",2)
+END

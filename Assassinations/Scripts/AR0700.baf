@@ -1,0 +1,46 @@
+IF
+Global("O#CrLynnQuestSpawn1","GLOBAL",1)
+THEN
+RESPONSE #100
+CreateCreature("O#CrMel",[64.3808],0)
+CreateCreature("O#CrGua1",[36.3786],0)
+CreateCreature("O#CrGua2",[90.3774],0)
+SetGlobal("O#CrLynnQuestSpawn1","GLOBAL",2)
+END
+
+IF
+Global("O#CrLynnQuestSpawn1","GLOBAL",2)
+!TimeOfDay(NIGHT)
+!Time(18) 
+!Time(19) 
+!Time(20)
+!Time(21)
+!Time(22)
+!Time(23)
+THEN
+RESPONSE #100
+ActionOverride("O#CrMel",DestroySelf())
+ActionOverride("O#CrGua1",DestroySelf())
+ActionOverride("O#CrGua2",DestroySelf())
+SetGlobal("O#CrLynnQuestSpawn1","GLOBAL",0)
+END
+
+IF
+Global("O#CrLynnQuestSpawn3V","GLOBAL",0)
+GlobalGT("O#CrLynnQuestSpawn3","GLOBAL",1)
+TimeOfDay(NIGHT)
+THEN
+RESPONSE #100
+CreateCreature("O#CrAma",[1966.3751],0)
+SetGlobal("O#CrLynnQuestSpawn3V","GLOBAL",1)
+END
+
+IF
+Global("O#CrLynnQuestSpawn3V","GLOBAL",1)
+Global("O#CrLynnQuestSpawn3","GLOBAL",1)
+!TimeOfDay(NIGHT)
+THEN
+RESPONSE #100
+ActionOverride("O#CrAma",DestroySelf())
+SetGlobal("O#CrLynnQuestSpawn3V","GLOBAL",0)
+END

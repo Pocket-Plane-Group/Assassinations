@@ -1,0 +1,9 @@
+IF
+Global("O#CrLynnQuest","GLOBAL",4)
+Global("O#CrSpawnedDaton","GLOBAL",2)
+THEN
+RESPONSE #100
+CreateCreature("O#CrDat",[4304.2458],0)
+SetGlobal("O#CrSpawnedDaton","GLOBAL",3)
+Continue()
+END

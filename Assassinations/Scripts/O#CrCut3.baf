@@ -1,0 +1,16 @@
+IF
+True()
+THEN
+RESPONSE #100
+CutSceneId(Player1)
+CreateVisualEffect("spdimndr",[1494.152])
+CreateVisualEffect("spdimndr",[1587.109])
+CreateVisualEffect("spdimndr",[1687.173])
+Wait(2)
+CreateCreature("O#CrGu71",[1494.152],0)
+CreateCreature("O#CrGu72",[1587.109],0)
+CreateCreature("O#CrGu73",[1687.173],0)
+Wait(3)
+ActionOverride("O#CrQyr",Enemy())
+EndCutSceneMode()
+END

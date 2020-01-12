@@ -1,0 +1,9 @@
+IF
+True()
+THEN
+RESPONSE #100
+CutSceneId(Player1)
+ActionOverride("O#CrGir2",EscapeArea())
+Wait(6)
+ActionOverride("O#CrNev",StartDialogueNoSet(Player1))
+END

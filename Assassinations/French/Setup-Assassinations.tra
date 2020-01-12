@@ -1,0 +1,280 @@
+@0 = ~Mod Assassinations pour Baldur's Gate II~
+@1 = ~Lynn~
+@2 = ~Bonjour.~ [O#CRLY01]
+@3 = ~Qu'avez-vous à me dire aujourd'hui ?~ [O#CRLY02]
+@4 = ~D'après mon expérience, une personne innocente a rarement une prime sur sa tête.~ [O#CRLY03]
+@5 = ~Considérez-moi comme une catastrophe naturelle.~ [O#CRLY04]
+@6 = ~Je crois qu'il est bon d'apprendre à connaître les gens. Bien sûr, cette phase est parfois un peu... brève.~ [O#CRLY15]
+@7 = ~Ah. Notre héros est de retour.~ [O#CRLY05]
+@8 = ~Note~
+@9 = ~Si vous vous rendez au premier étage de l'auberge des Cinq Chopes ce soir, vous y entendrez des choses qui pourraient vous intéresser.~
+@10 = ~Venez me voir.~
+@11 = ~Documents de Qyr~
+@12 = ~On dirait des livres de comptes, dont le contenu semble crypté. Quelques-uns portent l'insigne des Voleurs de l'Ombre.~
+@13 = ~Lord Melyin~
+@14 = ~Nevier Costa~
+@15 = ~Amara~
+@16 = ~Inspecteur Daton~
+@17 = ~Sir Alexis~
+@18 = ~Chris~
+@19 = ~Oulav Steros~
+@20 = ~Simon~
+@21 = ~Qyr~
+@22 = ~Tea~
+@23 = ~Gannis~
+@24 = ~Dame Sofia~
+@25 = ~Kern~
+@26 = ~Rhin~
+@27 = ~Capitaine Gewen~
+@28 = ~Lord Damir~
+@29 = ~Amulette d'Harmonie~
+@30 = ~Cette amulette aurait été donnée à <CHARNAME> par Dame Lynn le jour où Lord Lahar Feenick a été assassiné. Cependant, Dame Lynn nie être impliquée.
+
+PARAMETRES :
+
+Capacités : Immunité aux charmes, à la confusion, à la domination et au sort d'immobilisation des personnes~
+@31 = ~Lahar Feenick~
+@32 = ~Garde du corps de Feenick~
+@33 = ~Femme en pleurs~
+@34 = ~Mercenaire~
+@35 = ~Garde du corps de Lord Melyin~
+@36 = ~Une enveloppe cachetée~
+@37 = ~Cette lettre n'a rien de bien impressionnant, mais elle est cependant très soigneusement cachetée.~
+@39 = ~Fein~
+@10000 = ~Assassinats.
+
+Bernard de la Couronne de Cuivre m'a fait passer un message de la part d'une femme que je ne connais pas. Il dit : "Si vous vous rendez au premier étage de l'auberge des Cinq Chopes ce soir, vous y entendrez des choses qui pourraient vous intéresser."~
+@10010 = ~Assassinats.
+
+Il s'est avéré que Lynn voulait que je tue quelques personnes pour elle, en échange d'une prime substantielle. J'ai décliné son offre, et elle a alors tenté de me tuer.~
+@10020 = ~Assassinats.
+
+Il s'est avéré que Lynn voulait que je tue quelques personnes pour elle, en échange d'une prime substantielle. Ma première mission concerne Lord Melyin. On peut le trouver à l'auberge de Mithrest, à la tombée de la nuit.~
+@10030 = ~Assassinats.
+
+Le barman de l'auberge de Mithrest a dit que Lord Melyin venait juste de partir. D'habitude, il rentre chez lui en prenant la route au sud-ouest. Si je me dépêche, je pourrai peut-être le rattraper.~
+@10040 = ~Assassinats.
+
+Lord Melyin est mort. Il faut que j'aille l'annoncer à Lynn.~
+@10050 = ~Assassinats.
+
+J'ai décidé de laisser filer Lord Melyin. Il a promis de me laisser de l'argent à l'auberge de Mithrest, mais je doute qu'il tienne sa parole.~
+@10060 = ~Assassinats.
+
+J'ai parlé à l’inspecteur Brega des activités de Lynn et lui ai révélé où l'on pouvait la trouver. Il a promis d'enquêter.~
+@10070 = ~Assassinats.
+
+J'ai parlé à Renal Bloodscalp des activités de Lynn et lui ai révélé où l'on pouvait la trouver. Renal a dit que j'avais fait une erreur.~
+@10080 = ~Assassinats.
+
+Lynn m'a tendu une embuscade à Athkatla. J'ai dû la tuer, ainsi que ses hommes de main.~
+@10090 = ~Assassinats.
+
+J'ai décidé de résilier notre contrat et l'ai dit à Lynn. Notre collaboration est terminée.~
+@10100 = ~Assassinats.
+
+Lynn a décrété que j'avais fait preuve de pitié envers mes victimes une fois de trop, et a résilié notre contrat. Notre collaboration est terminée.~
+@10110 = ~Assassinats.
+
+Ma deuxième mission concerne Nevier Costa, un prêtre de Lathandre. J'irai me renseigner au temple.~
+@10120 = ~Assassinats.
+
+Le prêtre du temple de Lathandre a dit que Nevier Costa était dans les bas-quartiers à s'occuper des pauvres. Je le trouverai là-bas.~
+@10130 = ~Assassinats.
+
+J'ai trouvé Nevier Costa dans les bas-quartiers, avec une jeune femme. Son comportement était particulièrement indécent. Il a fini par m'attaquer.~
+@10140 = ~Assassinats.
+
+J'ai trouvé Nevier Costa dans les bas-quartiers, avec une jeune femme. Son comportement était particulièrement indécent, et il m'a offert un pot-de-vin de 500 pièces d'or si je gardais le silence à propos de ses "aventures" ; j'ai accepté.~
+@10150 = ~Assassinats.
+
+Ma troisième mission concerne une femme nommée Amara. Elle habitait dans les bas-quartiers, c'est donc là que je devrais commencer mes recherches.~
+@10160 = ~Assassinats.
+
+J'ai trouvé la soeur d'Amara dans les bas-quartiers. Cependant elle ne m'a pas dit un mot sur l'endroit où se trouve sa soeur.~
+@10170 = ~Assassinats.
+
+La soeur d'Amara m'a révélé qu'on peut trouver Amara au sud de la Promenade, pendant la nuit.~
+@10180 = ~Assassinats.
+
+J'ai trouvé Amara. Il s'est avéré qu'elle était amoureuse d'un riche homme marié et que cet homme, ou son épouse, voulait la voir morte. J'ai laissé partir Amara.~
+@10190 = ~Assassinats.
+
+J'ai trouvé Amara. Il s'est avéré qu'elle était amoureuse d'un riche homme marié et que cet homme, ou son épouse, voulaient la voir morte. Elle a appelé la garde, mais j'ai réussi à la tuer.~
+@10200 = ~Assassinats.
+
+Ma quatrième mission concerne un officier de la garde, l'inspecteur Daton. On peut le trouver dans les Docks : j'irai me renseigner dans les casernes.~
+@10210 = ~Assassinats.
+
+J'ai enquêté dans les casernes, et les soldats m'ont dit qu'on pouvait trouver l'inspecteur Daton à la Bonté Marine.~
+@10220 = ~Assassinats.
+
+L'inspecteur Daton a fortement souhaité me parler en privé, et m'a demandé de le rejoindre près de la forge de Cromwell.~
+@10230 = ~Assassinats.
+
+J'ai parlé à l'inspecteur Daton des activités de Lynn et de l'endroit où l'on pouvait la trouver. Il est parti très vite.~
+@10240 = ~Assassinats.
+
+L'inspecteur Daton est mort. Il a essayé de me forcer à lui révéler qui est ma patronne, mais cela ne lui a finalement guère été utile.~
+@10250 = ~Assassinats.
+
+Ma cinquième cible est un chevalier de l'Ordre du Coeur Radieux, Sir Alexis.~
+@10260 = ~Assassinats.
+
+Le prélat m'a dit que Sir Alexis avait récemment perdu un être cher, et rendait actuellement visite à quelqu'un à la prison de la ville.~
+@10270 = ~Assassinats.
+
+J'ai trouvé Sir Alexis avec un jeune homme, Chris. Il s'est avéré que Chris a été emprisonné pour un crime qu'il n'a pas commis - le véritable coupable est en fait Sir Alexis. J'ai abattu Sir Alexis mais si je n'aide pas Chris, il sera bientôt exécuté. Chris m'a demandé de lui apporter un parchemin avec un sort d'invisibilité, de façon à ce qu'il puisse se faufiler entre les gardes.~
+@10280 = ~Assassinats.
+
+J'ai apporté à Chris un parchemin avec un sort d'invisibilité, et il a pu s'échapper.~
+@10290 = ~Assassinats.
+
+J'ai trouvé Sir Alexis avec un jeune homme, Chris. Il s'est avéré que Chris a été emprisonné pour un crime odieux, et il a eu le culot d'accuser Sir Alexis de l'avoir commis. J'ai fait des excuses pour mon intervention et ai quitté les lieux ; Sir Alexis a fait de même. Je ne sais pas où il se trouve.~
+@10300 = ~Assassinats.
+
+J'ai reçu une nouvelle mission : éliminer un dealer de lotus, Oulav Steros, et découvrir l'identité de son fournisseur. On peut trouver Oulav Steros dans le district du Pont.~
+@10310 = ~Assassinats.
+
+J'ai gagné la confiance d'Oulav, et il m'a donné mon premier véritable travail : je dois aller recouvrer une dette de 400 pièces d'or auprès de Simon, un jeune homme qu'on peut trouver dans les arrière-salles de la Couronne de Cuivre.~
+@10320 = ~Assassinats.
+
+Mon prochain travail pour Oulav est de faire passer un message à Thumb à la Bonté Marine, dans les Docks.~
+@10330 = ~Assassinats.
+
+Bon, c'est mon "premier véritable travail" : je dois faire passer un pot-de-vin de 800 pièces d'or aux gardes dans le district de la Porte. Si je me débrouille bien, je pourrai peut-être les inciter à me révéler le nom du fournisseur d'Oulav.~
+@10340 = ~Assassinats.
+
+Oulav Steros et ses gardes du corps sont morts, je peux enfin faire mon rapport à Lynn.~
+@10350 = ~Assassinats.
+
+Ma septième mission va nécessiter un voyage à Franc-Marché : Qyr, ma cible, a paraît-il été vu là-bas. Je dois le trouver, l'éliminer et ramener les documents qu'il a volés.~
+@10360 = ~Assassinats.
+
+J'ai trouvé Qyr. À ma surprise, il semble me faire confiance : il a besoin d'une protection. Nous allons nous rencontrer au nord de la ville, à l'extérieur de la porte est.~
+@10370 = ~Assassinats.
+
+Il s'est avéré que Qyr avait eu des soupçons dès le début, alors il a essayé de me tendre un piège. Il est mort maintenant, tout comme ses associés.~
+@10380 = ~Assassinats.
+
+Ma huitième mission consiste à éliminer un couple de Ménestrels : Tea et Gannis. Malheureusement Lynn ne sait rien d'autre à leur sujet, en particulier l'endroit où l'on pourrait les trouver, alors je vais devoir me débrouiller.~
+@10390 = ~Assassinats.
+
+Enfin ! Ribald Barterman a pu me dire où trouver les Ménestrels que je recherche : à l'auberge de Delosar, dans le district du Pont.~
+@10400 = ~Assassinats.
+
+Je sais maintenant quelle était la mission de Tea et Gannis : éliminer les traîtres parmi les Ménestrels - certains Ménestrels qui travaillaient pour ma patronne. J'ai laissé partir Tea et Gannis.~
+@10410 = ~Assassinats.
+
+Je sais maintenant quelle était la mission de Tea et Gannis : éliminer les traîtres parmi les Ménestrels - certains Ménestrels qui travaillaient pour ma patronne. J'ai immédiatement tué ces deux Ménestrels assassins.~
+@10420 = ~Assassinats.
+
+Lynn dit que ceci va être ma dernière mission : tuer un assassin professionnel, Kern. Personne ne sait où il se trouve, mais Lynn dit que sa maîtresse Sophie, une prostituée, travaillait dans le district du Pont.~
+@10430 = ~Assassinats.
+
+J'ai fait mon enquête, et les gens du coin disent que Sophie se fait maintenant appeler Dame Sofia. Je présume que, comme pour la plupart des Dames, on peut la trouver dans le district du Temple ou celui du Gouvernement.~
+@10440 = ~Assassinats.
+
+J'ai trouvé Sophie et grâce à elle, Kern. Celui-ci a semblé tenir plus à la sécurité de Sophie qu'à la sienne, malgré mes arguments. Il a fini par m'attaquer.~
+@10450 = ~Assassinats.
+
+Lynn a été satisfaite d'apprendre que Kern n'était plus. Notre contrat est terminé, mais elle m'a demandé de garder contact avec la Couronne de Cuivre. Je pourrais peut-être recevoir un nouveau message un de ces jours...~
+@10460 = ~Assassinats.
+
+Bernard m'a fait passer un autre message de Lynn. Il me faut retourner au premier étage de l'auberge des Cinq Chopes, je suppose.~
+@10470 = ~Assassinats.
+
+J'ai fait connaissance avec l'employeur de Lynn : Rhin. L'intrigue s'épaissit : je vais tuer un candidat au Conseil des Six, qui sera accompagné d'une escouade de gardes du corps bien entraînés ! Je dois rencontrer Lynn dans le district du Cimetière.~
+@10480 = ~Assassinats.
+
+Lynn m'a demandé de jurer que j'accomplirais cette mission, avant même de m'expliquer en quoi elle consistait. J'ai refusé, et elle est partie. Je pense que je ne la reverrai jamais.~
+@10490 = ~Assassinats.
+
+Pendant que Lynn se chargera de l'assassinat, je devrai tuer tous les gardes du corps de la victime aussi vite que possible. Elle va monter les escaliers à la dérobée dans une minute ; je vais la rejoindre.~
+@10500 = ~Assassinats.
+
+Les gardes ont réussi à m'arrêter et il s'en est fallu de peu qu'on ne me condamne pour meurtre ! Heureusement Rhin (qui est membre du Conseil des Six !) et Lynn s'en sont mêlés, et ont joué une petite comédie devant le juge. Il n'a pas eu l'air très enchanté, mais il n'a pas non plus semblé avoir le choix. Je suis libre - et Lynn vient juste de me donner ma récompense. Cette aventure est maintenant terminée.~
+@10510 = ~Assassinats.
+
+Le garde m'a révélé l'identité du fournisseur de lotus d'Oulav : il s'agit de Kett, de Calimport. J'ai maintenant tous les renseignements dont j'avais besoin.~
+@10520 = ~Assassinats.
+
+Lynn, la femme qui m'a envoyé la lettre, voulait que je livre un message ainsi qu'une somme d'argent considérable dans le district des Docks. J'ai décliné son offre, et elle est partie.~
+@10530 = ~Assassinats.
+
+Lynn, la femme qui m'a envoyé la lettre, voulait que je livre un message ainsi qu'une somme d'argent considérable à Fein, à la Bonté Marine, dans les Docks. Elle m'a demandé avec insistance de ne pas briser le cachet du message.~
+@10540 = ~Assassinats.
+
+J'ai été incapable de terminer la mission, et je l'ai dit à Lynn. Elle a alors tenté de me tuer.~
+@10550 = ~Assassinats.
+
+J'ai décidé d'attaquer Lynn. À l'évidence, notre collaboration est terminée.~
+@10560 = ~Assassinats.
+
+Un garçon m'a fait passer un autre message de la part de Lynn. Il me faut retourner au premier étage de l'auberge des Cinq Chopes, je suppose.~
+
+
+// WeiDU prompts
+@-1000= "Le mod %TP2_FILE_NAME% contient"
+@-1001= "composants optionnels distincts.
+Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
+au niveau general plutot que de repondre aux questions pour chacun.
+"
+@-1002= "Que faut-il faire de tous les composants qui NE sont PAS ENCORE installes ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
+Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
+
+@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
+@-1005= "a"
+
+@-1006= "Installer le composant ["
+@-1007= "] ?
+[R]einstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, [N]e pas installer ou [Q]uitter ? "
+
+@-1009= "Entrez une partie du nom du module : "
+
+@-1010= "Reinstallation du composant ["
+@-1011= "] "
+@-1012= "Reinstallation dans la langue"
+
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prealable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
+
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour a l'etat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Saute"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["
+
+@-1025= "] ?
+[R]einstaller, co[N]server, s[U]pprimer, [Q]uitter ou choisir un parmi :"
+@-1026= "] ?
+[N]e pas installer, [Q]uitter ou choisir un parmi :"
+@-1027= " (installe actuellement)"
+
+@-1028= "Souhaitez-vous afficher les composants de ["
+@-1029= "] ?
+[Y]Oui, [N]on ? "
+
+@-1030= "] ?
+choisir un parmi :"
+@-1031= "] ?
+[R]einstaller, co[N]server, [Q]uitter ou choisir un parmi :"
+@-1032= "INSTALLATION ECHOUEE A CAUSE D'ERREURS"
+@-1033= "INSTALLATION AVEC DES ALERTES"
+@-1034= "Souhaitez-vous afficher les instructions (ReadMe) ? [Y]Oui [N]on"
+@-1035= "Dans la langue"
+
+@-1036= "Saute le GROUPE ["
+@-1037= "] pour cause d'absence des pre-requis."
+
+@-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
+@-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :" 

@@ -1,0 +1,12 @@
+IF
+True()
+THEN
+RESPONSE #100
+CutSceneId(Player1)
+Wait(1)
+CreateCreature("O#Lynn",[443.986],0)
+ActionOverride("O#Lynn",MoveToPoint([755.673])
+Wait(5)
+ActionOverride("O#Lynn",FaceObject("O#Damir"))
+ActionOverride("O#Lynn",StartDialogueNoSet(Player1))
+END

@@ -1,0 +1,27 @@
+IF
+Global("O#CrLynnQuestSpawn2","GLOBAL",1)
+THEN
+RESPONSE #100
+CreateCreature("O#CrNev",[3686.2527],9)
+CreateCreature("O#CrGir2",[3719.2518],3)
+SetGlobal("O#CrLynnQuestSpawn2","GLOBAL",2)
+END
+
+IF
+Global("O#CrLynnQuest","GLOBAL",3)
+Global("O#CrLynnQuestSpawn3V","GLOBAL",0)
+Global("O#CrLynnQuestSpawn3","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("O#CrWom3",[2890.2723],0)
+SetGlobal("O#CrLynnQuestSpawn3","GLOBAL",1)
+END
+
+IF
+GlobalGT("O#CrLynnQuestSpawn3V","GLOBAL",1)
+Global("O#CrCryingWomanDead","GLOBAL",0)
+THEN
+RESPONSE #100
+ActionOverride("O#CrWom3",DestroySelf())
+SetGlobal("O#CrCryingWomanDead","GLOBAL",1)
+END

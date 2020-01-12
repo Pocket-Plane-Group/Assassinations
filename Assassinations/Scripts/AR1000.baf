@@ -1,0 +1,8 @@
+IF
+Global("O#CrLynnQuest","GLOBAL",9)
+Global("O#CrLynnQuestSpawn9","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("O#CrSoph",[2729.3507],0)
+SetGlobal("O#CrLynnQuestSpawn9","GLOBAL",1)
+END

@@ -1,0 +1,20 @@
+IF
+AttackedBy([GOODCUTOFF],DEFAULT)
+Allegiance(Myself,NEUTRAL)
+Global("O#CrLotusAttacked","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("O#CrLotusAttacked","LOCALS",1)
+SetGlobal("O#CrAttackedLotusTraders","GLOBAL",1)
+Enemy()
+END
+
+IF
+Global("O#CrAttackedLotusTraders","GLOBAL",1)
+Allegiance(Myself,NEUTRAL)
+Global("O#CrLotusHostile","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("O#CrLotusHostile","LOCALS",0)
+Enemy()
+END

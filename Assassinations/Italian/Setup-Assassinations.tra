@@ -1,0 +1,214 @@
+@0 = ~Assassinations mod per Baldur's Gate II~
+@1 = ~Lynn~
+@2 = ~Ciao.~ [O#CRLY01]
+@3 = ~Cosa devi dirmi oggi?~ [O#CRLY02]
+@4 = ~In base alla mia esperienza, una persona innocente raramente ha una taglia sulla sua testa.~ [O#CRLY03]
+@5 = ~Trattami come una calamità naturale.~ [O#CRLY04]
+@6 = ~Credo di conoscere bene la gente. Anche se a volte la si conosce piuttosto... per breve tempo.~ [O#CRLY15]
+@7 = ~Ah. Il nostro eroe ritorna.~ [O#CRLY05]
+@8 = ~Nota~
+@9 = ~Se vai al secondo piano della Locanda dei Cinque Boccali stanotte, ascolterai cose che potrebbero interessarti.~
+@10 = ~Cercami.~
+@11 = ~Documenti di Qyr~
+@12 = ~Sembrano essere dei libri mastri, scritti in codice. Alcune pagine hanno il segno distintivo dei Ladri Tenebrosi.~
+@13 = ~Lord Melyin~
+@14 = ~Nevier Costa~
+@15 = ~Amara~
+@16 = ~Ispettore Daton~
+@17 = ~Sir Alexis~
+@18 = ~Chris~
+@19 = ~Oulav Steros~
+@20 = ~Simon~
+@21 = ~Qyr~
+@22 = ~Tea~
+@23 = ~Gannis~
+@24 = ~Lady Sofia~
+@25 = ~Kern~
+@26 = ~Rhin~
+@27 = ~Capitano Gewen~
+@28 = ~Lord Damir~
+@29 = ~Amuleto dell'Armonia~
+@30 = ~Questo amuleto, secondo quanto si dice, è stato dato ad <CHARNAME> da Lady Lynn il giorno in cui Lord Lahar Feenick è stato ucciso. La stessa Lady Lynn, tuttavia, ne nega ogni connessione.
+
+STATISTICHE:
+
+Abilità: Immunità allo Charme, alla Confusione, al Dominio e a Bloccapersone~
+@31 = ~Lahar Feenick~
+@32 = ~Guardia del corpo di Feenick~
+@33 = ~Donna che piange~
+@34 = ~Mercenario~
+@35 = ~Guardia del corpo di Lord Melyin~
+@36 = ~Nota Sigillata~
+@37 = ~Questa pergamena non sembra avere niente di speciale, anche se sembra piuttosto saldamente sigillata.~
+@39 = ~Fein~
+@10000 = ~Assassinii.
+
+Bernard, al Diadema di Rame, mi ha consegnato un messaggio da parte di una donna che non conosco. La nota dice: "Se vai al secondo piano della Locanda dei Cinque Boccali stanotte, ascolterai cose che potrebbero interessarti."~
+@10010 = ~Assassinii.
+
+Praticamente Lynn mi voleva far uccidere delle persone in cambio di consistenti ricompense. Io ho declinato la sua offerta, e lei mi ha attaccato.~
+@10020 = ~Assassinii.
+
+Lynn mi ha praticamente proposto di uccidere delle persone in cambio di consistenti ricompense. La mia prima missione è di uccidere Lord Melyin. Può essere trovato alla Locanda del Mitico Riposo in tarda serata.~
+@10030 = ~Assassinii.
+
+Il Locandiere della Locanda del Mitico Riposo mi ha detto che Lord Melyin se ne è appena andato. Di solito ritorna a casa seguendo la strada a sud ovest. Se faccio in fretta, potrei ancora riuscire a prenderlo.~
+@10040 = ~Assassinii.
+
+Lord Melyin é morto. Devo andarlo a dire a Lynn.~
+@10050 = ~Assassinii.
+
+Ho deciso di lasciare andare Lord Melyin. Ha promesso che mi lasciava i soldi alla Locanda del Mitico Riposo, ma dubito che manterrà la parola data.~
+@10060 = ~Assassinii.
+
+Ho raccontato all'Ispettore Brega delle attività di Lynn. Gli ho detto dove può trovare Lynn. Mi ha promesso che indagherà sulla faccenda.~
+@10070 = ~Assassinii.
+
+Ho raccontato a Renal Bloodscalp delle attività di Lynn e gli ho detto dove può trovare Lynn. Renal mi ha detto che ho commesso un errore nel dirglielo e, se fosse in me, lascerebbe Athkatla per un pò.~
+@10080 = ~Assassinii.
+
+Lynn mi ha teso un agguato ad Athkatla. Ho ucciso lei e i suoi mercenari.~
+@10090 = ~Assassinii.
+
+Ho deciso di rompere l’accordo con Lynn e glielo ho riferito. La nostra associazione è saltata.~
+@10100 = ~Assassinii.
+
+Lynn pensa che troppe volte ho mostrato clemenza verso le mie vittime, e ha rotto il nostro contratto. La nostra associazione è terminata.~
+@10110 = ~Assassinii.
+
+La mia seconda missione é uccidere Nevier Costa, un sacerdote di Lathander. Forse dovrei informarmi su di lui al tempio.~
+@10120 = ~Assassinii.
+
+Il sacerdote al tempio di Lathander mi ha detto che Nevier Costa si trova nei bassifondi, ad aiutare i poveri. Sicuramente lo troverò là.~
+@10130 = ~Assassinii.
+
+Ho trovato Nevier Costa nei bassifondi, con una giovane donna. Il suo comportamento era ben lontano dall'essere buono e gentile. Alla fine mi ha attaccato.~
+@10140 = ~Assassinii.
+
+Ho trovato Nevier Costa nei bassifondi, con una giovane donna. Il suo comportamento era ben lontano dall'essere buono e gentile, ha provato a corrompermi con cinquecento monete d'oro, per non parlare in giro delle sue 'avventure', ed io ho accettato.~
+@10150 = ~Assassinii.
+
+Il mio terzo incarico é una donna, Amara. Di solito vive nei bassifondi, quindi dovrei iniziare a cercarla là.~
+@10160 = ~Assassinii.
+
+Ho trovato la sorella di Amara nei bassifondi. Però non mi ha detto dove si trova sua sorella.~
+@10170 = ~Assassinii.
+
+La sorella di Amara ha detto che Amara può essere trovata a sud della Passeggiata, durante la notte.~
+@10180 = ~Assassinii.
+
+Ho trovato Amara. Mi ha detto che lei é innamorata di un ricco uomo sposato, e che lui stesso o sua moglie la vuole morta. Io l'ho lasciata andare.~
+@10190 = ~Assassinii.
+
+Ho trovato Amara. Mi aveva detto che era innamorata di un ricco uomo sposato, e che lui stesso o sua moglie la volevano morta. Poi ha chiesto aiuto alle guardie, ma alla fine l'ho uccisa.~
+@10200 = ~Assassinii.
+
+Il mio quarto incarico è un ufficiale delle guardie, l'Ispettore Daton. Può essere trovato al Quartiere dei Moli: domanderò in caserma.~
+@10210 = ~Assassinii.
+
+Sono stato in caserma, i soldati mi hanno detto che, se ha terminato di fare le sue ronde, l'Ispettore Daton può essere trovato al Dono del Mare.~
+@10220 = ~Assassinii.
+
+L'Ispettore Daton sembra molto interessato a parlarmi in privato, e mi ha chiesto di incontrarlo nei pressi della casa del fabbro Cromwell.~
+@10230 = ~Assassinii.
+
+Ho raccontato all'Ispettore Daton delle attività di Lynn e dove può essere trovata. Lui è andato subito a cercarla.~
+@10240 = ~Assassinii.
+
+L'Ispettore Daton è morto. Ha provato a costringermi a dire il nome del mio superiore, ma non ci è riuscito.~
+@10250 = ~Assassinii.
+
+Il mio quinto incarico è un cavaliere dell'Ordine del Cuore Radioso, Sir Alexis.~
+@10260 = ~Assassinii.
+
+Il Prelato ha detto che Sir Alexis recentemente ha perso una persona a lui cara, e che ora sta facendo visita a qualcuno nelle prigioni della città.~
+@10270 = ~Assassinii.
+
+Nelle prigioni ho trovato Sir Alexis insieme ad un giovane di nome Chris. E' venuto fuori che Chris è stato imprigionato per un crimine che non ha commesso - il colpevole, invece, era Sir Alexis. Ho pugnalato Sir Alexis alle spalle, ma se non aiuto Chris, sarà sicuramente giustiziato. Chris mi ha chiesto di portargli una pergamena di invisibilità, in modo tale che potrà muoversi furtivamente e passare le guardie.~
+@10280 = ~Assassinii.
+
+Ho portato una pergamena di invisibilità a Chris, che è stato, così, in grado di fuggire dalle prigioni.~
+@10290 = ~Assassinii.
+
+Nelle prigioni ho trovato Sir Alexis insieme ad un giovane di nome Chris. E' venuto fuori che Chris è stato imprigionato per un grave crimine, ed ha avuto la sfacciataggine di accusare Sir Alexis di averlo commesso. Mi sono vergognato per essermi intromesso e me ne sono andato; se ne è andato anche Sir Alexis. Ora non so dove sia.~
+@10300 = ~Assassinii.
+
+Ho preso un nuovo incarico: uccidere un commerciante di loto, Oulav Steros, e riuscire a scoprire il nome del suo fornitore. Oulav Steros può essere trovato al Quartiere del Ponte.~
+@10310 = ~Assassinii.
+
+Ho guadagnato la fiducia di Oulav, mi ha dato il primo incarico: devo recuperare un credito di quattrocento monete d'oro da Simon, un giovane che si trova sul retro del Diadema di Rame.~
+@10320 = ~Assassinii.
+
+Il mio prossimo incarico è far pervenire un messaggio da parte di Oulav al Pollice, al Dono del Mare, nel Quartiere dei Moli.~
+@10330 = ~Assassinii.
+
+Ora, il mio 'primo vero incarico': dovrò consegnare ottocento monete d'oro all’ufficiale delle guardie alle Porte della Città. Forse, se avrò tatto, credo di potermi far rivelare anche il nome di colui che fornisce il loto a Oulav.~
+@10340 = ~Assassinii.
+
+Oulav Steros e le sue guardie del corpo sono morti, ora potrò riferire il tutto a Lynn.~
+@10350 = ~Assassinii.
+
+Il mio settimo incarico richiederà un viaggio a Trademeet: Qyr, è il nome del mio obiettivo. E’ stato avvistato e Trademeet. Devo trovarlo, eliminarlo e riportare la documentazione che ha rubato.~
+@10360 = ~Assassinii.
+
+Ho trovato Qyr. Stranamente sembra avere fiducia in me: ha bisogno di protezione. Lo incontreremo a nord della città.~
+@10370 = ~Assassinii.
+
+Alla fine é uscito fuori che Qyr sospettava di me fin dall’inizio, e così mi ha teso una trappola. Ora lui è morto, insieme ai suoi uomini.~
+@10380 = ~Assassinii.
+
+Il mio ottavo incarico é eliminare un paio di Arpisti: Tea e Gannis. Purtroppo, Lynn non sa nient’altro su di loro e nemmeno dove si trovano, quindi dovrò cercarli da solo.~
+@10390 = ~Assassinii.
+
+Finalmente! Ribald Barterman é stato in grado di dirmi dove si trovano gli Arpisti che io sto cercando: alla Locanda di Delosar nel Quartiere del Ponte.~
+@10400 = ~Assassinii.
+
+Ora so quali erano gli incarichi di Tea e Gannis: eliminare i traditori che si infiltravano tra gli Arpisti – quegli Arpisti che si erano infiltrati e che lavoravano per i miei superiori. Ho permesso a Tea e Gannis di andare via.~
+@10410 = ~Assassinii.
+
+Ora so quali erano gli incarichi di Tea e Gannis: eliminare i traditori che si infiltravano tra gli Arpisti – quegli Arpisti che si erano infiltrati e che lavoravano per i miei superiori. Ho ucciso entrambi gli Arpisti senza indugiare.~
+@10420 = ~Assassinii.
+
+Lynn ha detto che questa sarà la mia ultima missione: uccidere un assassino professionista, Kern. Il luogo dove si trova è sconosciuto, ma Lynn dice che frequenta una signora, Sophie, una prostituta, che di solito lavora al Quartiere del Ponte.~
+@10430 = ~Assassinii.
+
+Ho chiesto in giro. La gente del posto dice che Sophie ora é diventata una signora, Lady Sofia. A questo punto presumo che, come la maggior parte delle signore di quel tipo, può essere trovata al Quartiere del Tempio, o al Quartiere Governativo.~
+@10440 = ~Assassinii.
+
+Ho trovato Sophie e, tramite lei, Kern. Kern sembra essere più interessato a Sophie che a lui. Alla fine mi ha attaccato.~
+@10450 = ~Assassinii.
+
+Ha Lynn ha fatto piacere la morte di Kern. Ora la nostra alleanza è terminata, ma mi ha chiesto di andare a dare un’occhiata al Diadema di Rame. Uno di questi giorni, potrei ricevere un’altra nota...~
+@10460 = ~Assassinii.
+
+Bernard mi ha dato un’altra nota da parte di Lynn. Di nuovo al secondo piano della Locanda dei Cinque Boccali, suppongo.~
+@10470 = ~Assassinii.
+
+Lynn mi ha presentato il suo principale: Rhin. La faccenda si complica: dovrei partecipare all’assassinio di un candidato a membro del Consiglio dei Sei, il quale è protetto anche da un gruppo di esperte guardie del corpo! Mi devo incontrare con Lynn nel Quartiere del Cimitero.~
+@10480 = ~Assassinii.
+
+Lynn mi aveva chiesto di giurargli fedeltà in un altro incarico, ancora prima di conoscere la natura della missione. Ho rifiutato, e lei se ne è andata. Dubito che la vedrò di nuovo.~
+@10490 = ~Assassinii.
+
+Mentre Lynn dovrà eseguire fisicamente l’assassinio, io dovrò uccidere tutte le sue guardie del corpo il più rapidamente possibile. Lei salirà furtivamente e rapidamente al piano superiore; io la dovrò seguire.~
+@10500 = ~Assassinii.
+
+Ero stato arrestato e si avvicinava la mia sentenza di morte! Devo dire grazie a Rhin (che é un membro del Consiglio dei Sei!), all’intervento di Lynn, e ad una scena spettacolare davanti al giudice, il quale non sembrava molto convinto, ma non ha avuto altra scelta. Sono libero - e Lynn si é presentata con la ricompensa. Questa avventura è finita.~
+@10510 = ~Assassinii.
+
+L’ufficiale mi ha rivelato il fornitore di loto di Oulav: Kett, proveniente da Calimport. Ora ho tutto quello di cui ho bisogno.~
+@10520 = ~Assassinii.
+
+Lynn, la donna che mi ha inviato la lettera, mi a voleva far consegnare una nota e una considerevole somma di denaro al Quartiere dei Moli. Ho rifiutato la sua offerta, e lei se ne é andata.~
+@10530 = ~Assassinii.
+
+Lynn, la donna che mi ha inviato la lettera, mi vuole far consegnare una nota ed una considerevole somma di denaro ad un certo Fein che si trova al Dono del Mare, nel Quartiere dei Moli. Si è raccomandata di non rompere i sigilli della nota.~
+@10540 = ~Assassinii.
+
+Non sono stato in grado di terminare la missione e l’ho raccontato a Lynn. Lei mi ha attaccato.~
+@10550 = ~Assassinii.
+
+Ho deciso di attaccare Lynn. Naturalmente la nostra società, ora, è rotta.~
+@10560 = ~Assassinii.
+
+Un ragazzo mi ha dato un altro messaggio da parte di Lynn. Di nuovo al secondo piano della Locanda dei Cinque Boccali, immagino.~

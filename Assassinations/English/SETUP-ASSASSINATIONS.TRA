@@ -1,0 +1,214 @@
+@0 = ~Assassinations mod for Baldur's Gate II~
+@1 = ~Lynn~
+@2 = ~Hello there.~ [O#CRLY01]
+@3 = ~What do you have to tell me today?~ [O#CRLY02]
+@4 = ~In my experience, an innocent person rarely has a bounty on their head.~ [O#CRLY03]
+@5 = ~Treat me like a natural disaster.~ [O#CRLY04]
+@6 = ~I believe in getting to know people. Of course, sometimes it happens rather... briefly.~ [O#CRLY15]
+@7 = ~Ah. Our hero returns.~ [O#CRLY05]
+@8 = ~Note~
+@9 = ~If you visit the second floor of the Five Flagons Inn tonight, you might hear things that will interest you.~
+@10 = ~See me.~
+@11 = ~Qyr's Papers~
+@12 = ~These seem to be ledger books, written in code. A few have the Shadow Thieves insignia.~
+@13 = ~Lord Melyin~
+@14 = ~Nevier Costa~
+@15 = ~Amara~
+@16 = ~Inspector Daton~
+@17 = ~Sir Alexis~
+@18 = ~Chris~
+@19 = ~Oulav Steros~
+@20 = ~Simon~
+@21 = ~Qyr~
+@22 = ~Tea~
+@23 = ~Gannis~
+@24 = ~Lady Sofia~
+@25 = ~Kern~
+@26 = ~Rhin~
+@27 = ~Captain Gewen~
+@28 = ~Lord Damir~
+@29 = ~Amulet of Harmony~
+@30 = ~This amulet has reportedly been given to <CHARNAME> by Lady Lynn on the day Lord Lahar Feenick was murdered. Lady Lynn herself, however, denies any connection.
+
+STATISTICS:
+
+Abilities: Immunity to charm, confusion, domination and hold person~
+@31 = ~Lahar Feenick~
+@32 = ~Feenick's Bodyguard~
+@33 = ~Crying Woman~
+@34 = ~Mercenary~
+@35 = ~Lord Melyin's Bodyguard~
+@36 = ~A Sealed Note~
+@37 = ~This scroll doesn't look particularly impressive, but it looks very tightly sealed indeed.~
+@39 = ~Fein~
+@10000 = ~Assassinations.
+
+Bernard in the Copper Coronet passed me a message from a woman I do not know. The note says: "If you visit the second floor of the Five Flagons Inn tonight, you might hear things that will interest you."~
+@10010 = ~Assassinations.
+
+It turned out that Lynn wanted me to kill a few people for her for a substantial reward. I declined her offer, and she attacked.~
+@10020 = ~Assassinations.
+
+It turned out that Lynn wanted me to kill a few people for her for a substantial reward. My first task is Lord Melyin. He can be found in the Mithrest Inn at sunset.~
+@10030 = ~Assassinations.
+
+The barkeep at the Mithrest Inn said that Lord Melyin had just left. He usually returns home through a southwestern route. If I hurry, I might catch with him.~
+@10040 = ~Assassinations.
+
+Lord Melyin is dead. I must bring the news to Lynn.~
+@10050 = ~Assassinations.
+
+I decided to let Lord Melyin go. He promised to leave some money for me in the Mithrest Inn, but it is doubtful that he is going to keep his word.~
+@10060 = ~Assassinations.
+
+I told Inspector Brega about Lynn's activities and revealed Lynn's whereabouts to him. He promised to investigate the matter.~
+@10070 = ~Assassinations.
+
+I told Renal Bloodscalp about Lynn's activities and revealed Lynn's whereabouts to him. Renal said that I made a mistake.~
+@10080 = ~Assassinations.
+
+Lynn ambushed me in Athkatla. I had to slay her and her hirelings.~
+@10090 = ~Assassinations.
+
+I decided to break our contract and told Lynn so. Our association is over.~
+@10100 = ~Assassinations.
+
+Lynn decided that I showed mercy to my victims one time too many, and broke our contract. Our association is over.~
+@10110 = ~Assassinations.
+
+My second task is Nevier Costa, a priest of Lathander. I will inquire at the temple.~
+@10120 = ~Assassinations.
+
+The priest at the temple of Lathander said that Nevier Costa was in the slums, tending to the poor. I will find him there.~
+@10130 = ~Assassinations.
+
+I found Nevier Costa in the slums, with a young woman. His behavior was far from decent. In the end, he attacked.~
+@10140 = ~Assassinations.
+
+I found Nevier Costa in the slums, with a young woman. His behavior was far from decent, but he offered me a bribe of five hundred gold, if I keep quiet about his 'adventures', and I accepted.~
+@10150 = ~Assassinations.
+
+My third task is a woman, Amara. She used to live in the slums, so I should start my search for her there.~
+@10160 = ~Assassinations.
+
+I found Amara's sister in the slums. However, she kept mum about her sister's whereabouts.~
+@10170 = ~Assassinations.
+
+Amara's sister revealed that Amara can be found in the south of the Promenade during the night.~
+@10180 = ~Assassinations.
+
+I found Amara. It turned out that she was in love with a rich married man, and either the man himself or the wife wanted her dead. I let the girl go.~
+@10190 = ~Assassinations.
+
+I found Amara. It turned out that she was in love with a rich married man, and either the man himself or the wife wanted her dead. She called the guards, but I killed her in the end.~
+@10200 = ~Assassinations.
+
+My fourth task is an officer of the guard, Inspector Daton. He can be found in the Docks District: I shall inquire in the barracks.~
+@10210 = ~Assassinations.
+
+I have visited the barracks, and the soldiers there told me Inspector Daton can be found at the Sea's Bounty.~
+@10220 = ~Assassinations.
+
+Inspector Daton seemed very interested in talking to me in private, and asked me to meet him near Cromwell's smithy.~
+@10230 = ~Assassinations.
+
+I have told Inspector Daton about Lynn's activities and whereabouts. He left at once.~
+@10240 = ~Assassinations.
+
+Inspector Daton is dead. He tried to force me to reveal my employer, but it helped him little in the end.~
+@10250 = ~Assassinations.
+
+My fifth target is a knight of the Order of the Radiant Heart, Sir Alexis.~
+@10260 = ~Assassinations.
+
+The Prelate mentioned that Sir Alexis had recently lost someone dear to him, and is now visiting someone in the city's prison.~
+@10270 = ~Assassinations.
+
+I found Sir Alexis together with a young man, Chris. It turned out that Chris was imprisoned for a crime he did not commit - Sir Alexis was guilty, instead. I stabbed Sir Alexis in the back, but if I do not help Chris, he will be executed soon. Chris asked me to bring a scroll of invisibility to him, so he can sneak past the guards.~
+@10280 = ~Assassinations.
+
+I brought an invisibility scroll to Chris, and he was able to escape.~
+@10290 = ~Assassinations.
+
+I found Sir Alexis together with a young man, Chris. It turned out that Chris was imprisoned for a grievous crime, and had the gall to accuse Sir Alexis of committing it. I apologized for the intrusion and left; so had Sir Alexis. I do not know where he is.~
+@10300 = ~Assassinations.
+
+I was given a new task: to kill a lotus dealer, Oulav Steros, and to find out the name of his supplier. Oulav Steros can be found in the Bridge District.~
+@10310 = ~Assassinations.
+
+I was able to gain Oulav's trust, and he gave me my first task: I have to collect a debt of four hundred gold from Simon, a young man in the back rooms of the Copper Coronet.~
+@10320 = ~Assassinations.
+
+My next task from Oulav is passing a message to Thumb in the Sea's Bounty, in the Docks District.~
+@10330 = ~Assassinations.
+
+Now, my 'first real task': I should pass a bribe of eight hundred gold to the guards in the Gate District. Perhaps, if I am careful, I can make them reveal the name of Oulav's lotus supplier, as well.~
+@10340 = ~Assassinations.
+
+Oulav Steros and his bodyguards are dead, and I can finally report to Lynn.~
+@10350 = ~Assassinations.
+
+My seventh task will require a journey to Trademeet: Qyr, my target, is reported to have been sighted there. I must find him, eliminate him, and bring back the documents that he stole.~
+@10360 = ~Assassinations.
+
+I found Qyr. Surprisingly, he seems to trust me: he needs protection. We are going to meet in the north of the city, beyond the eastern gates.~
+@10370 = ~Assassinations.
+
+It turned out that Qyr had suspected me from the start, so he tried to lure me into a trap. He is dead now, as are his associates.~
+@10380 = ~Assassinations.
+
+My eighth task is eliminating a pair of Harpers: Tea and Gannis. Unfortunately, Lynn knows nothing else about them or their whereabouts, so I am on my own.~
+@10390 = ~Assassinations.
+
+Finally! Ribald Barterman was able to tell me where to find the Harpers I am looking for: in the Delosar Inn in the Bridge District.~
+@10400 = ~Assassinations.
+
+Now I know what Tea and Gannis' tasks were: eliminating the traitors among the Harpers - those Harpers who worked for my employers. I let Tea and Gannis go.~
+@10410 = ~Assassinations.
+
+Now I know what Tea and Gannis' tasks were: eliminating the traitors among the Harpers - those Harpers who worked for my employers. I killed both Harper assassins immediately.~
+@10420 = ~Assassinations.
+
+Lynn says this is going to be my final task: killing a professional assassin, Kern. His whereabouts are unknown, but Lynn says his mistress Sophie, a prostitute, used to work in the Bridge District.~
+@10430 = ~Assassinations.
+
+I asked around, and the locals say that Sophie is now Lady Sofia. I guess that, like most ladies, she can be found in the Temple District, or the Government District.~
+@10440 = ~Assassinations.
+
+I found Sophie, and through her, Kern. Kern seemed to be concerned with Sophie's safety more than with his own, despite my reasoning. Eventually, he attacked.~
+@10450 = ~Assassinations.
+
+Lynn was pleased to know about Kern's demise. Our contract is over, but she asked me to keep an eye on the Copper Coronet. One of these days, I may get another note...~
+@10460 = ~Assassinations.
+
+Bernard passed me another note from Lynn. The second floor of the Five Flagons Inn again, I suppose.~
+@10470 = ~Assassinations.
+
+Lynn has introduced me to her own employer: Rhin. The plot thickens: I am going to kill a candidate to the Council of Six, together with a cadre of well-trained bodyguards! I am to meet Lynn in the Graveyard District.~
+@10480 = ~Assassinations.
+
+Lynn asked me to swear I will perform the task, before even learning the nature of the mission. I declined, and she had to leave. I doubt I shall ever see her again.~
+@10490 = ~Assassinations.
+
+While Lynn is going to perform the assassination itself, I must kill all the victim's bodyguards as quickly as I can. She is going to sneak upstairs in a minute; I will join her.~
+@10500 = ~Assassinations.
+
+I have actually been arrested and nearly sentenced for murder! Thankfully, Rhin(who is a member of the Council of Six!) and Lynn interfered, and played a spectacle in front of the judge. He did not seem satisfied, but he didn't seem to have a choice, either. I am free - and Lynn has just presented me with my reward. This adventure is finally over.~
+@10510 = ~Assassinations.
+
+The guard revealed Oulav's lotus supplier: Kett, from Calimport. Now I have all I need.~
+@10520 = ~Assassinations.
+
+Lynn, the woman who sent me the letter, wanted me to deliver a note and a considerable sum of money to the Docks District. I declined her offer, and she left.~
+@10530 = ~Assassinations.
+
+Lynn, the woman who sent me the letter, wants me to deliver a note and a considerable sum of money to Fein to the Sea's Bounty in the Docks District. She specifically asked me not to break the seal on the note.~
+@10540 = ~Assassinations.
+
+I was not able to finish the mission, and told Lynn so. She attacked.~
+@10550 = ~Assassinations.
+
+I decided to attack Lynn. Our association is now obviously over.~
+@10560 = ~Assassinations.
+
+A boy passed me another message from Lynn. The second floor of the Five Flagons Inn again, I suppose.~

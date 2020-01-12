@@ -1,0 +1,14 @@
+IF
+True()
+THEN
+RESPONSE #100
+CutSceneId(Player1)
+SetGlobal("O#CrLynnQuestSpawn3V","GLOBAL",3)
+CreateCreature("O#CrGu31",[1446.3701],0)
+CreateCreature("O#CrGu32",[1450.3721],0)
+Wait(1)
+ActionOverride("O#CrGu31",MoveToPoint([1646.3751])
+ActionOverride("O#CrGu32",MoveToPoint([1650.3771])
+Wait(3)
+ActionOverride("O#CrGu31",StartDialogueNoSet(Player1))
+END
