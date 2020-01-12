@@ -237,6 +237,7 @@ winLAME					http://winlame.sourceforge.net
 
 Version 16
 -updated assassinations.ini with the GitHub address for download
+-added folder libiconv-1.9.2-1-src.zip with iconv licence info
 
 Version 15
 -Receiving of last call to Lynn more stable: boy on the Graveyard will spawn directly beside the PC, if not talked to the PC can still talk to Bernard (moved the SetGlobal("O#CrLynnSpawn2","GLOBAL",1) from spawning script to boy's dialogue).
