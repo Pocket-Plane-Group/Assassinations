@@ -28,4 +28,4 @@ Note: For downloading the current version from GitHub, make sure you go to the r
 
 ## Copyrights Information
 
-DSotSC is not developed, supported, or endorsed by BioWare™ or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast in any way.
+Assassinations is not developed, supported, or endorsed by BioWare™ or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast in any way.
