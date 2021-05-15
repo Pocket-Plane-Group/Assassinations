@@ -1,5 +1,5 @@
 		     Assassinations MOD for Baldur's Gate II
-				  Version 16
+				  Version 17
 			  A Pocket Plane Group Project
 			   http://www.pocketplane.net
 
@@ -234,6 +234,9 @@ winLAME					http://winlame.sourceforge.net
 -------------------
 5. Version History
 -------------------
+
+Version 17
+-revised Polish version by Cuttooth
 
 Version 16
 -updated assassinations.ini with the GitHub address for download

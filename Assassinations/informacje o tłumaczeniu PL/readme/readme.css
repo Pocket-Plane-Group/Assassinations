@@ -2,6 +2,7 @@
 body {color:#BABABA; font-family:Verdana,Arial,Helvetica,sans-serif; font-size:10px; background:#000; height: 100%; width: 100%;}
 .container {margin-right: auto; margin-left: auto; width: 950px;}
 .header {background-image: url(../Readme/logo.jpg); background-repeat: no-repeat; width: 950px; height: 286px; margin-right: auto; margin-left: auto;}
+.header2 {background-image: url(../Readme/SoM.png); background-repeat: no-repeat; width: 572px; height: 66px; margin-right: auto; margin-left: auto;}
 
 .center {width:950px;  height: 100%; margin: 0px 0px 0px 0px; /*border: red 2px solid;*/ display:block; position: relative;}
 .left {width: 175px; height: 100%; background-image: url(../Readme/m_tlo_lbok.gif); background-repeat: repeat-y; margin-left: 0px; margin-right: 775px; /*border:blue 2px solid;*/ top: 0px; bottom: auto; position: absolute;}
