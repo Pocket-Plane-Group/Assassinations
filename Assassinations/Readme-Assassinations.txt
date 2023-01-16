@@ -235,6 +235,9 @@ winLAME					http://winlame.sourceforge.net
 5. Version History
 -------------------
 
+Version 18 (WIP)
+-Proofreading of Polish translation by Roberciiik
+
 Version 17
 -revised Polish version by Cuttooth
 
