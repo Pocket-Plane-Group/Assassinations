@@ -372,4 +372,10 @@ EXTEND_TOP ~AR1005.bcs~ ~Assassinations/Scripts/AR1005.baf~
 EXTEND_TOP ~AR2000.bcs~ ~Assassinations/Scripts/AR2000.baf~
 EXTEND_TOP ~AR2010.bcs~ ~Assassinations/Scripts/AR2010.baf~
 
+// Audio handling
+
+COPY ~%MOD_FOLDER%/English/Ogg~ ~%MOD_FOLDER%/Audio~ // English audio by default
+ACTION_IF DIRECTORY_EXISTS ~%MOD_FOLDER%/%LANGUAGE%/Ogg~ THEN BEGIN
+  COPY ~%MOD_FOLDER%/%LANGUAGE%/Ogg~ ~%MOD_FOLDER%/Audio~ // Copy with localized audio
+END
 LAF HANDLE_AUDIO END

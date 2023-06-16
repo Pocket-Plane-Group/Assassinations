@@ -182,13 +182,13 @@ Olga Silaeva (Kulyok)				Writer
 Voice Credits:
 
 
-Amaurea						Voice of Lynn
+Voice of Lynn				Amaurea (EN), Aloes (PL)
 
-Sister Vigilante				Voice of Rhin
+Voice of Rhin				Sister Vigilante (EN), Dandrov (PL)
 
-Jason Compton					Voice of Lord Damir
+Voice of Lord Damir			Jason Compton (EN), Wojciech Magdziak (PL)
 
-gertjanvh					Voice of Captain Gewen
+Voice of Captain Gewen			gertjanvh (EN), Broomberek (PL)
 
 
 
@@ -235,7 +235,10 @@ winLAME					http://winlame.sourceforge.net
 5. Version History
 -------------------
 
-Version 18 (WIP)
+Version 19
+-Added Polish voiceover (thanks to Aloes, Broomberek, Dandrov, Wojciech Magdziak for dubbing and Anoim2666 for permissions), integrated by Roberciiik
+
+Version 18
 -Proofreading of Polish translation by Roberciiik
 
 Version 17
