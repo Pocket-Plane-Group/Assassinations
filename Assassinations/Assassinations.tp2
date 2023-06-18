@@ -18,10 +18,9 @@ ALWAYS
     END
   END
 
-/*
-  // No exception, everything needs to be converted
-  ACTION_DEFINE_ARRAY O#noconvert BEGIN END
-*/
+
+  // Translation files in UTF-8 that contains EE-format specific lines
+  ACTION_DEFINE_ARRAY O#noconvert BEGIN Setup-Assassinations-EE Assassinations-EE END
 
   // Only setup-Mod.tra needs to be reloaded
   ACTION_DEFINE_ARRAY O#reload BEGIN Setup-Assassinations END
@@ -33,8 +32,21 @@ ALWAYS
     STR_VAR
       tra_path = EVAL ~%MOD_FOLDER%~
       // charset_table = O#charsets // Included for illustrative purposes.
-//      noconvert_array = O#noconvert
+      noconvert_array = O#noconvert
       reload_array = O#reload
+  END
+
+  // Load EE format translations
+  ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
+    ACTION_IF FILE_EXISTS ~%MOD_FOLDER%/%LANGUAGE%/Setup-Assassinations-EE.tra~ THEN BEGIN
+      LOAD_TRA ~%MOD_FOLDER%/%LANGUAGE%/Setup-Assassinations-EE.tra~
+    END
+
+    ACTION_IF FILE_EXISTS ~%MOD_FOLDER%/%LANGUAGE%/Assassinations-EE.tra~ THEN BEGIN
+      COPY ~%MOD_FOLDER%/%LANGUAGE%/Assassinations.tra~ ~%MOD_FOLDER%/%LANGUAGE%/Assassinations.tra~
+        // Overwrite some stringrefs with EE-specific format to be load during autotra
+        APPEND_FILE ~%MOD_FOLDER%/%LANGUAGE%/Assassinations-EE.tra~
+    END
   END
 END
 
