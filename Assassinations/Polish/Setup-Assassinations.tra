@@ -1,4 +1,4 @@
-@0 = ~Assassinations mod do Baldur's Gate II~
+@0 = ~Assassinations - mod do Baldur's Gate II~
 @1 = ~Lynn~
 @2 = ~Witaj.~ [O#CRLY01]
 @3 = ~Co masz mi dziœ do powiedzenia?~ [O#CRLY02]
@@ -7,10 +7,14 @@
 @6 = ~Wierzê w koneksje. Oczywiœcie, niektóre trwaj¹ doœæ... krótko.~ [O#CRLY15]
 @7 = ~Ach. Powraca nasz bohater.~ [O#CRLY05]
 @8 = ~Notatka~
-@9 = ~Jeœli dziœ w nocy odwiedzisz drugie piêtro gospody "Pod Piêcioma Dzbanami", mo¿esz dowiedzieæ siê czegoœ, co ciê zainteresuje.~
+@9 = ~Jeœli dziœ w nocy odwiedzisz drugie piêtro gospody "Piêæ Dzbanów", mo¿esz dowiedzieæ siê czegoœ, co ciê zainteresuje.~
 @10 = ~Do zobaczenia.~
 @11 = ~Dokumenty Qyra~
-@12 = ~To wygl¹da na zaszyfrowane rejestry. Kilka z nich nosi pieczêæ Z³odziei Cienia.~
+@12 = ~To wygl¹da na zaszyfrowane rejestry. Kilka z nich nosi pieczêæ Z³odziei Cienia.
+
+PARAMETRY:
+
+Waga: 0~
 @13 = ~Lord Melyin~
 @14 = ~Neveir Costa~
 @15 = ~Amara~
@@ -28,38 +32,43 @@
 @27 = ~Kapitan Gewen~
 @28 = ~Lord Damir~
 @29 = ~Amulet harmonii~
-@30 = ~<CHARNAME> rzekomo otrzyma³<PRO_HESHE> ten amulet od Lady Lynn w dniu, w którym zamordowano Lorda Lahara Feenicka. Lady Lynn jednak¿e temu zaprzecza.
+@30 = ~<CHARNAME> rzekomo otrzyma³<PRO_HESHE> ten amulet od lady Lynn w dniu, w którym zamordowano lorda Lahara Feenicka. Lady Lynn jednak¿e temu zaprzecza.
 
 PARAMETRY:
 
-Specjalne: 
- Odpornoœæ na Zauroczenie, Zamêt, Dominacjê i Unieruchomienie osoby~
+Specjalne:
+ Odpornoœæ na Zauroczenie, Zamêt, Dominacjê i Unieruchomienie osoby
+Waga: 0~
 @31 = ~Lahar Feenick~
 @32 = ~Ochroniarz Feenicka~
 @33 = ~P³acz¹ca kobieta~
 @34 = ~Najemnik~
-@35 = ~Ochroniarz Lorda Melyina~
+@35 = ~Ochroniarz lorda Melyina~
 @36 = ~Zapieczêtowana notatka~
-@37 = ~Zwój ten niczym siê nie wyró¿nia, choæ zdaje siê byæ bardzo dok³adnie zapieczêtowany.~
+@37 = ~Zwój ten niczym siê nie wyró¿nia, choæ zdaje siê byæ bardzo dok³adnie zapieczêtowany.
+
+PARAMETRY:
+
+Waga: 1~
 @39 = ~Fein~
 @10000 = ~Zabójstwa
 
-Bernard z "Miedzianego Diademu" przekaza³ mi wiadomoœæ od nieznajomej. Notatka g³osi: "Jeœli dziœ w nocy odwiedzisz drugie piêtro gospody "Pod Piêcioma Dzbanami", mo¿esz dowiedzieæ siê czegoœ, co Ciê zainteresuje."~
+Bernard z "Miedzianego Diademu" przekaza³ mi wiadomoœæ od nieznajomej. Notatka g³osi: "Jeœli dziœ w nocy odwiedzisz drugie piêtro gospody Piêæ Dzbanów, mo¿esz dowiedzieæ siê czegoœ, co ciê zainteresuje".~
 @10010 = ~Zabójstwa
 
 Okaza³o siê, ¿e Lynn chcia³a, abym zabi³<PRO_HESHE> dla niej kilka osób w zamian za pokaŸn¹ nagrodê. Gdy spotka³a siê z odmow¹, zaatakowa³a mnie.~
 @10020 = ~Zabójstwa
 
-Okaza³o siê, ¿e Lynn chcia³a, abym zabi³<PRO_HESHE> dla niej kilka osób w zamian za pokaŸn¹ nagrodê. Moim pierwszym celem bêdzie Lord Melyin. Mo¿na go znaleŸæ w gospodzie "Mithrest" o zachodzie s³oñca.~
+Okaza³o siê, ¿e Lynn chcia³a, abym zabi³<PRO_HESHE> dla niej kilka osób w zamian za pokaŸn¹ nagrodê. Moim pierwszym celem bêdzie lord Melyin. Mo¿na go znaleŸæ w gospodzie "Mithrest" o zachodzie s³oñca.~
 @10030 = ~Zabójstwa
 
-Ober¿ysta w gospodzie "Mithrest" powiedzia³, ¿e Lord Melyin w³aœnie wyszed³. Przewa¿nie wraca do domu po³udniowo-zachodnim traktem. Jeœli siê poœpieszê, mo¿e uda mi siê go z³apaæ.~
+Ober¿ysta w gospodzie "Mithrest" powiedzia³, ¿e lord Melyin w³aœnie wyszed³. Przewa¿nie wraca do domu po³udniowo-zachodnim traktem. Jeœli siê poœpieszê, mo¿e uda mi siê go z³apaæ.~
 @10040 = ~Zabójstwa
 
 Lord Melyin nie ¿yje. Muszê poinformowaæ o tym Lynn.~
 @10050 = ~Zabójstwa
 
-Zdecydowaliœmy puœciæ Lorda Melyina wolno. Obieca³ zostawiæ dla mnie nieco z³ota w gospodzie "Mithrest", ale nie s¹dzê, aby mia³ dotrzymaæ s³owa.~
+Zdecydowaliœmy puœciæ lorda Melyina wolno. Obieca³ zostawiæ dla mnie nieco z³ota w gospodzie "Mithrest", ale nie s¹dzê, aby mia³ dotrzymaæ s³owa.~
 @10060 = ~Zabójstwa
 
 Opowiedzieliœmy Inspektorowi Brega o dzia³alnoœci Lynn i o miejscu jej pobytu. Obieca³ zbadaæ tê sprawê.~
@@ -74,7 +83,7 @@ Lynn zaatakowa³a nas w Athkatli. Musieliœmy zabiæ j¹ i jej popleczników.~
 Postanowiliœmy zerwaæ nasz kontrakt i poinformowaliœmy o tym Lynn. To koniec zabójstw.~
 @10100 = ~Zabójstwa
 
-Lynn uzna³a, ¿e okazaliœmy ³askê naszym ofiarom o jeden raz za du¿o, i zerwa³a nasz kontrakt. To koniec zabójstw.~
+Lynn uzna³a, ¿e okazaliœmy ³askê naszym ofiarom o jeden raz za du¿o i zerwa³a nasz kontrakt. To koniec zabójstw.~
 @10110 = ~Zabójstwa
 
 Moim drugim celem jest Neveir Costa, kap³an Lathandera. Poszukam go w œwi¹tyni.~
@@ -107,7 +116,7 @@ OdnaleŸliœmy Amarê. Okaza³o siê, ¿e zakocha³a siê w bogatym ¿onatym mê¿czyŸnie, 
 Moim czwartym celem jest oficer stra¿y, Inspektor Daton. Mo¿na go znaleŸæ w Dokach: powinniœmy rozejrzeæ siê w koszarach.~
 @10210 = ~Zabójstwa
 
-Odwiedziliœmy koszary, i ¿o³nierze poinformowali mnie, ¿e Inspektora Datona mogê znaleŸæ w "Morskiej Zdobyczy".~
+Odwiedziliœmy koszary i ¿o³nierze poinformowali mnie, ¿e Inspektora Datona mogê znaleŸæ w "Morskiej Zdobyczy".~
 @10220 = ~Zabójstwa
 
 Inspektor Daton zdawa³ siê byæ bardzo zainteresowany porozmawianiem ze mn¹ na osobnoœci i poprosi³ mnie, abym spotka³<PRO_HESHE> siê z nim niedaleko kuŸni Cromwella.~
@@ -117,28 +126,27 @@ Opowiedzieliœmy Inspektorowi Datonowi o dzia³alnoœci Lynn i o miejscu jej pobytu
 @10240 = ~Zabójstwa
 
 Inspektor Daton nie ¿yje. Próbowa³ zmusiæ mnie, abym wyjawi³<PRO_HESHE> to¿samoœæ mej zleceniodawczyni, ale na niewiele mu siê to zda³o.~
-
 @10250 = ~Zabójstwa
 
-Moim pi¹tym celem jest rycerz Zakonu Promiennego Serca, Sir Alexis.~
+Moim pi¹tym celem jest rycerz Zakonu Promiennego Serca, sir Alexis.~
 @10260 = ~Zabójstwa
 
-Pra³at wspomnia³, ¿e Sir Alexis straci³ ostatnio kogoœ bliskiego i w tej chwili odwiedza kogoœ w miejskim areszcie.~
+Pra³at wspomnia³, ¿e sir Alexis straci³ ostatnio kogoœ bliskiego i w tej chwili odwiedza kogoœ w miejskim areszcie.~
 @10270 = ~Zabójstwa
 
-ZnaleŸliœmy Sir Alexisa w towarzystwie m³odego mê¿czyzny, Chrisa. Okaza³o siê, ¿e Chris zosta³ oskar¿ony o zbrodniê, któr¹ w rzeczywistoœci pope³ni³ Sir Alexis. Sir Alexis zosta³ dŸgniêty przeze mnie w plecy, ale jeœli nie pomogê Chrisowi, wkrótce zostanie stracony. Chris poprosi³ mnie, abym dostarczy³<PRO_HESHE> mu zwój niewidzialnoœci, wtedy bêdzie móg³ siê przeœlizgn¹æ obok stra¿ników.~
+ZnaleŸliœmy sir Alexisa w towarzystwie m³odego mê¿czyzny, Chrisa. Okaza³o siê, ¿e Chris zosta³ oskar¿ony o zbrodniê, któr¹ w rzeczywistoœci pope³ni³ sir Alexis. Sir Alexis zosta³ dŸgniêty przeze mnie w plecy, ale jeœli nie pomogê Chrisowi, wkrótce zostanie stracony. Chris poprosi³ mnie, abym dostarczy³<PRO_HESHE> mu zwój niewidzialnoœci, wtedy bêdzie móg³ siê przeœlizgn¹æ obok stra¿ników.~
 @10280 = ~Zabójstwa
 
 Przynieœliœmy Chrisowi zwój niewidzialnoœci, dziêki czemu zdo³a³ uciec.~
 @10290 = ~Zabójstwa
 
-ZnaleŸliœmy Sir Alexisa w towarzystwie m³odego mê¿czyzny, Chrisa. Okaza³o siê, ¿e Chris zosta³ uwiêziony za jak¹œ powa¿n¹ zbrodniê i mia³ czelnoœæ oskar¿yæ Sir Alexisa o jej pope³nienie. Przeprosiliœmy za narzucanie siê i wyszliœmy; podobnie Sir Alexis. Nie wiem, gdzie teraz jest.~
+ZnaleŸliœmy sir Alexisa w towarzystwie m³odego mê¿czyzny, Chrisa. Okaza³o siê, ¿e Chris zosta³ uwiêziony za jak¹œ powa¿n¹ zbrodniê i mia³ czelnoœæ oskar¿yæ sir Alexisa o jej pope³nienie. Przeprosiliœmy za narzucanie siê i wyszliœmy; podobnie sir Alexis. Nie wiem, gdzie teraz jest.~
 @10300 = ~Zabójstwa
 
 Otrzymaliœmy kolejne zadanie: zabiæ handlarza lotosem, Oulava Sterosa, i dowiedzieæ siê, u kogo siê zaopatruje. Oulava Sterosa mo¿na znaleŸæ w Dzielnicy Mostów.~
 @10310 = ~Zabójstwa
 
-Uda³o mi siê zdobyæ zaufanie Oulava, i da³ mi pierwsze zadanie: muszê odebraæ d³ug 400 sztuk z³ota od Szymona, m³odego mê¿czyzny, którego mo¿na spotkaæ na ty³ach "Miedzianego Diademu".~
+Uda³o mi siê zdobyæ zaufanie Oulava i da³ mi pierwsze zadanie: muszê odebraæ d³ug 400 sztuk z³ota od Szymona, m³odego mê¿czyzny, którego mo¿na spotkaæ na ty³ach "Miedzianego Diademu".~
 @10320 = ~Zabójstwa
 
 Kolejna misja Oulava polega na przekazaniu wiadomoœci Paluchowi z "Morskiej Zdobyczy" w Dokach.~
@@ -156,7 +164,7 @@ Moje siódme zadanie bêdzie wymaga³o podró¿y do Targowa: Qyr, mój kolejny cel, po
 ZnaleŸliœmy Qyra. O dziwo, zdawa³ siê mi zaufaæ: potrzebuje ochrony. Mamy spotkaæ siê na pó³nocy miasta, za wschodni¹ bram¹.~
 @10370 = ~Zabójstwa
 
-Okaza³o siê, ¿e Qyr od pocz¹tku mnie podejrzewa³, próbowa³ wiêc zwabiæ mnie w pu³apkê. Teraz nie ¿yje, tak samo jak jego wspólnicy.~
+Okaza³o siê, ¿e Qyr od pocz¹tku mnie podejrzewa³, próbowa³ wiêc zwabiæ mnie w pu³apkê. Teraz nie ¿yje, tak samo, jak jego wspólnicy.~
 @10380 = ~Zabójstwa
 
 Moim ósmym zadaniem jest wyeliminowanie pary Harfiarzy: Tei i Gannisa. Niestety Lynn niewiele wie o nich i o miejscu ich pobytu, jesteœmy wiêc skazani na samych siebie.~
@@ -165,25 +173,25 @@ Moim ósmym zadaniem jest wyeliminowanie pary Harfiarzy: Tei i Gannisa. Niestety 
 Nareszcie! Ribald Kramarz powiedzia³ mi, gdzie mogê znaleŸæ poszukiwanych Harfiarzy: w karczmie Delosara w Dzielnicy Mostów.~
 @10400 = ~Zabójstwa
 
-Teraz wiem, czym zajmowali siê Tea i Gannis: eliminowaniem zdrajców w szeregach Harfiarzy – w tym i tych, pracuj¹cych dla mojej zwierzchniczki. Pozwoliliœmy im odejœæ.~
+Teraz wiem, czym zajmowali siê Tea i Gannis: eliminowaniem zdrajców w szeregach Harfiarzy - w tym i tych, pracuj¹cych dla mojej zwierzchniczki. Pozwoliliœmy im odejœæ.~
 @10410 = ~Zabójstwa
 
-Teraz wiem, czym zajmowali siê Tea i Gannis: eliminowaniem zdrajców w szeregach Harfiarzy – w tym i tych, pracuj¹cych dla mojej zwierzchniczki. Zabiliœmy oboje Harfiarzy na miejscu.~
+Teraz wiem, czym zajmowali siê Tea i Gannis: eliminowaniem zdrajców w szeregach Harfiarzy - w tym i tych, pracuj¹cych dla mojej zwierzchniczki. Zabiliœmy oboje Harfiarzy na miejscu.~
 @10420 = ~Zabójstwa
 
 Lynn powiedzia³a, ¿e to bêdzie moje ostatnie zadanie: zamordowanie profesjonalnego zabójcy, Kerna. Miejsce jego pobytu jest nieznane, ale Lynn mówi, ¿e jego dama, prostytutka zwana Zoœk¹, zwyk³a pracowaæ w Dzielnicy Mostów.~
 @10430 = ~Zabójstwa
 
-Trochê popytaliœmy i miejscowi powiedzieli nam, ¿e Zoœka to teraz Lady Sofia. Zgadujê, ¿e jak wiêkszoœæ dam, bêdzie mo¿na j¹ spotkaæ w Dzielnicy Œwi¹tyñ lub w Dzielnicy Rz¹dowej.~
+Trochê popytaliœmy i miejscowi powiedzieli nam, ¿e Zoœka to teraz lady Sofia. Zgadujê, ¿e jak wiêkszoœæ dam, bêdzie mo¿na j¹ spotkaæ w Dzielnicy Œwi¹tyñ lub w Dzielnicy Rz¹dowej.~
 @10440 = ~Zabójstwa
 
-OdnaleŸliœmy Czarn¹ Zoœkê, a poprzez ni¹ Kerna. Kern zdawa³ siê byæ bardziej zainteresowany jej bezpieczeñstwem, ni¿ swoim w³asnym. Na koniec zaatakowa³.~
+OdnaleŸliœmy Zoœkê, a poprzez ni¹ Kerna. Kern zdawa³ siê byæ bardziej zainteresowany jej bezpieczeñstwem ni¿ swoim w³asnym. Na koniec zaatakowa³.~
 @10450 = ~Zabójstwa
 
-Lynn by³a zadowolona s³ysz¹c o œmierci Kerna. Mój kontrakt zakoñczy³ siê, ale prosi³a, bym zagl¹da³<PRO_HESHE> czasem do "Miedzianego Diademu". Pewnego dnia mo¿e tam na mnie czekaæ wiadomoœæ...~
+Lynn by³a zadowolona, s³ysz¹c o œmierci Kerna. Mój kontrakt zakoñczy³ siê, ale prosi³a, bym zagl¹da³<PRO_HESHE> czasem do "Miedzianego Diademu". Pewnego dnia mo¿e tam na mnie czekaæ wiadomoœæ...~
 @10460 = ~Zabójstwa
 
-Bernard przekaza³ mi kolejn¹ wiadomoœæ od Lynn. Wygl¹da na to, ¿e znów mam siê udaæ na drugie piêtro gospody "Pod Piêcioma Dzbanami".~
+Bernard przekaza³ mi kolejn¹ wiadomoœæ od Lynn. Wygl¹da na to, ¿e znów mam siê udaæ na drugie piêtro gospody "Piêæ Dzbanów".~
 @10470 = ~Zabójstwa
 
 Lynn przedstawi³a mnie swojemu zwierzchnikowi: Rhinowi. Intryga siê zagêszcza: mam zabiæ kandydata do Rady Szeœciu, razem z jego grup¹ dobrze wyszkolonych ochroniarzy! Mam spotkaæ siê z Lynn w Dzielnicy Cmentarnej.~
@@ -213,4 +221,4 @@ Nie mogliœmy ukoñczyæ tej misji i powiedzieliœmy o tym Lynn. Zaatakowa³a nas.~
 Postanowiliœmy zaatakowaæ Lynn. Wygl¹da na to, ¿e to koniec naszych zabójstw.~
 @10560 = ~Zabójstwa
 
-Ch³opak przekaza³ mi kolejn¹ wiadomoœæ od Lynn. Wygl¹da na to, ¿e znów mam udaæ siê na drugie piêtro gospody "Pod Piêcioma Dzbanami".~
+Ch³opak przekaza³ mi kolejn¹ wiadomoœæ od Lynn. Wygl¹da na to, ¿e znów mam udaæ siê na drugie piêtro gospody "Piêæ Dzbanów".~
