@@ -1,0 +1,70 @@
+
+@9 = ~Jeśli dziś w nocy odwiedzisz drugie piętro gospody „Pięć Dzbanów”, możesz dowiedzieć się czegoś, co cię zainteresuje.~
+
+@30 = ~<CHARNAME> rzekomo otrzymał<PRO_HESHE> ten amulet od lady Lynn w dniu, w którym zamordowano lorda Lahara Feenicka. Lady Lynn jednakże temu zaprzecza.
+
+PARAMETRY:
+
+Specjalne:
+– Niewrażliwość na zauroczenie, zamęt, dominację i unieruchomienie
+
+Waga: 0~
+
+@10000 = ~Zabójstwa
+
+Bernard z „Miedzianego Diademu” przekazał mi wiadomość od nieznajomej. Notatka głosi: „Jeśli dziś w nocy odwiedzisz drugie piętro gospody Pięć Dzbanów, możesz dowiedzieć się czegoś, co cię zainteresuje”.~
+
+@10020 = ~Zabójstwa
+
+Okazało się, że Lynn chciała, abym zabił<PRO_HESHE> dla niej kilka osób w zamian za pokaźną nagrodę. Moim pierwszym celem będzie lord Melyin. Można go znaleźć w gospodzie „Mithrest” o zachodzie słońca.~
+@10030 = ~Zabójstwa
+
+Oberżysta w gospodzie „Mithrest” powiedział, że lord Melyin właśnie wyszedł. Przeważnie wraca do domu południowo-zachodnim traktem. Jeśli się pośpieszę, może uda mi się go złapać.~
+
+@10050 = ~Zabójstwa
+
+Zdecydowaliśmy puścić lorda Melyina wolno. Obiecał zostawić dla mnie nieco złota w gospodzie „Mithrest”, ale nie sądzę, aby miał dotrzymać słowa.~
+
+@10140 = ~Zabójstwa
+
+Odnaleźliśmy Neveira Costę w slumsach, był w towarzystwie młodej kobiety. Jego zachowanie było dalekie od przyzwoitego, ale zaoferował nam łapówkę w postaci pięciuset sztuk złota w zamian za milczenie o jego „przygodach”. Dobiliśmy targu.~
+
+@10210 = ~Zabójstwa
+
+Odwiedziliśmy koszary i żołnierze poinformowali mnie, że Inspektora Datona mogę znaleźć w „Morskiej Zdobyczy”.~
+
+@10310 = ~Zabójstwa
+
+Udało mi się zdobyć zaufanie Oulava i dał mi pierwsze zadanie: muszę odebrać dług w wysokości czterystu sztuk złota od Szymona, młodego mężczyzny, którego można spotkać na tyłach „Miedzianego Diademu”.~
+@10320 = ~Zabójstwa
+
+Kolejna misja Oulava polega na przekazaniu wiadomości Paluchowi z „Morskiej Zdobyczy” w Dokach.~
+@10330 = ~Zabójstwa
+
+Nareszcie, moje „pierwsze prawdziwe zadanie”: mam przekazać łapówkę, w postaci ośmiuset sztuk złota, strażnikom z bram. Być może, jeśli zachowam ostrożność, uda mi się wyciągnąć z nich również nazwisko osoby dostarczającej Oulavowi lotos.~
+
+@10400 = ~Zabójstwa
+
+Teraz wiem, czym zajmowali się Tea i Gannis: eliminowaniem zdrajców w szeregach Harfiarzy – w tym i tych, pracujących dla mojej zwierzchniczki. Pozwoliliśmy im odejść.~
+@10410 = ~Zabójstwa
+
+Teraz wiem, czym zajmowali się Tea i Gannis: eliminowaniem zdrajców w szeregach Harfiarzy – w tym i tych, pracujących dla mojej zwierzchniczki. Zabiliśmy oboje Harfiarzy na miejscu.~
+
+@10450 = ~Zabójstwa
+
+Lynn była zadowolona, słysząc o śmierci Kerna. Mój kontrakt zakończył się, ale prosiła, bym zaglądał<PRO_HESHE> czasem do „Miedzianego Diademu”. Pewnego dnia może tam na mnie czekać wiadomość...~
+@10460 = ~Zabójstwa
+
+Bernard przekazał mi kolejną wiadomość od Lynn. Wygląda na to, że znów mam się udać na drugie piętro gospody „Pięć Dzbanów”.~
+
+@10500 = ~Zabójstwa
+
+Właśnie mnie aresztowano i omal nie skazano za morderstwo! Na szczęście, Rhin (który jest członkiem Rady Sześciu!) i Lynn wtrącili się i odegrali mały teatrzyk przed sędzią. Ten nie wydawał się zachwycony, ale nie miał większego wyboru. Jestem na wolności – a Lynn właśnie ofiarowała mi moją nagrodę. To koniec tej przygody.~
+
+@10530 = ~Zabójstwa
+
+Lynn, kobieta, która zostawiła mi list, chciała, abym dostarczył<PRO_HESHE> notatkę i pokaźną sumę pieniędzy Feinowi w „Morskiej Zdobyczy” w Dokach. Prosiła, abym nie zrywał<PRO_HESHE> pieczęci na wiadomości.~
+
+@10560 = ~Zabójstwa
+
+Chłopak przekazał mi kolejną wiadomość od Lynn. Wygląda na to, że znów mam udać się na drugie piętro gospody „Pięć Dzbanów”.~

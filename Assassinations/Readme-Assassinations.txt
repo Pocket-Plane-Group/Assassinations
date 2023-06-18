@@ -237,6 +237,8 @@ winLAME					http://winlame.sourceforge.net
 
 Version 19
 -Added Polish voiceover (thanks to Aloes, Broomberek, Dandrov, Wojciech Magdziak for dubbing and Anoim2666 for permissions), integrated by Roberciiik
+-Enabled EE-specific format for translations, if such translations exist, by Roberciiik
+-Added EE-specific format translations for Polish language, by Roberciiik
 
 Version 18
 -Proofreading of Polish translation by Roberciiik
