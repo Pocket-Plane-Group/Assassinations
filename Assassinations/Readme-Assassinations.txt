@@ -1,5 +1,5 @@
 		     Assassinations MOD for Baldur's Gate II
-				  Version 17
+				  Version 18
 			  A Pocket Plane Group Project
 			   http://www.pocketplane.net
 
@@ -213,7 +213,7 @@ German translation: Toran.
 
 Italian translation: ilot.
 
-Polish translation: Cuttooth.
+Polish translation: Cuttooth, proofread by Roberciiik.
 
 French translation: Le Marquis (of the d'Oghmatiques).
 
