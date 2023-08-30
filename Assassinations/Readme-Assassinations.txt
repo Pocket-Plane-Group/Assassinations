@@ -1,5 +1,5 @@
 		     Assassinations MOD for Baldur's Gate II
-				  Version 18
+				  Version 19
 			  A Pocket Plane Group Project
 			   http://www.pocketplane.net
 
