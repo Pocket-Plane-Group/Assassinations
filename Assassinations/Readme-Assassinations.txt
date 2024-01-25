@@ -237,6 +237,7 @@ winLAME					http://winlame.sourceforge.net
 
 Next Version
 - Handle journal title for EE, by Roberciiik
+- Use new WeiDU feature for AUTO_TRA with EE-specific translation, by Roberciiik
 
 Version 19
 -Added Polish voiceover (thanks to Aloes, Broomberek, Dandrov, Wojciech Magdziak for dubbing and Anoim2666 for permissions), integrated by Roberciiik
