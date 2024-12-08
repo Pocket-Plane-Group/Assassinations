@@ -20,7 +20,7 @@ ALWAYS
 
 
   // Translation files in UTF-8 that contains EE-format specific lines
-  ACTION_DEFINE_ARRAY O#noconvert BEGIN Setup-Assassinations-EE Assassinations-EE SETUP-osx SETUP-unix SETUP-win32 END
+  ACTION_DEFINE_ARRAY O#noconvert BEGIN Setup-Assassinations-EE Assassinations-EE Install END
 
   // Only setup-Mod.tra needs to be reloaded
   ACTION_DEFINE_ARRAY O#reload BEGIN Setup-Assassinations END
@@ -61,7 +61,7 @@ LANGUAGE ~Polish (Translated by Cuttooth)~ ~Polish~ ~Assassinations/Polish/Setup
 LANGUAGE ~French (Translated by Le Marquis)~ ~French~ ~Assassinations/French/Setup-Assassinations.tra~
 LANGUAGE ~Chinese (Translated by Merzbau)~ ~Schinese~ 
     ~Assassinations/Schinese/Setup-Assassinations.tra~
-    ~Assassinations/Schinese/Setup-%WEIDU_OS%.tra~
+    ~Assassinations/Schinese/Install.tra~
 
 BEGIN @0
 
