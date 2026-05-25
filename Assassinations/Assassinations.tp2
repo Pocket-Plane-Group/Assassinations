@@ -18,12 +18,18 @@ ALWAYS
     END
   END
 
+  // List of files that should not be converted
+  ACTION_DEFINE_ARRAY O#noconvert BEGIN Install END
 
-  // Translation files in UTF-8 that contains EE-format specific lines
-  ACTION_DEFINE_ARRAY O#noconvert BEGIN Setup-Assassinations-EE Assassinations-EE Install END
+  // Directory with translation files in UTF-8 that contains EE-format specific lines
+  ACTION_DEFINE_ARRAY O#exclude BEGIN ~EE~ END
 
   // Only setup-Mod.tra needs to be reloaded
-  ACTION_DEFINE_ARRAY O#reload BEGIN Setup-Assassinations END
+  ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
+    ACTION_DEFINE_ARRAY O#reload BEGIN ~Setup-Assassinations~ ~EE/Setup-Assassinations~ END
+  END ELSE BEGIN
+    ACTION_DEFINE_ARRAY O#reload BEGIN ~Setup-Assassinations~ END
+  END
 
   // There is no "language" folder so the root of all languages in %MOD_FOLDER%
   LAF HANDLE_CHARSETS
@@ -33,24 +39,12 @@ ALWAYS
       tra_path = EVAL ~%MOD_FOLDER%~
       // charset_table = O#charsets // Included for illustrative purposes.
       noconvert_array = O#noconvert
+      exclude_directories = O#exclude
       reload_array = O#reload
-  END
-
-  // Load EE format translations
-  ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
-    ACTION_IF FILE_EXISTS ~%MOD_FOLDER%/%LANGUAGE%/Setup-Assassinations-EE.tra~ THEN BEGIN
-      LOAD_TRA ~%MOD_FOLDER%/%LANGUAGE%/Setup-Assassinations-EE.tra~
-    END
-
-    ACTION_IF FILE_EXISTS ~%MOD_FOLDER%/%LANGUAGE%/Assassinations-EE.tra~ THEN BEGIN
-      COPY ~%MOD_FOLDER%/%LANGUAGE%/Assassinations.tra~ ~%MOD_FOLDER%/%LANGUAGE%/Assassinations.tra~
-        // Overwrite some stringrefs with EE-specific format to be load during autotra
-        APPEND_FILE ~%MOD_FOLDER%/%LANGUAGE%/Assassinations-EE.tra~
-    END
   END
 END
 
-AUTO_TRA ~Assassinations/%s~
+AUTO_TRA ~Assassinations/%s~ ~EE~
 
 LANGUAGE ~English~ ~English~ ~Assassinations/English/Setup-Assassinations.tra~
 LANGUAGE ~Russian~ ~Russian~ ~Assassinations/Russian/Setup-Assassinations.tra~
